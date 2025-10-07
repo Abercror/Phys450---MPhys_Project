@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89d72f351504faca",
+            "id": "cd418a669676c7e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a024a3df447707a7",
@@ -170,7 +170,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "89d72f351504faca",
+  "active": "cd418a669676c7e2",
   "lastOpenFiles": [
     "Term 1/Week 1.md",
     "_templates/weekly_template.md",
