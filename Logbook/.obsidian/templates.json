@@ -1,5 +1,5 @@
 {
-  "dateFormat": "dddd, DD MMMM, YY",
+  "dateFormat": "dddd, Do MMMM, YY",
   "timeFormat": "HH:mm",
   "folder": ""
 }
