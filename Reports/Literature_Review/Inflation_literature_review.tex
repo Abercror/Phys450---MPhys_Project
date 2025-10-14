@@ -1,0 +1,105 @@
+\documentclass{article}
+
+
+%% Package Importing
+%%-----------------------------------------------------------------------------------------------------------------------------
+\usepackage{physics}
+\usepackage{outline}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[backend=biber,style=numeric]{biblatex}
+\addbibresource{References.bib}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+
+
+%% Defines the page environments
+%%-----------------------------------------------------------------------------------------------------------------------------
+\fancypagestyle{titlepage}{
+    \setlength{\headheight}{13.6pt}
+    \fancyhead[L]{Lancaster University}
+    \fancyhead[R]{Department of Physics}
+    \fancyfoot{}
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt} 
+}
+
+\fancypagestyle{subsequentpages}{
+    \fancyfoot[C]{\thepage} 
+	\renewcommand{\headrulewidth}{1pt}
+	\renewcommand{\footrulewidth}{1pt}
+}
+
+%% Configures spacing for equations
+%%-----------------------------------------------------------------------------------------------------------------------------
+\AtBeginDocument{
+  \setlength{\abovedisplayskip}{2pt}
+  \setlength{\belowdisplayskip}{2pt}
+  \setlength{\abovedisplayshortskip}{2pt}
+  \setlength{\belowdisplayshortskip}{2pt}
+}
+
+\begin{document}
+
+%%-----------------------------------------------------------------------------------------------------------------------------
+\numberwithin{equation}{section}
+\setcounter{equation}{0}
+\numberwithin{equation}{subsection}
+\setcounter{equation}{0}
+
+
+%% Title Page
+%%-----------------------------------------------------------------------------------------------------------------------------
+\begin{titlepage}
+    \thispagestyle{titlepage}
+    \centering
+    \includegraphics[width=0.5\textwidth]{Images/Physics logo.jpg}\\
+    {\Huge \textbf{Literature Review: Cosmological Inflation} \par}
+    \vspace{1cm}
+    {\large Rhys Abercromby\par}
+    \vspace{0.5cm}
+    {\large Phys450: MPhys Project \par}
+    \vspace{0.5cm}
+    {\today \par}
+    \vspace{1cm}
+    {\large \textbf{Abstract}\\[0.25cm]}
+    \cite{Dimopoulos2021}.
+
+
+\end{titlepage}
+
+%% Contents Page and Numbering
+%%-----------------------------------------------------------------------------------------------------------------------------
+\pagestyle{subsequentpages}
+\newpage
+\pagenumbering{Roman}
+\tableofcontents
+\pagenumbering{arabic}
+\newpage
+
+
+
+%% Main Body
+%%-----------------------------------------------------------------------------------------------------------------------------
+\section{Introduction}
+
+\section{Cosmic Inflation}
+
+\section{Inflationary Models}
+
+\section{Problems with Inflation}
+
+
+
+%% References
+%%-----------------------------------------------------------------------------------------------------------------------------
+\newpage
+
+\printbibliography
+
+\end{document}

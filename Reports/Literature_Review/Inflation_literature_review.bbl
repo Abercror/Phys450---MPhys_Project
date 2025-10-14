@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Dimopoulos2021}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea2ddbcf31f5fc1105955a3ae4e99408}{%
+           family={Dimopoulos},
+           familyi={D\bibinitperiod},
+           given={Konstantinos},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis Group}%
+      }
+      \strng{namehash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{fullhash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{fullhashraw}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{bibnamehash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{authorbibnamehash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{authornamehash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{authorfullhash}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \strng{authorfullhashraw}{ea2ddbcf31f5fc1105955a3ae4e99408}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{series}{Series in Astronomy and Astrophysics}
+      \field{title}{Introduction to Cosmic Inflation and Dark Energy}
+      \field{year}{2021}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
