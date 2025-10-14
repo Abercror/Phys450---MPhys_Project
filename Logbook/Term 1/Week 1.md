@@ -13,11 +13,11 @@ $$\dot \rho + 3H\left( \rho + \frac{p}{c^2} \right) = 0$$
 	- an equation that relates density of the universe to the pressure that it exerts, named the isotropic pressure $p(t)$. It assumes a constant mass for the universe and is also named the fluid equation. 
 
 - Equation of state 
-$$ p = \omega \rho c^2 $$
-	- an equation describing a cosmologically perfect fluid that relates the isotropic pressure, $p(t)$, and the density parameter, $\rho(t)$. The two terms are related by the barotropic parameter, $\omega$, which is defined as  $$\omega = \frac{\Sigma_i p_i}{(\Sigma_i \rho_i) c^2} ,$$ where $i$ denotes a different constituent of the universe. 
+$$ p = w \rho c^2 $$
+	- an equation describing a cosmologically perfect fluid that relates the isotropic pressure, $p(t)$, and the density parameter, $\rho(t)$. The two terms are related by the barotropic parameter, $w$, which is defined as  $$w = \frac{\Sigma_i p_i}{(\Sigma_i \rho_i) c^2} ,$$ where $i$ denotes a different constituent of the universe. 
 - Acceleration Equation 
 $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right) $$
-	- a combination of the Friedmann equation and the continuity equation. Demonstrates that accelerated expansion of the universe requires, $\omega < -\frac{1}{3}$.
+	- a combination of the Friedmann equation and the continuity equation. Demonstrates that accelerated expansion of the universe requires, $w < -\frac{1}{3}$.
 
 
 ### Wednesday, 8th October, 25
@@ -31,7 +31,7 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 
 #### 13:00 
 **2.0. Cosmic Inflation**
-- In de Sitter spacetime, is a solution to the Einstein equations with 0 matter present and dominated by a cosmological constant, and is maximally symmetric in both space and time. When inflation is dominated by $\Lambda_{eff}$, it is called quasi-de Sitter inflation. This is because inflation must have an end in order for the thot big bang to occur, so spacetime does not respect the maximally symmetrical description of de Sitter space. The density during inflation is also determined by $\Lambda_{eff}$ and so is therefore constant and given by the $$\rho_{inf} \simeq \frac{\Lambda_{eff} c^2}{8 \pi G}$$ which also requires $\omega = -1$ for the barotropic parameter. 
+- In de Sitter spacetime, is a solution to the Einstein equations with 0 matter present and dominated by a cosmological constant, and is maximally symmetric in both space and time. When inflation is dominated by $\Lambda_{eff}$, it is called quasi-de Sitter inflation. This is because inflation must have an end in order for the thot big bang to occur, so spacetime does not respect the maximally symmetrical description of de Sitter space. The density during inflation is also determined by $\Lambda_{eff}$ and so is therefore constant and given by the $$\rho_{inf} \simeq \frac{\Lambda_{eff} c^2}{8 \pi G}$$ which also requires $w = -1$ for the barotropic parameter. 
 - Completed derivations (10) - (11)
 ![[Derivations/(10).png]]
 
@@ -57,7 +57,7 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 - Completed derivation (25)
 - Unsure about the relation $\rho + p = \rho_{kin}$ comes from will need to take another look as it seems to suggest that $\rho + p = 2 \rho_{kin}$.  
 #### 14:48
-- Completed part of (26) to show $\omega < -\frac{1}{3}$
+- Completed part of (26) to show $w < -\frac{1}{3}$
 
 #### 21:23
 - Completed (26) showing $\rho_{kin} < \frac{1}{2}$
