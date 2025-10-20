@@ -92,8 +92,51 @@
 - completed show that (79) and (80)
 
 #### 17:40
-- attempting derivation (xx)
+- completed derivation (81)
+
+#### 18:23
+- I have attempted show that (82), however, I am not sure how to do it. I am going to retry derivation (65) as I did not get that one correct and this builds upon that 
 
 ### Sunday, 19th October, 25
 #### 11:23
-- continuing my attempt of (xx) so I am retrying the derivation of (65) as that is required before this one can be done
+- retrying the derivation of (65) as that is required before (85) can be done
+
+#### 15:49
+- I have made some progress with (65) though I am struggling to get it into the correct form and what value $w$ should take
+
+#### 20:38
+- I have completed (65) however, I have gotten an incorrect value, instead of 65.8 I have gotten 66.6 so I will need to take another look at this
+
+#### 21:10
+**7.2. Preheating**
+- I have read through the section and am beginning to make a start on plotting the graph of the density of the inflaton, $\rho_\phi$, and the decay products, $\rho_\chi$, with respect to the scale factor, $a$. 
+
+#### 21:28
+- Written a basic python script to visually show the relationship of the decays of the different scalar fields, though I am unsure if this is exactly what the task is or if I have misread it. 
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+from pathlib import Path
+
+a = [i for i in np.linspace(1,10000000000000)]
+rhoChi = [(i**(-4)) for i in a]
+rhoPhi = [(i**(-3)) for i in a]
+
+log_a = [np.log(i) for i in a]
+logRhoChi = [np.log(i) for i in rhoChi]
+logRhoPhi = [np.log(i) for i in rhoPhi]
+
+fig, ax = plt.subplots()
+ax.plot(log_a, logRhoChi, label=r'$\rho_\chi \propto a^{-4}$', color='red')
+ax.plot(log_a, logRhoPhi, label=r'$\rho_\phi \propto a^{-3}$', color='blue')
+ax.set_xlabel(r'Scale factor, $ln(a)$')
+ax.set_ylabel(r'Density, $\ln(\rho_x)$')
+ax.set_title(r'Decay relationship of $\rho_\phi$ and $\rho_\chi$ with respect to $a$')
+ax.legend()
+  
+folder = Path(__file__).parent
+graph = Path(folder, "Decay Relationship to a.png")
+plt.savefig(graph)
+```
+![[Term 1/Figures/Decay Relationship wrt ln(a).png]]
+
