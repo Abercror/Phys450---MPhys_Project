@@ -60,7 +60,8 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 - Completed part of (26) to show $w < -\frac{1}{3}$
 
 #### 21:23
-- Completed (26) showing $\rho_{kin} < \frac{1}{2}$
+- Completed (26) showing $\rho_{kin} < \frac{1}{2} V$
+![[Term 1/Derivations/(26).png]]
 - Completed (27)
 ![[Derivations/(27).png]]
 

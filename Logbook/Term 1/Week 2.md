@@ -77,9 +77,14 @@
 
 #### 13:03
 - Re-attempted (71) and found my mistake of writing 2 as 1/2 in my working. Completed the derivation with the correct values. 
+![[Term 1/Derivations/(71) part 1.png]]
+![[Term 1/Derivations/(71) part 2.png]]
+
 
 #### 13:13
 - completed the show that for the spectral index of gravity waves generated during inflation (75)
+![[Term 1/Derivations/(75) part 1.png]]
+![[Term 1/Derivations/(75) part 2.png]]
 
 #### 13:21
 **7.0. Reheating**
@@ -87,13 +92,15 @@
 
 #### 15:26
 - Shown that $m \sim \sqrt{V''(\phi_0)}$ and that $\rho_{\phi} \propto a^{-3}$
+![[Term 1/Derivations/(78) 7.0.png]]
 
 #### 17:12
 - completed show that (79) and (80)
-
+![[Term 1/Derivations/(79).png]]
+![[Term 1/Derivations/(80).png]]
 #### 17:40
 - completed derivation (81)
-
+![[Term 1/Derivations/(81).png]]
 #### 18:23
 - I have attempted show that (82), however, I am not sure how to do it. I am going to retry derivation (65) as I did not get that one correct and this builds upon that 
 
@@ -102,10 +109,13 @@
 - retrying the derivation of (65) as that is required before (85) can be done
 
 #### 15:49
-- I have made some progress with (65) though I am struggling to get it into the correct form and what value $w$ should take
+- I have made some progress with (65), realising my one of my mistakes in my previous working where I tried to use the a relation of $N$ and $N_*$, though I am struggling to get it into the correct form and unsure what value $w$ should take
 
 #### 20:38
 - I have completed (65) however, I have gotten an incorrect value, instead of 65.8 I have gotten 66.6 so I will need to take another look at this
+![[Term 1/Derivations/(65) redo part 1.png]]
+![[Term 1/Derivations/(65) redo part 2.png]]
+![[Term 1/Derivations/(65) redo part 3.png]]
 
 #### 21:10
 **7.2. Preheating**
@@ -140,3 +150,7 @@ plt.savefig(graph)
 ```
 ![[Term 1/Figures/Decay Relationship wrt ln(a).png]]
 
+
+### Monday, 20th October, 25
+#### 10:27
+- Exporting to pdf to send to Kostas
