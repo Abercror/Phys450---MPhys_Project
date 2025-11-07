@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4b68593ffe6e0d7d",
+        "id": "570dff4dffeef619",
         "type": "tabs",
         "children": [
           {
-            "id": "7cbd0c0a5cd139c1",
+            "id": "69f2fe55a0ffe28e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Term 1/Week 5.md",
+                "file": "Term 1/Week 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 5"
+              "title": "Week 3"
             }
           }
         ]
@@ -169,35 +169,35 @@
       "bases:Create new base": false
     }
   },
-  "active": "7cbd0c0a5cd139c1",
+  "active": "69f2fe55a0ffe28e",
   "lastOpenFiles": [
-    "Term 1/().md",
-    "Term 1/Week 5.md",
-    "Term 1/Github.md",
-    "Term 1/Figures/V_0(q) reduced q.png",
     "Term 1/Week 4.md",
-    "Term 1/Figures/Starobinsky and Planck Observations with N-10 New.png",
-    "Term 1/Figures/Starobinsky and Planck Observations with N-10 New copy.png",
-    "Term 1/Week 4.pdf",
-    "Term 1/Week 2.md",
     "Term 1/Week 3.md",
-    "Term 1/Derivations/(86) 8.png",
-    "Term 1/Derivations/(86) 7.png",
-    "Term 1/Derivations/IMG_0995.png",
-    "Term 1/Derivations/IMG_0994.png",
-    "Term 1/Figures/V_end(q) wrong.png",
-    "Term 1/Figures/V_end(q).png",
-    "Term 1/Figures/V_end(q) corrected.png",
-    "Term 1/Figures/Planck Constraints Plot.py",
+    "Term 1/Week 5.md",
+    "Term 1/Figures/8.0/Graphs Corrected N/2208.00188 graph copy.png",
+    "Term 1/Figures/8.0/Graphs Corrected N/2208.00188 graph.png",
+    "Term 1/Figures/8.0/Graphs Corrected N/rns.png",
+    "Term 1/Figures/8.0/Graphs Corrected N/r against n_s N_* - 10.png",
+    "Term 1/Figures/8.0/Graphs Corrected N/r against n_s N_*.png",
+    "Term 1/Figures/8.0/Graphs Corrected N/w(N).png",
+    "Term 1/Figures/8.0/Graphs Corrected N/V_end(q).png",
+    "Term 1/Figures/8.0/Graphs Corrected N/V_0(q).png",
+    "Term 1/Figures/8.0/Graphs Corrected N/N*(q).png",
+    "Term 1/Figures/8.0/Graphs Corrected N",
+    "Term 1/Week 4.pdf",
+    "Term 1/Figures/7.0/Decay Relationship wrt ln(a).png",
+    "Term 1/Figures/7.0",
+    "Term 1/Figures/untitled folder",
+    "Term 1/Figures/8.0/Initial Plots",
+    "Term 1/Figures/8.0/untitled folder",
+    "Term 1/Figures/8.0/Correct energy value",
+    "Term 1/Figures/8.0",
     "attachments",
-    "Term 1/Week 3.pdf",
-    "Term 1/Week 2.pdf",
-    "Term 1/Week 1.pdf",
+    "Term 1/().md",
+    "Term 1/Github.md",
+    "Term 1/Week 2.md",
+    "Term 1/Figures/Planck Constraints Plot.py",
     "Term 1/Week 1.md",
-    "Untitled",
-    "Term 1/Figures",
-    "Term 1/Derivations/(29).heic",
-    "Term 1/Derivations/(28).heic",
     "Derivations/Term 1/Week 1/(10).heic.md",
     "Term 1/(6), (7) part 1.heic.md",
     "Attachments/Derivations/Term.md",

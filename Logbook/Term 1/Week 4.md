@@ -13,36 +13,36 @@
 #### 16:43 
 - I have written a python script to numerically integrate, to find the value of $N_*$ for each $q$. 
 - I think that I have made a mistake in my derivation of the equation for $N_*$ as I am getting a graph with a negative number of e-foldings.
-![[Term 1/Figures/N*(q) wrong.png]]
+![[Term 1/Figures/8.0/Initial Plots/N*(q) wrong.png]]
 
 #### 18:58
 - I have tried to derive $N_*$ again but I got the same results again so I am not sure what is wrong. 
 
 #### 22:57
 - Realised that the mistake was a typo in my python script where I set $m_p = 2.43 \times 10^{-18}$ instead of $m_p = 2.43 \times 10^{18}$. The new graph's values are more inline with expected values i.e not negative. 
-![[Term 1/Figures/N(q) corrected.png]]
+![[Term 1/Figures/8.0/Initial Plots/N(q) corrected.png]]
 
 #### 23:54
 - Plotted a graph for $V_0^{\frac{1}{4}}(q)$ 
-![[Term 1/Figures/V_0(q).png]]
+![[Term 1/Figures/8.0/Initial Plots/V_0(q).png]]
 
 ### Friday, 31st October, 25
 #### 00:09
 - Plotted the graph of $n_s(q)$ and $r(q)$ using the values of $N_*(q)$ previously found
-![[Term 1/Figures/r against n_s.png]]
+![[Term 1/Figures/8.0/Initial Plots/V_0(q).png]]
 
 #### 00:18
 - Plotted the graph of $n_s(q)$ and $r(q)$ using the values of $N_* \rightarrow N_* - 10$ previously found
-![[Term 1/Figures/r against n_s N_* reduced.png]]
+![[Term 1/Figures/8.0/Initial Plots/r against n_s N_* reduced.png]]
 
 #### 00:29
 - Plotted $V_{end}^{\frac{1}{4}}(q)$ 
-![[Term 1/Figures/V_end(q) wrong.png]]
+![[Term 1/Figures/8.0/Initial Plots/V_end(q) wrong.png]]
 
 #### 00:38
 - In orders to find $w(q)$ for a given $q$, I will use the equation $$\epsilon = \frac{3}{2}\left(1+w\right)$$ which can be recast as $$w = \frac{2}{3} \epsilon -1 \approx \frac{2}{3} \frac{1}{2q^2N_*^2}-1$$
 - This equation when plotted against $N_* = N_*(q)$ yields the graph 
-![[Term 1/Figures/w(N) wrong.png]]
+![[Term 1/Figures/8.0/Initial Plots/w(N) wrong.png]]
 
 - This graph shows that Starobinsky-type inflation is quasi-de Sitter as $w \approx -1$. 
 
@@ -67,7 +67,7 @@
 #### 13:58
 - I realised that I missed a part of the prompt for plotting spectral index, $n_s$, and the tensor ratio, $r$, as I did not overlay it with the Planck data for a comparison. 
 - Using the github repo https://github.com/kdemirel/Planck-constraints-r-vs-ns-plot I was able to plot the ${n_s}_{65\%}$ and the ${n_s}_{95\%}$ confidence level regions with my data resulting. 
-![[Term 1/Figures/Starobinsky and Planck Observations.png]]
+![[Term 1/Figures/8.0/Initial Plots/Starobinsky and Planck Observations.png]]
 - This shows that the Starobinsky model would take a value of $q$ that is on the upper end of the boundary constraints of $q$, $0.282 < q < 0.6868$, in order to be in the confidence levels of the Planck observational data.
 
 #### 19:29
@@ -75,13 +75,13 @@
 
 #### 19:57
 - Redid the graph of $N_* \rightarrow N_* -10$ with the corrected reduced range of $q$
-![[Term 1/Figures/Starobinsky and Planck Observations with N-10.png]]
+![[Term 1/Figures/8.0/Initial Plots/Starobinsky and Planck Observations with N-10.png]]
 
 - Redid the graph of $V_{end}^{\frac{1}{4}}(q)$ 
-![[Term 1/Figures/V_end(q) corrected.png]]
+![[Term 1/Figures/8.0/Initial Plots/V_end(q) corrected.png]]
 
 - Redid the graph of $w(N_*)$
-![[Term 1/Figures/w(N) corrected.png]]
+![[Term 1/Figures/8.0/Initial Plots/w(N) corrected.png]]
 
 - The graph still shows that Starobinsky inflation is quasi-de Sitter as $w \approx -1$
 
