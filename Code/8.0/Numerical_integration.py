@@ -100,12 +100,12 @@ def setq():
 
 
 
-# graph(qValues, NValues, r"$q$", r"$N_*$", r"$N_*(q)$", "N*(q)")
+# graph(qValues, NValues, r"$q$", r"$N_$", r"$N_(q)$", "N*(q)")
 # graph(qValues, V_0Values, r"$q$", r"$V_0^{\frac{1}{4}}(q)$, GeV", r"$V_0^{\frac{1}{4}}(q)$", "V_0(q)")
-# graph(n_sValues, rValues, r"$n_s$", r"$r$", r"$r$ against $n_s$", "r against n_s N_*")
-# graph(n_sReducedValues, rReducedValues, r"$n_s$", r"$r$", r"$r$ against $n_s \quad N_* - 10$", "r against n_s N_* - 10")
+# graph(n_sValues, rValues, r"$n_s$", r"$r$", r"$r$ against $n_s$", "r against n_s N_")
+# graph(n_sReducedValues, rReducedValues, r"$n_s$", r"$r$", r"$r$ against $n_s \quad N_ - 10$", "r against n_s N_ - 10")
 # graph(qValues, V_endValues, r"$q$", r"$V_{end}^{\frac{1}{4}}(q)$, GeV", r"$V_{end}^{\frac{1}{4}}(q)$", "V_end(q)")
-# graph(NValues, wValues, r"$N_*$", r"$w(N_*)$", r"$w(N_*)$", "w(N)")
+# graph(NValues, wValues, r"$N_$", r"$w(N_)$", r"$w(N_)$", "w(N)")
 
 # def ns_rGraph():
 #     fig, ax = plt.subplots()
