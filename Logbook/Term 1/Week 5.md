@@ -25,7 +25,7 @@
 - I have found the mistake in my code which is why the number of e-foldings I got was slightly lower than it should have been. In the equation for $N_*$, I wrote $10e16$ in python instead of $1e16$ which meant that I was putting the energy value at $10^{17} \; \text{GeV}$ instead of $10^{16} \; \text{GeV}$. I will rerun the code to regenerate the curves. 
 - I have also recalculated the values obtained when setting $q = \sqrt{\frac{2}{3}}$ 
 	- $N_* = 59.56 \approx 60$
-	- $V_0^\frac{1}{4} = 7.83 \times 10^{15}$
+	- $V_0^\frac{1}{4} = 7.83 \times 10^{15} \; \text{GeV}$ 
 	- $n_s = 0.9651$
 	- $r = 0.003383$
 - These are the curves that were found for the using the correct equation as well as the reduced range of $q$, to $0.381 < q < 0.6868$.
@@ -35,9 +35,9 @@
 ![[Term 1/Figures/8.0/Graphs Corrected N/r against n_s N_* - 10.png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/w(N).png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/V_end(q).png]]
-
+![[Term 1/Figures/8.0/Graphs Corrected N/Starobinsky and Planck Observations with N-10 New.png]]
 - I will now edit the axis for the $n_s - r$ curve and superimpose it onto the most recent observational data. 
-
+![[Term 1/Figures/8.0/Graphs Corrected N/Overlayed Graph.png]]
 ### Wednesday, 5th November, 25
 
 #### 15:02 
@@ -48,4 +48,10 @@
 #### 17:47 
 - Completed the show that for the E-model
 
+### Saturday, 8th November, 25
+#### 13:29
+- Found the value of $\alpha$ for the E-model as $\alpha = 2.67$ 
+
+#### 15:39
+- Attempted to find the equations for the T-model though I made a mistake as the algebra does not simplify down to the same functions as the E-model
 
