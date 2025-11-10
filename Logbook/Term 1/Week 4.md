@@ -7,13 +7,13 @@
 #### 17:07
 - Rearranged $P_{\zeta}(N)$ to get the equation for  as $$ V_0 = \frac{12 \pi^2 m_p^4 P_{\zeta}(N)}{q^2 N^2 \left(1- \frac{1}{2q^2N} \right)^2}$$ where for $N = N_*$, $P_{\zeta} = A_s$. 
 - The equation (62) using the equations for $V_0$, $V_{end}$ and $V_*$ and setting $g_* = 106.75$ reduces to $$N_* = 60.4 + \ln \left( \left(\frac{12 \pi^2 m_p^4 A_s \left( 2 + \sqrt{2}q \right)^{2}}{q^2 N_*^2\left( 1 - \frac{1}{2q^2N_*}\right)^2}\right)^{\frac{1}{4}} \frac{1}{10^{16} \; GeV}\right) + \ln \left( \frac{1 - \frac{1}{2q^2 N_*}}{2 + \sqrt{2}q}\right)$$ which cannot be solved analytically and so must be done numerically to find a value for $N_*$ for each $q$ value within the range. This will then allow for a value for $V_0$ to be found. 
-![[Term 1/Derivations/(86) 7.png]]
+![[Term 1/Derivations/1-8/(86) 7.png]]
 
 ### Thursday, 30th October, 25
 #### 16:43 
 - I have written a python script to numerically integrate, to find the value of $N_*$ for each $q$. 
 - I think that I have made a mistake in my derivation of the equation for $N_*$ as I am getting a graph with a negative number of e-foldings.
-![[Term 1/Figures/8.0/Initial Plots/N*(q) wrong.png]]
+![[Term 1/Figures/8.0/Initial Plots/N(q) wrong.png]]
 
 #### 18:58
 - I have tried to derive $N_*$ again but I got the same results again so I am not sure what is wrong. 
@@ -33,7 +33,7 @@
 
 #### 00:18
 - Plotted the graph of $n_s(q)$ and $r(q)$ using the values of $N_* \rightarrow N_* - 10$ previously found
-![[Term 1/Figures/8.0/Initial Plots/r against n_s N_* reduced.png]]
+![[Term 1/Figures/8.0/Initial Plots/r against n_s N reduced.png]]
 
 #### 00:29
 - Plotted $V_{end}^{\frac{1}{4}}(q)$ 
@@ -61,7 +61,7 @@
 #### 15:30
 - Derived the expression $$N > \ln\left(\frac{T_0 T_{end} R_0 \pi g_*^{\frac{1}{2}}}{ \sqrt{3} \sqrt{30} m_p} \right)$$
 - Found the value for minimum number of e-foldings during inflation, as $N > 63.588  \Rightarrow N_{tot} \gt 63$. The solution to the Horizon problem is that $N > 60$ which Starobinsky Inflation with $q = \sqrt{\frac{2}{3}}$ fulfils. 
-![[Term 1/Derivations/(86) 8.png]]
+![[Term 1/Derivations/1-8/(86) 8.png]]
 
 ### Saturday, 1st November, 25
 #### 13:58

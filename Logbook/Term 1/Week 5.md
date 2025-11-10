@@ -29,29 +29,51 @@
 	- $n_s = 0.9651$
 	- $r = 0.003383$
 - These are the curves that were found for the using the correct equation as well as the reduced range of $q$, to $0.381 < q < 0.6868$.
-![[Term 1/Figures/8.0/Graphs Corrected N/N*(q).png]]
+![[Term 1/Figures/8.0/Graphs Corrected N/N(q).png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/V_0(q).png]]
-![[Term 1/Figures/8.0/Graphs Corrected N/r against n_s N_*.png]]
-![[Term 1/Figures/8.0/Graphs Corrected N/r against n_s N_* - 10.png]]
+![[Term 1/Figures/8.0/Graphs Corrected N/r against n_s N.png]]
+![[Term 1/Figures/8.0/Graphs Corrected N/r against n_s N - 10.png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/w(N).png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/V_end(q).png]]
 ![[Term 1/Figures/8.0/Graphs Corrected N/Starobinsky and Planck Observations with N-10 New.png]]
 - I will now edit the axis for the $n_s - r$ curve and superimpose it onto the most recent observational data. 
 ![[Term 1/Figures/8.0/Graphs Corrected N/Overlayed Graph.png]]
+
 ### Wednesday, 5th November, 25
 
 #### 15:02 
 - Completed showing that the associated canonically normalised field $\phi$, for $$\mathcal{L_{kin}} = \frac{\frac{1}{2} \partial_\mu \varphi \partial^{\mu} \varphi}{\left( 1 - \frac{1}{6 \alpha} \left(\frac{\varphi}{m_p} \right)^2 \right)^2}$$ using the kinetic Lagrangian $$\mathcal{L_{kin} = \frac{1}{2}\partial_\mu \phi \partial^\mu \phi}$$
+![[Term 1/Derivations/9.3/Lagrangian derivation phi.png]]
+
 #### 15:15
 - Completed the show that for the T-model
 
 #### 17:47 
 - Completed the show that for the E-model
-
+![[Term 1/Derivations/9.3/V(phi) part 1.png]]
+![[Term 1/Derivations/9.3/V(phi) part 2.png]]
 ### Saturday, 8th November, 25
 #### 13:29
-- Found the value of $\alpha$ for the E-model as $\alpha = 2.67$ 
+- Found the value of $\alpha$ for the E-model as $\alpha = \frac{3 \pm 2 \sqrt{2}}{3}$ which equate to $\alpha = 1.943$ and $\alpha = 0.0572$ as well as equations for $n_s$ and $r$, although I am not sure if the equations are in agreement with my value I found for $\alpha$
+![[Term 1/Derivations/9.3/E-model part 1.png]]
+![[Term 1/Derivations/9.3/E-model part 2.png]]
 
 #### 15:39
 - Attempted to find the equations for the T-model though I made a mistake as the algebra does not simplify down to the same functions as the E-model
+![[Term 1/Derivations/9.3/1 T-model part 2.png]]
+![[Term 1/Derivations/9.3/1 T-model part 2.png]]
 
+### Sunday, 9th November, 25
+#### 14:17
+- Re-attempting the derivation of $n_s(N)$ and $r(N)$ for the T-model
+#### 23:55
+- I have redone the derivations for $n_s(N)$ and $r(N)$ though I still do not get the same results as the E-model so I must have made a mistake in my working somewhere.
+![[Term 1/Derivations/9.3/2 T-model part 1.png]]
+![[Term 1/Derivations/9.3/2 T-model part 2.png]]
+![[Term 1/Derivations/9.3/2 T-model part 3.png]]
+
+
+### Monday, 10th November, 25
+
+#### 09:36 
+- Exporting log book to send to Kostas

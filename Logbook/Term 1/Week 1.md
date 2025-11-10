@@ -24,8 +24,8 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 
 #### 10:28
 - Completed derivations (6), (7), (8)
-![[Derivations/(6), (7) part 1.png]]![[Derivations/(7) part 2.png]]
-![[Derivations/(8).png]]
+![[Derivations/1-8/(6), (7) part 1.png]]![[Derivations/1-8/(7) part 2.png]]
+![[Derivations/1-8/(8).png]]
 - The expression for the density for radiation in the hot big bang $$ \rho_{\gamma} = \frac{\pi^{2} g_{*}}{30 c^{2} (c \hbar)^3} (k_B T)^4$$ shows that the $\rho_{\gamma} \propto (k_B T)^4$, meaning that the energy density is proportional to the thermal energy of the radiation. The $g_*$ term is the effective relativistic degrees of freedom, which is a combination of degrees of freedom possessed by a collection of relativistic bosons and fermions given by $$g_* \equiv \sum_{bosons}^{i} g_i + \sum_{fermions}^{j} g_j$$ which when only considering light $g_* = 2$, however in the early universe $g_* = O (10-100)$
 
 
@@ -33,7 +33,7 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 **2.0. Cosmic Inflation**
 - In de Sitter spacetime, is a solution to the Einstein equations with 0 matter present and dominated by a cosmological constant, and is maximally symmetric in both space and time. When inflation is dominated by $\Lambda_{eff}$, it is called quasi-de Sitter inflation. This is because inflation must have an end in order for the thot big bang to occur, so spacetime does not respect the maximally symmetrical description of de Sitter space. The density during inflation is also determined by $\Lambda_{eff}$ and so is therefore constant and given by the $$\rho_{inf} \simeq \frac{\Lambda_{eff} c^2}{8 \pi G}$$ which also requires $w = -1$ for the barotropic parameter. 
 - Completed derivations (10) - (11)
-![[Derivations/(10).png]]
+![[Derivations/1-8/(10).png]]
 
 #### 22:35
 **3.0. Solving the Horizon and Flatness Problems**
@@ -45,8 +45,8 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 ### Thursday, 9th October, 25
 #### 12:10
 - Completed the derivation of $D_H$ (16)
-![[Derivations/(16) part 1.png]]
-![[Derivations/(16) part 2.png]]
+![[Derivations/1-8/(16) part 1.png]]
+![[Derivations/1-8/(16) part 2.png]]
 - Read through the section
 
 #### 12:34
@@ -61,14 +61,14 @@ $$ \frac{\ddot a}{a} = - \frac{4 \pi G}{3} \left( \rho + \frac{3 p}{c^2} \right)
 
 #### 21:23
 - Completed (26) showing $\rho_{kin} < \frac{1}{2} V$
-![[Term 1/Derivations/(26).png]]
+![[Term 1/Derivations/1-8/(26).png]]
 - Completed (27)
-![[Derivations/(27).png]]
+![[Derivations/1-8/(27).png]]
 
 
 #### 21:48
 - Obtained (28) 
-![[Term 1/Derivations/(28).png]]
+![[Term 1/Derivations/1-8/(28).png]]
 
 
 ### Sunday, 12th October, 25
@@ -87,11 +87,11 @@ $$ \ddot{\phi} + 3H \dot{\phi} + V' = 0 $$
 - Starting the derivation of $$ \ddot{\phi} + V' = \frac{1}{\dot{\phi}} \frac{d}{dt} \left( \rho_{kin} + V \right) $$
 #### 12:43 
 - completed derivation (29)
-![[Term 1/Derivations/(29).png]]
+![[Term 1/Derivations/1-8/(29).png]]
 
 #### 13:02
 - completed derivation (30)
-![[Term 1/Derivations/(30).png]]
+![[Term 1/Derivations/1-8/(30).png]]
 
 #### 13:09
 **5.0. Slow-Roll Inflation**
@@ -99,17 +99,17 @@ $$ \ddot{\phi} + 3H \dot{\phi} + V' = 0 $$
 
 #### 14:45
 - Completed derivation (32)
-![[Term 1/Derivations/(33).png]]
+![[Term 1/Derivations/1-8/(33).png]]
 
 - The slow-roll parameter $\epsilon$ is defined as $$ \epsilon \equiv - \frac{\dot{H}}{H^2}$$ which allows for the parameterisation of the condition for accelerated expansion. 
 
 #### 15:38
 - Completed the derivation, (35), of $$ \frac{\ddot{a}}{a} = \dot{H} + H^2 \quad \quad$$ and proof that inflation is possible only if $\epsilon < 1$.
-![[Term 1/Derivations/(35).png]]
+![[Term 1/Derivations/1-8/(35).png]]
 
 #### 15:56
 - An e-fold refers to the time taken for the scale factor to increase by a factor of $e$, meaning that the number of e-folds in a given time represents how much the universe has expanded during a set timeframe. The relations $dN = -H dt$ and $\epsilon \equiv \frac{\dot{H}}{H^2}$, when combined result in the expression $\frac{dH}{H} = \epsilon dN$. The condition for the accelerated expansion of the universe is $\epsilon < 1$, and so if $\epsilon \ll 1$, the rate of accelerated expansion would be very high. This means that $dH \gg 1$ and since $dH \propto dN$, $dN \gg 1$. $\epsilon$ allows for inflation to be described by the number of expansions that the universe has undergone rather than the expansion time. 
-![[Term 1/Derivations/(36).png]]
+![[Term 1/Derivations/1-8/(36).png]]
 
 #### 16:20 
 - Starting the derivation of (37)
