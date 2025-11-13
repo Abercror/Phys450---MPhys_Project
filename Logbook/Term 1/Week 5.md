@@ -60,7 +60,7 @@
 
 #### 15:39
 - Attempted to find the equations for the T-model though I made a mistake as the algebra does not simplify down to the same functions as the E-model
-![[Term 1/Derivations/9.3/1 T-model part 2.png]]
+![[Term 1/Derivations/9.3/1 T-model part 1.png]]
 ![[Term 1/Derivations/9.3/1 T-model part 2.png]]
 
 ### Sunday, 9th November, 25
