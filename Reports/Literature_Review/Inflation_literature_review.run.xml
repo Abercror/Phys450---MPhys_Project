@@ -79,7 +79,7 @@
       <file>Inflation_literature_review.bcf</file>
     </requires>
     <requires type="editable">
-      <file>References.bib</file>
+      <file>Phys450-References.bib</file>
     </requires>
   </external>
 </requests>

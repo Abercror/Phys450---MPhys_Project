@@ -19,13 +19,67 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{Dimopoulos2021}{book}{}{}
+    \entry{baumannTASILecturesInflation2012}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b317a11f8ec61baed0f58c9c14ec9e6}{%
+           family={Baumann},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{fullhash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{fullhashraw}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{bibnamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorbibnamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authornamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorfullhash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorfullhashraw}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a series of five lectures I review inflationary cosmology. I begin with a description of the initial conditions problems of the Friedmann-Robertson-Walker (FRW) cosmology and then explain how inflation, an early period of accelerated expansion, solves these problems. Next, I describe how inflation transforms microscopic quantum fluctuations into macroscopic seeds for cosmological structure formation. I present in full detail the famous calculation for the primordial spectra of scalar and tensor fluctuations. I then define the inverse problem of extracting information on the inflationary era from observations of cosmic microwave background fluctuations. The current observational evidence for inflation and opportunities for future tests of inflation are discussed. Finally, I review the challenge of relating inflation to fundamental physics by giving an account of inflation in string theory.}
+      \field{day}{30}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pubstate}{prepublished}
+      \field{title}{{{TASI Lectures}} on {{Inflation}}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.0907.5424
+      \endverb
+      \verb{eprint}
+      \verb 0907.5424
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/QKCV5LQR/Baumann - 2012 - TASI Lectures on Inflation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0907.5424
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0907.5424
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{dimopoulosIntroductionCosmicInflation2020}{book}{}{}
       \name{author}{1}{}{%
         {{hash=ea2ddbcf31f5fc1105955a3ae4e99408}{%
            family={Dimopoulos},
            familyi={D\bibinitperiod},
            given={Konstantinos},
            giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Milton, UNITED KINGDOM}%
       }
       \list{publisher}{1}{%
         {Taylor \& Francis Group}%
@@ -42,10 +96,24 @@
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{series}{Series in Astronomy and Astrophysics}
-      \field{title}{Introduction to Cosmic Inflation and Dark Energy}
-      \field{year}{2021}
+      \field{isbn}{978-1-351-17484-8}
+      \field{title}{Introduction to {{Cosmic Inflation}} and {{Dark Energy}}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/RB7RKPJF/detail.html
+      \endverb
+      \verb{urlraw}
+      \verb http://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=6389634
+      \endverb
+      \verb{url}
+      \verb http://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=6389634
+      \endverb
+      \keyw{Big bang theory.,Cosmology--History.,Dark energy (Astronomy)}
     \endentry
   \enddatalist
 \endrefsection
