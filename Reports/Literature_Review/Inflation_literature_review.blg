@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'Inflation_literature_review.blg'
+[88] biber-MSWIN64:342> INFO - === 
+[117] Biber.pm:421> INFO - Reading 'Inflation_literature_review.bcf'
+[204] Biber.pm:1002> INFO - Found 8 citekeys in bib section 0
+[215] Biber.pm:4487> INFO - Processing section 0
+[224] Biber.pm:4678> INFO - Looking for bibtex file 'Phys450-References.bib' for section 0
+[271] bibtex.pm:1713> INFO - LaTeX decoding ...
+[300] bibtex.pm:1519> INFO - Found BibTeX data source 'Phys450-References.bib'
+[525] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[526] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[526] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[526] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[539] bbl.pm:676> INFO - Writing 'Inflation_literature_review.bbl' with encoding 'UTF-8'
+[650] bbl.pm:779> INFO - Output to Inflation_literature_review.bbl

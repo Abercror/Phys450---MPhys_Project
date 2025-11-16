@@ -2,10 +2,7 @@
 \contentsline {subsection}{\numberline {1.1}Introduction to Cosmology}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Mathematical Background}{1}{subsection.1.2}%
 \contentsline {subsubsection}{\numberline {1.2.1}Cosmological Key}{1}{subsubsection.1.2.1}%
-\contentsline {subsubsection}{\numberline {1.2.2}Universe Models}{1}{subsubsection.1.2.2}%
-\contentsline {paragraph}{Einstein Universe}{1}{paragraph*.1}%
-\contentsline {paragraph}{De Sitter Universe}{1}{paragraph*.2}%
-\contentsline {subsubsection}{\numberline {1.2.3}A brief crash course}{1}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.2}A brief crash course}{1}{subsubsection.1.2.2}%
 \contentsline {section}{\numberline {2}Problems with the Hot Big Bang}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}The Horizon Problem}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}The Flatness Problem}{3}{subsection.2.2}%
