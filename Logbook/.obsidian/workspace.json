@@ -25,13 +25,23 @@
             "id": "8685bd1691a0c493",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Term 1/Week 6.md",
-                "mode": "source",
-                "source": false
+                "file": "Term 1/Week 6.pdf"
               },
-              "icon": "lucide-file",
+              "icon": "lucide-file-text",
+              "title": "Week 6"
+            }
+          },
+          {
+            "id": "d72541a24d246fea",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Term 1/Week 6.pdf"
+              },
+              "icon": "lucide-file-text",
               "title": "Week 6"
             }
           }
@@ -186,30 +196,31 @@
   },
   "active": "8685bd1691a0c493",
   "lastOpenFiles": [
-    "Term 1/Week 5.md",
     "Term 1/Week 6.md",
+    "Term 1/Week 6.pdf",
     "Term 1/Week 4.md",
+    "Term 1/Derivations/9.3/(5) eta-problem.png",
+    "Term 1/Derivations/9.3/(5) Kinetic Lagrangian derivation.png",
+    "Term 1/Derivations/9.3/(4) 1 T-model part 1.png",
+    "Term 1/Derivations/9.3/(4) 3 T-model part 4.png",
+    "Term 1/Derivations/9.3/(4) 3 T-model part 3.png",
+    "Term 1/Derivations/9.3/(4) 3 T-model part 2.png",
+    "Term 1/Derivations/9.3/(4) 3 T-model part 1.png",
+    "Term 1/Derivations/9.3/(4) 2 T-model part 3.png",
+    "Term 1/Derivations/9.3/(4)2 T-model part 3.png",
+    "Term 1/Derivations/9.3/(4) 2 T-model part 2.png",
+    "Term 1/Week 5.pdf",
+    "Term 1/Week 5.md",
+    "Term 1/Lit Review images",
+    "Term 1/New folder",
+    "Term 1/Unt.md",
     "Term 1/Week 3.md",
-    "Term 1/Derivations/9.3/V(phi) part 2.png",
-    "Term 1/Derivations/9.3/V(phi) part 1.png",
-    "Term 1/Derivations/9.3/Lagrangian derivation phi.png",
-    "Term 1/Derivations/9.3/E-model part 2.png",
-    "Term 1/Derivations/9.3/E-model part 1.png",
-    "Term 1/Derivations/9.3/2 T-model part 3.png",
-    "Term 1/Derivations/9.3/2 T-model part 2.png",
-    "Term 1/Derivations/9.3/2 T-model part 1.png",
-    "Term 1/Derivations/9.3/1 T-model part 2.png",
-    "Term 1/Derivations/9.3/1 T-Model part 1.png",
     "Term 1/Derivations/9.3",
     "Term 1/Derivations/1-8",
     "Term 1/Figures/8.0/Graphs Corrected N",
     "Term 1/Week 4.pdf",
     "Term 1/Figures/7.0",
     "Term 1/Figures/untitled folder",
-    "Term 1/Figures/8.0/Initial Plots",
-    "Term 1/Figures/8.0/untitled folder",
-    "Term 1/Figures/8.0/Correct energy value",
-    "Term 1/Figures/8.0",
     "Term 1/().md",
     "Term 1/Github.md",
     "Term 1/Week 2.md",
