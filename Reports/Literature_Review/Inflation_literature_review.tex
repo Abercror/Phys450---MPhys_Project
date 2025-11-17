@@ -6,7 +6,7 @@
 \usepackage{outline}
 \usepackage{geometry}
 \geometry{a4paper, margin=1in}
-
+\usepackage{helvet}
 \usepackage{graphicx}
 \usepackage{physics}
 \usepackage{titlesec}
@@ -166,15 +166,6 @@ where, $w$, is the barotropic parameter for the universe, means that the continu
 \begin{equation}
     \rho \propto a^{-3(1 + w)}.
 \end{equation}\label{eq: rho to a}
-Combining this with the Friedmann equation, Eq. \eqref{eq: Flat Friedmann Equation}, demonstrates the relation between the scale factor and time, 
-\begin{equation}
-  a(t)\propto
-  \begin{cases}
-    t^{\frac{2}{3(1+w)}}, & \text{for } w \ne -1,\\[4pt]
-    e^{Ht},               & \text{for } w = -1
-  \end{cases}
-\end{equation}
-where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model hence inflation where $w \approx -1$ is called quasi-de Sitter inflation. 
 
 $\rho$ is the total energy density of the universe, though it can be used for the individual species of the universe, denoted by $\rho_x$, where the energy density of each species is determined by its barotropic parameter. Depending on what species is dominant in the universe, the relations vary as follows: 
 \begin{table}[H]
@@ -210,6 +201,15 @@ and for a flat universe, $k \approx 0$,
     \sum_i \Omega_i \approx 1
 \end{equation}\label{eq: Sum of Omega}
 
+Combining this with the Friedmann equation, Eq. \eqref{eq: Flat Friedmann Equation}, demonstrates the relation between the scale factor and time, 
+\begin{equation}
+  a(t)\propto
+  \begin{cases}
+    t^{\frac{2}{3(1+w)}}, & \text{for } w \ne -1,\\[4pt]
+    e^{Ht},               & \text{for } w = -1
+  \end{cases}
+\end{equation}\label{eq: scale factor relatoins}
+where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. The Einstein universe on the other hand is composed solely of matter, $w = 0$, and so the relation of scale factor with time is $a(t) \propto t^{\frac{2}{3}}$. 
 
 For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020} is
 \begin{table}[H]
@@ -227,12 +227,49 @@ For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\fra
 using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
 
 \section{Problems with the Hot Big Bang}\label{subsection: section: Problems with the Hot Big Bang}
+The term the Big Bang refers to the initial explosion that started the universe and is not to be confused with the Hot Big Bang which instead refers to the thermal history of the universe that began after the Big Bang. It is the history of the universe when it is dominated by radiation and then by matter, but not the dark energy domination that occurred in very early and late times \cite{dimopoulosIntroductionCosmicInflation2020}. 
+
+Both the density of matter and radiation are inversely proportional to time, $\rho_m \propto a^{-3}, \; \rho_{\gamma} \propto a^{-4}$, meaning that the total density at the start of the universe would be very large. With all the energy and matter in a very reduced space, the temperature was incredibly high, however, as that space begins to increase the average energy across would reduce meaning that $T \propto \frac{1}{a}$, which states that the universe cools down as it expands. 
+
+The Cosmic Microwave Background was formed during a period called decoupling which occurred approximately 1 second after the Hot Big Bang, describes the process of radiation becoming decoupled from matter and able to escape. Before this, radiation was trapped, continuously interacting with matter, but after it was released and this first release of radiation became the CMB. 
+
+The Hot Big Bang is supported by different forms of observational evidence not limited to the universe expansion, the age of the universe and the CMB radiation. However, there are many problems it does not answer, such as the nature of dark energy and dark matter as well as the origin of the structure that is seen throughout the universe. Other notable problems are the Horizon and the Flatness problem which have to do with the universe being too uniform and are the main topic of this section.
 
 \subsection{The Horizon Problem}\label{subsection: The Horizon Problem}
+Within cosmology there are different types of horizons, the Particle Horizon, the Hubble Horizon, and the Event Horizon. 
+The Hubble Horizon is the limit of causal connection meaning that if an object is beyond this point then nothing may communicate with it again as it is receding faster than the speed of light. This distance is given by the relation
+\begin{equation}
+    x_H(t) = \int_{t_1}^{t_2} \frac{c dt'}{a(t')},
+\end{equation}\label{eq: Hubble Horizon}
+where changing the limits allows for the other horizons. 
+The Particle Horizon is the maximum distance that light could have travelled since the beginning of the universe and represents the maximum boundary of the observable and unobservable universe. 
+\begin{equation}
+    D_H(t) = a(t)x_H(t) = a(t) \int_{0}^{t_0} \frac{c dt'}{a(t')}
+\end{equation}\label{eq: Particle Horizon}
+The Event Horizon corresponds to the maximum possible extent of causal relations where the upper limit is $\infty$, though depending on the universe model is limited.
+\begin{equation}
+    D_H(t) = a(t)x_H(t) = a(t) \int_{0}^{\infty} \frac{c dt'}{a(t')}
+\end{equation}\label{eq: Event Horizon}
+
+The Horizon problem refers to the homogeneity that is observed in the CMB, over distances that are not causally connected as they appear to be in thermal equilibrium. The temperature seen when observing the CMB in one direction is in equilibrium with the observations taken in the opposite direction, despite the fact that it would take light at least 14 billion years to send light to each other. 
+
+The regions were not within causal contact during the period of decoupling and so the odds that all have the exact same properties is astronomically low. The analytical description of the Horizon Problem is as follows,
+\begin{equation}
+    \frac{R_{obs}(t)}{D_H(t)} = \frac{D_H(t_0) a(t)}{D_H(t) a(t_0)} \approx \frac{H(t) a(t)}{H(t_0) a(t_0)} = \frac{\dot{a}(t)}{\dot{a}(t_0)},
+\end{equation}\label{eq: Horizon Problem}
+where $R_{obs}(t)$ is the radius of the observable universe at a given time and using the relation $\dot{a} = aH$, Eq. \eqref{eq: Hubble parameter}. What this shows is that as $t \rightarrow 0$ the universe becomes increasingly causally disconnected which posits the question of how the CMB is isotropic large distances. 
 
 \subsection{The Flatness Problem}\label{subsection: The Flatness Problem}
+The Flatness Problem is one of the topology of the universe, as the universe appears to be spatially flat despite a flat universe being unstable, so the initial conditions require extreme fine-tuning. 
+
+Recall the Friedmann equation, Eq. \eqref{eq: Friedmann Equation}, and the energy density ratio, $\Omega$ Eq. \eqref{eq: Present ratio}. The Friedmann equation can be rewritten in the form 
+\begin{equation}
+    \Omega(a) - 1 = \frac{k}{(aH)^2} \quad \text{where} \quad \Omega(a) \equiv \frac{\rho(a)}{\rho_{crit}(a)}, \quad \rho_{crit}(a) \equiv 3H(a)^2,
+\end{equation}\label{eq: Curvature Friedmann equation}
+where $\Omega(a)$ is defined to be time-dependent \cite{baumannTASILecturesInflation2012}. As the term $(aH)$, grows with time $\Omega(a) -1$, would diverge and so $\Omega = 1$, is an unstable-fixed point that requires very fine-tuning. This begs the question, why $Omega(a_0)$, is not either much greater or smaller than 1 as observations suggest?  
 
 \section{Cosmic Inflation}\label{section: Cosmic Inflatin}
+
 
 \subsection{How Inflation solves the Horizon and Flatness Problems}\label{subsection: How Inflation solves the Horizon and Flatness Problems}
 

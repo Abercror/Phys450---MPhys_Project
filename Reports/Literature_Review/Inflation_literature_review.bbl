@@ -1256,6 +1256,57 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
+    \entry{baumannTASILecturesInflation2012}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=0b317a11f8ec61baed0f58c9c14ec9e6}{%
+           family={Baumann},
+           familyi={B\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{fullhash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{fullhashraw}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{bibnamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorbibnamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authornamehash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorfullhash}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \strng{authorfullhashraw}{0b317a11f8ec61baed0f58c9c14ec9e6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In a series of five lectures I review inflationary cosmology. I begin with a description of the initial conditions problems of the Friedmann-Robertson-Walker (FRW) cosmology and then explain how inflation, an early period of accelerated expansion, solves these problems. Next, I describe how inflation transforms microscopic quantum fluctuations into macroscopic seeds for cosmological structure formation. I present in full detail the famous calculation for the primordial spectra of scalar and tensor fluctuations. I then define the inverse problem of extracting information on the inflationary era from observations of cosmic microwave background fluctuations. The current observational evidence for inflation and opportunities for future tests of inflation are discussed. Finally, I review the challenge of relating inflation to fundamental physics by giving an account of inflation in string theory.}
+      \field{day}{30}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{pubstate}{prepublished}
+      \field{title}{{{TASI Lectures}} on {{Inflation}}}
+      \field{urlday}{7}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2012}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.0907.5424
+      \endverb
+      \verb{eprint}
+      \verb 0907.5424
+      \endverb
+      \verb{file}
+      \verb C:\Users\Abercror\Zotero\storage\QKCV5LQR\Baumann - 2012 - TASI Lectures on Inflation.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0907.5424
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0907.5424
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
