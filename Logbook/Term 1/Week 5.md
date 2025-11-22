@@ -70,7 +70,7 @@
 - I have redone the derivations for $n_s(N)$ and $r(N)$ though I still do not get the same results as the E-model so I must have made a mistake in my working somewhere.
 ![[Term 1/Derivations/9.3/2 T-model part 1.png]]
 ![[Term 1/Derivations/9.3/2 T-model part 2.png]]
-![[Term 1/Derivations/9.3/2 T-model part 3.png]]
+![[Term 1/Derivations/9.3/ T-model part 3.png]]
 
 
 ### Monday, 10th November, 25

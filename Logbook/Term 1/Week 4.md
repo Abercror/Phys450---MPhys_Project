@@ -1,4 +1,4 @@
-### Tuesday, 28th October, 25
+'### Tuesday, 28th October, 25
 
 #### 11:16
 - Using the Starobinsky potential $$V = V_0 \left(1 - e^{-\frac{q}{m_p}\phi} \right)^2$$ $V_{end}$ and $V_*$ can be found by using $\phi_{end}$ and $e^{\frac{q}{m_p}\phi} \approx 2q^2N$, resulting in $$V_{end} = V_0 \left(2 + \sqrt{2}q \right)^2 \quad \text{and} \quad V_* = V_0 \left(1 - \frac{1}{2q^2N_*} \right)^2 \quad \text{for} \;  N = N*$$
