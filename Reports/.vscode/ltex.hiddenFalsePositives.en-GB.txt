@@ -5,3 +5,4 @@
 {"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QThe formalised definition\\E$"}
 {"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QThe formalised definition of the ho\\E$"}
 {"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QThe formalised definition of the Horizon problem\\E$"}
+{"rule":"OXFORD_SPELLING_Z_NOT_S","sentence":"^\\QThis field is coupled to gravity and it parameterises the evolution of the inflationary energy density with respect to time.\\E$"}
