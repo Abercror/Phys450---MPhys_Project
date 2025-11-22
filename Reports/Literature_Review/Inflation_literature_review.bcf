@@ -2381,9 +2381,12 @@
     <bcf:citekey order="6" intorder="1">AlexanderFriedmannCurvatureSpace</bcf:citekey>
     <bcf:citekey order="7" intorder="1">RomeuDerivationFriedmanequations</bcf:citekey>
     <bcf:citekey order="8" intorder="1">1927ASSB4749LPage49</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Collaboration2020</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">dimopoulosIntroductionCosmicInflation2020</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">baumannTASILecturesInflation2012</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Hawking1966</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Guth1981</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Collaboration2020</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">dimopoulosIntroductionCosmicInflation2020</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">Einstein1916foundationgeneraltheoryrelativity</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">baumannTASILecturesInflation2012</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

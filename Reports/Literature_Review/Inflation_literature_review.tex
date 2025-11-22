@@ -104,71 +104,53 @@
 %% -----------------------------------------------------------------------------------------------------------------------------
 \section{Prologue}\label{section: Prologue}
 
-\subsection{Introduction to Cosmology}\label{subsection: Introduction to Cosmology}
-
 On large scales the universe follows The Cosmological Principle which states that the universe is both homogenous and isotropic in every direction \cite{dimopoulosIntroductionCosmicInflation2020}. This is a rather simple idea, equating to the universe appearing to be the same everywhere on large scales, however, the reason as to why the universe exists in this manner is not so simple. 
 
 In the years following Einstein's publication of `The Foundations of the General Theory of Relativity' \cite{Einstein1916foundationgeneraltheoryrelativity}, 2 models were put forward, the Einstein universe and the de Sitter universe. Both were static models though they differed in their composition with the Einstein model containing a non-zero density for matter, for which he was required to include a cosmological constant, $\Lambda$ to prevent the universe from collapsing in on itself, while the de Sitter model neglects ordinary matter and is dominated by this cosmological constant. The model that Einstein described is static due to his inclusion of the cosmological constant, and the de Sitter model is one that undergoes rapid expansion, and unlike the Einstein model it satisfies the perfect cosmological principle, assuming homogeneity and isotropy both spatially and temporally. 
 
 The universe was first discovered to be expanding by Edwin Hubble \cite{Hubble1929relationdistanceradialvelocityextragalacticnebulae} in 1929, though this was a known prediction derived from General Relativity \cite{Sauer2005AlbertEinsteins1916ReviewArticleGeneralRelativity}, first done so by Alexander Friedmann in his 1922 paper `On the Curvature of Spacetime' \cite{AlexanderFriedmannCurvatureSpace}, in which he derived, what would come to be known as the Friedmann-Lema\^itre equations \cite{RomeuDerivationFriedmanequations}, as in 1927 Georges Lema\^itre independently derived them \cite{1927ASSB4749LPage49}. Friedmann demonstrated that the energy density of matter, $\rho(t)$, and the cosmological constant, $\Lambda$, were linked with the time evolution of the universe.
 
-\subsection{Mathematical Background}\label{subsection: Mathematical Background}
+The discovery that the universe was not static and was expanding lead to research into the origins of the universe. A prominent theory was put forward by Stephen Hawking \cite{Hawking1966}, proposing a space-time singularity at the start of space and time. This idea developed into what is now called The Big Bang. 
 
-\subsubsection{Cosmological Key}\label{Cosmological Key}
+However, despite the success of models such as these they did not solve all the problems regarding the origin of the universe, notably the Horizon Problem \ref{subsection: The Horizon Problem} and the Flatness Problem \ref{subsection: The Flatness Problem} are not solved. 
 
-\begin{multicols}{2}
-    \begin{eqnarray}
-        H(t): \text{Hubble parameter}\label{H} \\
-        a(t): \text{Scale factor}\label{a} \\
-        G: \text{Newtons Gravitational Constant} \\
-        \rho(t): \text{Energy density}\label{rho} \\
-        p(t): \text{Pressure}\\
-        w: \text{Barotropic parameter}\\
-        m_p: \text{Reduced Planck Mass}\label{mp} \\
-        k: \text{Curvature parameter}\label{k}\\
-        \text{Flat Universe}: k = 0 with w \ne -1 \\
-        H \propto a^{-1}\\
-        H \propto \rho^{\frac{1}{2}}\\
-        \rho \propto a^{-3(1+w)}\\
-        a \propto t^{\frac{2}{3(1+w)}}\\
-    \end{eqnarray}
-\end{multicols}
+The idea of cosmic inflation was proposed by Alan Guth in 1981 \cite{Guth1981}, outlining inflation as a potential solution to both the Horizon Problem and the Flatness Problem. This was then built upon, notably by Alexander Starobinsky who independently proposed one of the most successful inflation models. Many different models have been proposed, but no model is yet to fully explain the nature of the earliest moments of the universe. Attempts have been made trying to embed inflationary models into theories such as String Theory and Supergravity, but none have yet been successful.   
 
-\subsubsection{A brief crash course}\label{subsubsection: A brief lesson}
+\section{A brief crash course}\label{subsubsection: A brief crash course}
+
 The Hubble Parameter, $H$, is defined as the expansion rate of the universe and is given by the formula 
-\begin{equation}
+\begin{equation}\label{eq: Hubble parameter}
     H = \frac{\dot{a}}{a}
-\end{equation}\label{eq: Hubble parameter}
+\end{equation}
 where $a$ is the scale factor of the universe. 
 This is a key part of the 2 non-linear ordinary differential equations derived by Friedmann which take the form 
-\begin{equation}
+\begin{equation}\label{eq: Friedmann Equation}
     H^2 \equiv \left( \frac{\dot{a}}{a}\right)^2 = \frac{1}{3 m_p^2}\rho - \frac{k}{a^2}
-\end{equation}\label{eq: Friedmann Equation}
+\end{equation}
 known as the Friedmann equation, which for a flat universe reduces to 
-\begin{equation}
+\begin{equation}\label{eq: Flat Friedmann Equation}
     \rho = 3 m_p^2 H^2 \quad k \approx 0,
-\end{equation}\label{eq: Flat Friedmann Equation}
+\end{equation}
 and 
-\begin{equation}
+\begin{equation}\label{eq: acceleration equation}
     \dot{H} + H^2 = \frac{\ddot{a}}{a} = - \frac{1}{6 m_p^2}\left( \rho + 3p \right) 
-\end{equation}\label{eq: acceleration equation}
+\end{equation}
 known as the acceleration equation where the overdots, $\dot{x}$, denote derivatives with respect to time, t. 
 In an expanding universe, ($\dot{a} > 0$), filled with matter that satisfies $\rho + 3p \ge 0$, means Eq. \eqref{eq: acceleration equation} implies $\ddot{a} <0$. The indication of this condition is that there was a singularity in the finite past, $a(t\equiv0) = 0$ known as the Big Bang singularity. 
 Combining Eq. \eqref{eq: Flat Friedmann Equation} and Eq. \eqref{eq: acceleration equation}, results in the continuity equation 
-\begin{equation}
+\begin{equation}\label{eq: Continuity equation}
     \dot{\rho} + 3H(\rho + p) = 0.
-\end{equation}\label{eq: Continuity equation}
+\end{equation}
 Defining 
-\begin{equation}
+\begin{equation}\label{eq: Barotropic parameter}
     w = \frac{\rho}{p}
-\end{equation}\label{eq: Barotropic parameter}
+\end{equation}
 where, $w$, is the barotropic parameter for the universe, means that the continuity equation, Eq. \eqref{eq: Continuity equation} may be integrated to find the relation of the energy density, $\rho$, to the scale factor, $a$, taking the form 
-\begin{equation}
+\begin{equation}\label{eq: rho to a}
     \rho \propto a^{-3(1 + w)}.
-\end{equation}\label{eq: rho to a}
-
+\end{equation}
 $\rho$ is the total energy density of the universe, though it can be used for the individual species of the universe, denoted by $\rho_x$, where the energy density of each species is determined by its barotropic parameter. Depending on what species is dominant in the universe, the relations vary as follows: 
-\begin{table}[H]
+\begin{table}[H]\label{table: Composition relations}
     \centering
     \begin{tabular}{|p{4cm}||p{2cm}|p{2cm}|p{2cm}|}
         \hline
@@ -180,39 +162,39 @@ $\rho$ is the total energy density of the universe, though it can be used for th
         \hline
         \text{dark energy, $\Lambda$} & $-1$ & $a^0$ & $e^{Ht}$ \\
         \hline
-    \end{tabular}\label{table: Composition relations}
+    \end{tabular}
 \end{table}
 \footnotetext{Matter refers to both baryonic matter and dark matter as they have the same relations}
 If there are multiple species contributing significantly then the pressure, $p$, and energy density, $\rho$, are 
-\begin{equation}
+\begin{equation}\label{eq: Total rho and p}
     \rho \equiv \sum_i \rho_i \quad \quad p \equiv \sum_i p_i.
-\end{equation}\label{eq: Total rho and p}
+\end{equation}
 
 For each species, $i$, the present ratio of the energy density to the critical energy density is defined as 
-\begin{equation}
+\begin{equation}\label{eq: Present ratio}
     \Omega_i \equiv \frac{\rho^i_0}{\rho_{crit}} \quad \rho_{crit} \equiv 3 H^2_0
-\end{equation}\label{eq: Present ratio}
+\end{equation}
 and this corresponds to the barotropic parameter
-\begin{equation}
+\begin{equation}\label{eq: barotropic parameter individual}
     w_i \equiv \frac{\rho_i}{p_i},
-\end{equation}\label{eq: barotropic parameter individual}
+\end{equation}
 and for a flat universe, $k \approx 0$, 
-\begin{equation}
+\begin{equation}\label{eq: Sum of Omega}
     \sum_i \Omega_i \approx 1
-\end{equation}\label{eq: Sum of Omega}
+\end{equation}
 
 Combining this with the Friedmann equation, Eq. \eqref{eq: Flat Friedmann Equation}, demonstrates the relation between the scale factor and time, 
-\begin{equation}
+\begin{equation}\label{eq: scale factor relatoins}
   a(t)\propto
   \begin{cases}
     t^{\frac{2}{3(1+w)}}, & \text{for } w \ne -1,\\[4pt]
     e^{Ht},               & \text{for } w = -1
   \end{cases}
-\end{equation}\label{eq: scale factor relatoins}
+\end{equation}
 where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. The Einstein universe on the other hand is composed solely of matter, $w = 0$, and so the relation of scale factor with time is $a(t) \propto t^{\frac{2}{3}}$. 
 
 For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020} is
-\begin{table}[H]
+\begin{table}[H]\label{table: Composition ratio}
     \centering
     \begin{tabular}{|p{2cm}||p{5cm}|}
         \hline
@@ -222,14 +204,17 @@ For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\fra
         \hline
         $\Omega_{\Lambda}$ & $ 0.6847 \pm 0.0073$ \\
         \hline
-    \end{tabular}\label{table: Composition ratio}
+    \end{tabular}
 \end{table}
 using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
 
 \section{Problems with the Hot Big Bang}\label{subsection: section: Problems with the Hot Big Bang}
 The term the Big Bang refers to the initial explosion that started the universe and is not to be confused with the Hot Big Bang which instead refers to the thermal history of the universe that began after the Big Bang. It is the history of the universe when it is dominated by radiation and then by matter, but not the dark energy domination that occurred in very early and late times \cite{dimopoulosIntroductionCosmicInflation2020}. 
 
-Both the density of matter and radiation are inversely proportional to time, $\rho_m \propto a^{-3}, \; \rho_{\gamma} \propto a^{-4}$, meaning that the total density at the start of the universe would be very large. With all the energy and matter in a very reduced space, the temperature was incredibly high, however, as that space begins to increase the average energy across would reduce meaning that $T \propto \frac{1}{a}$, which states that the universe cools down as it expands. 
+Both the density of matter and radiation are inversely proportional to time, $\rho_m \propto a^{-3}, \; \rho_{\gamma} \propto a^{-4}$, meaning that the total density at the start of the universe would be very large. With all the energy and matter in a very reduced space, the temperature was incredibly high, however, as that space begins to increase the average energy across would reduce meaning that 
+\begin{equation}\label{eq: Temperature Relation to scale factor} 
+    T \propto \frac{1}{a}
+\end{equation} which states that the universe cools down as it expands. 
 
 The Cosmic Microwave Background was formed during a period called decoupling which occurred approximately 1 second after the Hot Big Bang, describes the process of radiation becoming decoupled from matter and able to escape. Before this, radiation was trapped, continuously interacting with matter, but after it was released and this first release of radiation became the CMB. 
 
@@ -238,58 +223,96 @@ The Hot Big Bang is supported by different forms of observational evidence not l
 \subsection{The Horizon Problem}\label{subsection: The Horizon Problem}
 Within cosmology there are different types of horizons, the Particle Horizon, the Hubble Horizon, and the Event Horizon. 
 The Hubble Horizon is the limit of causal connection meaning that if an object is beyond this point then nothing may communicate with it again as it is receding faster than the speed of light. This distance is given by the relation
-\begin{equation}
+\begin{equation}\label{eq: Hubble Horizon}
     x_H(t) = \int_{t_1}^{t_2} \frac{c dt'}{a(t')},
-\end{equation}\label{eq: Hubble Horizon}
+\end{equation}
 where changing the limits allows for the other horizons. 
 The Particle Horizon is the maximum distance that light could have travelled since the beginning of the universe and represents the maximum boundary of the observable and unobservable universe. 
-\begin{equation}
+\begin{equation}\label{eq: Particle Horizon}
     D_H(t) = a(t)x_H(t) = a(t) \int_{0}^{t_0} \frac{c dt'}{a(t')}
-\end{equation}\label{eq: Particle Horizon}
+\end{equation}
 The Event Horizon corresponds to the maximum possible extent of causal relations where the upper limit is $\infty$, though depending on the universe model is limited.
-\begin{equation}
+\begin{equation}\label{eq: Event Horizon}
     D_H(t) = a(t)x_H(t) = a(t) \int_{0}^{\infty} \frac{c dt'}{a(t')}
-\end{equation}\label{eq: Event Horizon}
+\end{equation}
 
 The Horizon problem refers to the homogeneity that is observed in the CMB, over distances that are not causally connected as they appear to be in thermal equilibrium. The temperature seen when observing the CMB in one direction is in equilibrium with the observations taken in the opposite direction, despite the fact that it would take light at least 14 billion years to send light to each other. 
 
 The regions were not within causal contact during the period of decoupling and so the odds that all have the exact same properties is astronomically low. The analytical description of the Horizon Problem is as follows,
-\begin{equation}
+\begin{equation}\label{eq: Horizon Problem}
     \frac{R_{obs}(t)}{D_H(t)} = \frac{D_H(t_0) a(t)}{D_H(t) a(t_0)} \approx \frac{H(t) a(t)}{H(t_0) a(t_0)} = \frac{\dot{a}(t)}{\dot{a}(t_0)},
-\end{equation}\label{eq: Horizon Problem}
+\end{equation}
 where $R_{obs}(t)$ is the radius of the observable universe at a given time and using the relation $\dot{a} = aH$, Eq. \eqref{eq: Hubble parameter}. What this shows is that as $t \rightarrow 0$ the universe becomes increasingly causally disconnected which posits the question of how the CMB is isotropic large distances. 
 
 \subsection{The Flatness Problem}\label{subsection: The Flatness Problem}
-The Flatness Problem is one of the topology of the universe, as the universe appears to be spatially flat despite a flat universe being unstable, so the initial conditions require extreme fine-tuning. 
+The Flatness Problem is one of the topology of the universe, as the universe appears to be spatially flat despite a flat universe being unstable, so the initial conditions require extreme fine-tuning. Spacetime is dynamic and is warped by mass as stated by General Relativity \cite{Einstein1916foundationgeneraltheoryrelativity} and so with all the mass that is present within the universe why is it approximately a flat Euclidean plane. 
 
 Recall the Friedmann equation, Eq. \eqref{eq: Friedmann Equation}, and the energy density ratio, $\Omega$ Eq. \eqref{eq: Present ratio}. The Friedmann equation can be rewritten in the form 
-\begin{equation}
+\begin{equation}\label{eq: Curvature Friedmann equation}
     \Omega(a) - 1 = \frac{k}{(aH)^2} \quad \text{where} \quad \Omega(a) \equiv \frac{\rho(a)}{\rho_{crit}(a)}, \quad \rho_{crit}(a) \equiv 3H(a)^2,
-\end{equation}\label{eq: Curvature Friedmann equation}
-where $\Omega(a)$ is defined to be time-dependent \cite{baumannTASILecturesInflation2012}. As the term $(aH)$, grows with time $\Omega(a) -1$, would diverge and so $\Omega = 1$, is an unstable-fixed point that requires very fine-tuning. This begs the question, why $Omega(a_0)$, is not either much greater or smaller than 1 as observations suggest?  
+\end{equation}
+where $\Omega(a)$ is defined to be time-dependent \cite{baumannTASILecturesInflation2012}.
 
-\section{Cosmic Inflation}\label{section: Cosmic Inflatin}
+Using the equation above,
+\begin{equation}
+    \frac{|\Omega(t_0) -1 |}{|\Omega -1|} = \left( \frac{a(t) H(t)}{a(t_0)H(t_0)} \right)^2 = \left( \frac{\dot{a}(t)}{\dot{a}(t_0)} \right)^2
+\end{equation}
+and that $\dot{a}(t)$ is a decreasing function then $|\Omega(t_0) -1 | > |\Omega -1|$ for all $t > t_0$, showing that the deviation from flatness grows with time. 
+This begs the question, why $\Omega(a_0)$, is not either much greater or smaller than 1 as observations suggest?  
+
+\section{Cosmic Inflation}\label{section: Cosmic Inflation}
+Cosmic Inflation is defined as a period of superluminal inflation that occurred before the Hot Big Bang, which means that this period of expansion in the early universe exceeded the speed of light. This occurs due to accelerated expansion, $\ddot{a} > 0$, which requires the condition $w < -\frac{1}{3}$ which means that inflation was a period where dark energy was dominant, $w_{DE} = -1$. 
+
+Initially, this idea seems to be impossible as it would break the laws of General Relativity, limits anything with mass to move slower than the speed of light. This does not apply to inflation however, because it is not matter or energy that is being displaced with a velocity greater than light speed but spacetime \footnote{Spacetime: the 4-dimensional fabric described by General Relativity composed of the 3-spatial dimensions and time} itself that is expanding. An analogy to this is if spacetime is considered to be the surface of a balloon, the balloon expands with a certain velocity and the space on its surface grows. Considering an infinitesimal point on the surface, it has no velocity as it is not moving across the surface of the balloon and yet it is changed from its initial absolute position, as the nature of its space itself has changed.
+
+As previously stated, \eqref{eq: Temperature Relation to scale factor} the temperature of the universe is inversely proportional to the scale factor, so as the universe expands the temperature decreases, as the density of matter and energy is decreased. Due to the speed of inflation, the temperature of the thermal bath would be drastically depleted but at the end of inflation is when the Hot Big Bang occurs, which requires a significant thermal bath. Before explaining the mechanism of how this thermal bath is recovered, it is important to explain primordial density perturbations. 
+
+While the Cosmological Principle states that on large scales the universe is isotropic, due to the nature of quantum mechanics small perturbations occur so on the small scale it is not isotropic. These very early perturbations can be seen today as they have been cast into the CMB, showing the inhomogeneities in the early universe. These density perturbations were the initial perturbations that occurred before any gravitational growth, and they have 3 key properties: adiabatic, scale-invariance, Gaussian. 
+
+Starting with adiabatic. An adiabatic perturbation is a type of perturbation where the fractional perturbation of the number density of each conserved matter type is equal to the fractional perturbation in the number density of photons. The reason that this is adiabatic is that the very early universe acted as a thermally isolated volume and so there perturbations themselves also looked like a thermally isolated volume. This combined with the maintaining of thermal equilibrium means that no heat is transferred out of the system and is therefore adiabatic. Due to this, a volume in the expanding universe will differ in density, but the entropy will be the same and this is equivalent to a volume presently in the universe with an adiabatic perturbation, again due to the conservation of entropy. 
+
+The perturbations being scale-invariant refers to the idea that the size of said perturbations is not dependent on the size of the universe and is the same for each scale. The perturbations also follow a Gaussian distribution in terms of their size which ties into the scale invariance as the fractional change of each perturbation is determined by the Gaussian distribution, rather than a dependence on the size of the universe.
+
+Combining all of this allows for a mathematical description of inflation, in which inflation is described as a scalar field. Circling back to how the thermal bath is recovered to allow for the Hot Big Bang to occur, at the end of inflation this scalar field decays releasing its energy which then allows for the Hot Big Bang. 
+
+\subsection{The Mathematical Description of Inflation}\label{subsection: Mathematical description of Inflation}
+
+Inflation in its simplest form is modelled by a single scalar field, $\phi$, called the inflaton. This field is coupled to gravity, and it parameterises the evolution of the inflationary energy density with respect to time. Its coupling to gravity is given as an addition to the Einstein-Hilbert action 
+\begin{equation}\label{eq: Einstein-Hilbert Action}
+    S = \int d^4 x\, \sqrt{-g} \left( \frac{1}{2} R + \frac{1}{2} g^{\mu \nu} \partial_\mu \phi \partial_\nu \phi - V(\phi)  \right) = S_{EH} + S_{\phi}
+\end{equation}
+where $V(\phi)$ is the inflaton potential. The action is the integral of the Lagrangian over all possible paths, hence the $d^4 x$ as that denotes the integral is occurring over the 4-dimensions of spacetime. As seen the inflaton action, $S_{\phi}$ is an addition to the Einstein-Hilbert action, and it describes the self interactions within the scalar field.
+
+A scalar field is defined as a spin-zero field, assuming a unique value at each point in space. This means that in the case of the inflaton, $\phi = \phi(\boldsymbol{x}, t)$ where $\boldsymbol{x}$ refers to each of the spatial dimensions. This means that at each infinitesimal point in space there is a unique value for the magnitude of the scalar field which is time-dependent. A homogenous scalar field however is simply defined as $\phi = \phi(t)$ and is the same across each point in space but is still time-dependent. For this type of scalar field the density and pressure are given as 
+\begin{equation}\label{eq: Density and Pressure of Homogeneous scalar field}
+    \rho_{\phi} = \frac{1}{2} \dot{\phi}^2 + V(\phi)2, \quad p_{\phi} = \frac{1}{2} \dot{\phi}^2.  
+\end{equation}
+
+As previously defined for quasi-de Sitter inflation to occur $w_{\phi} \approx -1$ and this condition requires that $\frac{1}{2} \dot{\phi}^2 \ll V$, and so $\dot{\phi}$ is very small meaning $\phi$ does not vary much with time. 
+
+Analogous to the Newton's equations of motion for a particle, the Klein-Gordon equation describes the equation of motion for a homogenous scalar field as 
+\begin{equation}\label{eq: Klein-Gordon Equation}
+    \ddot{\phi} + 3H\dot{\phi} + V' = 0, \quad \text{where} \quad V' = \derivative{V}{\phi}.    
+\end{equation}
+This describes the motion of the scalar field with a potential $V$, and a frictional term $3H$. This equation is further simplified as for quasi-de Sitter inflation $\ddot{\phi}$ is negligible which gives the resulting relation 
+\begin{equation}\label{eq: Slow Roll Approximation}
+    3H \dot{\phi} \approx -V'(\phi)    
+\end{equation}
+which is known as the slow-roll approximation. 
+
+\subsection{Slow-Roll Inflation}\label{subsection: Slow-Roll Inflation}
+
+
 
 
 \subsection{How Inflation solves the Horizon and Flatness Problems}\label{subsection: How Inflation solves the Horizon and Flatness Problems}
 
-\subsection{Slow-Roll Inflation}\label{subsection: Slow-Roll Inflation}
 
 \section{Starobinsky Inflation}\label{section: Starobinsky Inflation}
 
 \subsection{Starobinsky Potential}\label{subsection: Starobinsky Potential}
 
 \subsection{Results}\label{subsection: Results}
-
-\section{\texorpdfstring{$\alpha$}{alpha}-attractors and Supergravity}\label{section: alpha-attractors and Supergravity}
-
-\subsection{Kinetic Lagrangian}\label{subsection: Kinetic Lagrangian}
-
-\subsection{E-model}\label{subsection: E-model}
-
-\subsection{T-model}\label{subsection: T-model}
-
-\subsection{The \texorpdfstring{$\eta$}{eta}-problem}\label{subsection: The eta problem}
 
 
 
