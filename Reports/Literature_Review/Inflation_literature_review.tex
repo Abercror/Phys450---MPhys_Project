@@ -24,7 +24,6 @@
 \usepackage{bookmark}
 \usepackage{footmisc}
 
-
 %% Defines the page environments
 %%-----------------------------------------------------------------------------------------------------------------------------
 \fancypagestyle{titlepage}{
@@ -55,6 +54,8 @@
 %%-----------------------------------------------------------------------------------------------------------------------------
 \renewcommand{\arraystretch}{1.5}
 
+%% Begin Document
+%%-----------------------------------------------------------------------------------------------------------------------------
 \begin{document}
 
 %% Equation numbering
@@ -71,7 +72,7 @@
     \thispagestyle{titlepage}
     \centering
     \includegraphics[width=0.5\textwidth]{Images/Physics logo.jpg}\\
-    {\Huge \textbf{An overview of Cosmological Inflation and Supergravity} \par}
+    {\Huge \textbf{An overview of Cosmological Inflation} \par}
     \vspace{1cm}
     {\large Rhys Abercromby\par}
     \vspace{0.5cm}
@@ -100,8 +101,6 @@
 %% Main Body
 %% -----------------------------------------------------------------------------------------------------------------------------
 
-%% Introduction
-%% -----------------------------------------------------------------------------------------------------------------------------
 \section{Prologue}\label{section: Prologue}
 
 On large scales the universe follows The Cosmological Principle which states that the universe is both homogenous and isotropic in every direction \cite{dimopoulosIntroductionCosmicInflation2020}. This is a rather simple idea, equating to the universe appearing to be the same everywhere on large scales, however, the reason as to why the universe exists in this manner is not so simple. 
@@ -273,9 +272,9 @@ Starting with adiabatic. An adiabatic perturbation is a type of perturbation whe
 
 The perturbations being scale-invariant refers to the idea that the size of said perturbations is not dependent on the size of the universe and is the same for each scale. The perturbations also follow a Gaussian distribution in terms of their size which ties into the scale invariance as the fractional change of each perturbation is determined by the Gaussian distribution, rather than a dependence on the size of the universe.
 
-Combining all of this allows for a mathematical description of inflation, in which inflation is described as a scalar field. Circling back to how the thermal bath is recovered to allow for the Hot Big Bang to occur, at the end of inflation this scalar field decays releasing its energy which then allows for the Hot Big Bang. 
+One way to combine this is through the Inflationary Paradigm where inflation is modelled using a scalar field. This is how the thermal bath is recovered to allow for the Hot Big Bang to occur, as at the end of inflation this scalar field decays releasing its energy which then allows for the Hot Big Bang. 
 
-\subsection{The Mathematical Description of Inflation}\label{subsection: Mathematical description of Inflation}
+\subsection{The Mathematical Description of the Inflationary Paradigm}\label{subsection: Mathematical description of Inflation}
 
 Inflation in its simplest form is modelled by a single scalar field, $\phi$, called the inflaton. This field is coupled to gravity, and it parameterises the evolution of the inflationary energy density with respect to time. Its coupling to gravity is given as an addition to the Einstein-Hilbert action 
 \begin{equation}\label{eq: Einstein-Hilbert Action}
@@ -301,12 +300,77 @@ This describes the motion of the scalar field with a potential $V$, and a fricti
 which is known as the slow-roll approximation. 
 
 \subsection{Slow-Roll Inflation}\label{subsection: Slow-Roll Inflation}
+Slow-roll inflation refers to the motion of the inflaton, $\phi$, in the potential, $V(\phi)$, as it is akin to a ball slowly rolling down a hill. 
 
+%%Insert Figure showing slow-roll inflation
 
+Inflation is measured in e-foldings where an e-folding refers to the amount of time for the scale factor, $a(t)$, to increase by a factor of $e$. The total number of e-foldings is given by
+\begin{equation}\label{eq: No. e-foldings scale factor}
+    N(\phi) = \ln{\left(\frac{a_{end}}{a(t)}\right)}
+\end{equation}
+where $a_{end}$ refers to the end of inflation. By substitution, the expression can be recast as
+\begin{align}\label{eq: No. e-foldings integral}
+    N(\phi) &= \int_{t}^{t_{end}} H dt' = \int_{\phi}^{\phi_{end}} \frac{3H}{\dot{\phi'}_{end}} d \phi'
+    \\
+    N(\phi) &\approx \int_{\phi_{end}}^{\phi} \frac{V}{V'} d \phi' \quad \text{using the slow roll approximation} \quad 3H\dot{\phi} \approx - V'(\phi)
+\end{align}
 
+The time-evolution of the Hubble Parameter is parameterised by the first slow-roll parameter,
+\begin{equation}\label{eq: Epsilon parameter}
+    \epsilon = - \frac{\dot{H}}{H^2} = - \frac{d \ln{H}}{dN}     
+\end{equation}
+with the $2^{nd}$ form being found using the first expression from the previous equation \eqref{eq: No. e-foldings integral} $dN = Hdt$. 
+
+During slow-roll inflation, the slow-roll parameter $\epsilon$ can be recast into the form 
+\begin{equation}\label{eq: Epsilon slow-roll potential form}
+    \epsilon \approx \frac{1}{2} m_p^2 \left( \frac{V'}{V} \right)   
+\end{equation}
+In order for accelerated expansion to occur, the condition $\epsilon \ll 1$ is required to be fulfilled, and in the case of quasi-de Sitter inflation the potential energy of the field dominates the kinetic energy of the inflaton, 
+\begin{equation}\label{eq: de Sitter inflation requirement}
+    \dot{\phi}^2 \ll V(\phi).
+\end{equation}
+To demonstrate this, $\epsilon$ can also be written in the form 
+\begin{equation}\label{eq: Epsilon(w)}
+    \epsilon = \frac{3}{2}(1+w),
+\end{equation}
+which is clearly demonstrates that $\epsilon \ll 1$ guarantees that quasi-de Sitter inflation will occur as $w > -1$. 
+However, the requirment for the continuation of inflation is 
+\begin{equation}\label{eq: Requirement for inflation length}
+    | \ddot{\phi} | \ll |3H \dot{\phi}|,
+\end{equation}
+which corresponds to the acceleration of the inflation being dominated by the frictional component of the field. This is required to maintain the slow-roll of the inflation down the potential, as this increases the length of the inflation period. It is parameterised by the second slow-roll parameter, $\eta$, which is defined as 
+\begin{equation}\label{eq: Eta slow-roll parameter}
+    \eta = m_p^2 \frac{V''}{V}
+\end{equation}
+and so when $\eta \ll 1$, it requires that $|V''| < H^2$. 
+
+$\epsilon$ and $\eta$ are the parameterisation of the 2 conditions required for slow-roll inflation \eqref{eq: de Sitter inflation requirement} \eqref{eq: Requirement for inflation length} to both occur and to last long enough to solve both the Horizon Problem and the Flatness Problem. For the friction to be dominant over the kinetic energy of the inflaton
+\begin{equation}\label{eq: slow-roll parameters condition}
+    \epsilon, |\eta | < 1,
+\end{equation}
+however, as $\phi$ is dependent time and is magnitude decreases with time, and so the conditions for inflation \eqref{eq: de Sitter inflation requirement} \eqref{eq: Requirement for inflation length} are eventually violated, bringing inflation to an end. In terms of the slow-roll parameters this is demonstrated as 
+\begin{equation}\label{eq: End of inflation condition}
+    \epsilon\left(\phi_{end}\right) = 1, \quad |\eta(\phi_{end})| = 1. 
+\end{equation}
+Depending on the inflaton potential, either $\epsilon$ or $\eta$ will equate to 1 and either one doing so will end inflation, and determine the value of inflaton, $\phi_{end}$.
 
 \subsection{How Inflation solves the Horizon and Flatness Problems}\label{subsection: How Inflation solves the Horizon and Flatness Problems}
 
+Both the Horizon and Flatness problems are solved by inflation as this period of superluminal expansion allows for the initial conditions of the universe to be isotropic before the Hot Big Bang. This expansion creates the homogeneity in areas that are not in causal contact at the end of inflation, and so after the Hot Big Bang they retain this homogeneity. The decay of the inflaton field at the end of inflation reforms the thermal bath that was lost due to the rapid expansion, which is possible due to the adiabatic nature of the perturbations and so the entropy decays into energy. 
+
+\subsubsection*{Condition to solve the Horizon Problem}\label{subsubsection: Conditions to solve the Horizon Problem}
+
+Recalling from section \ref{subsection: The Horizon Problem}, the mathematical description of the Horizon problem is 
+\begin{equation}\label{eq: Horizon Problem Short}
+    \frac{R_{obs}(t)}{D_H(t)} = \frac{\dot{a}(t)}{\dot{a}(t_0)}
+\end{equation}
+which shows that in order to solve the Horizon Problem, $R_{obs} (t_i)\leq D_H(t_0)$ to allow for the regions to be causally correlated. From this it is true that
+\begin{equation}\label{eq: solving Horizon problem scale factor}
+    \dot{a}(t_i) \leq \dot{a}(t_0) \quad \Rightarrow \quad \frac{\dot{a}_i}{\dot{a}_{end}} \leq \frac{\dot{a}_0}{\dot{a}_{end}}
+\end{equation}
+where $i$ and $end$ denote the start and end of inflation. 
+
+After the end of inflation $\ddot{a} < 0$, so $\frac{\dot{a}_0}{\dot{a}_{end}} < 1$, therefore $\frac{\dot{a}_i}{\dot{a}_{end}}$ needs to be even smaller. As previously mentioned inflation undergoes accelerated expansion, $\ddot{a} > 0$, the conditions required for inflation to solve the  
 
 \section{Starobinsky Inflation}\label{section: Starobinsky Inflation}
 
