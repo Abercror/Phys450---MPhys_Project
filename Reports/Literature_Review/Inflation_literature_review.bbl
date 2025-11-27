@@ -54,7 +54,7 @@
       \field{dateera}{ce}
       \field{urldateera}{ce}
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\RB7RKPJF\detail.html
+      \verb /Users/rhysabercromby/Zotero/storage/RB7RKPJF/detail.html
       \endverb
       \verb{urlraw}
       \verb http://ebookcentral.proquest.com/lib/lancaster/detail.action?docID=6389634
@@ -112,7 +112,7 @@
       \verb 10.1002/andp.19163540702
       \endverb
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\KATNZ4B8\Einstein - 1916 - The foundation of the general theory of relativity..pdf
+      \verb /Users/rhysabercromby/Zotero/storage/KATNZ4B8/Einstein - 1916 - The foundation of the general theory of relativity..pdf
       \endverb
       \keyw{BETA}
     \endentry
@@ -157,7 +157,7 @@
       \verb 10.1073/pnas.15.3.168
       \endverb
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\S2AY8LQD\Hubble - 1929 - A relation between distance and radial velocity among extra-galactic nebulae.pdf
+      \verb /Users/rhysabercromby/Zotero/storage/S2AY8LQD/Hubble - 1929 - A relation between distance and radial velocity among extra-galactic nebulae.pdf
       \endverb
       \verb{urlraw}
       \verb https://www.pnas.org/doi/full/10.1073/pnas.15.3.168
@@ -205,7 +205,7 @@
       \verb physics/0405066
       \endverb
       \verb{file}
-      \verb C\:\\Users\\Abercror\\Zotero\\storage\\QU4TA4CN\\Sauer - 2005 - Albert Einstein's 1916 Review Article on General Relativity.pdf;C\:\\Users\\Abercror\\Zotero\\storage\\TP7ZMDRK\\0405066.html
+      \verb /Users/rhysabercromby/Zotero/storage/QU4TA4CN/Sauer - 2005 - Albert Einstein's 1916 Review Article on General Relativity.pdf;/Users/rhysabercromby/Zotero/storage/TP7ZMDRK/0405066.html
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/physics/0405066
@@ -272,7 +272,7 @@
       \field{langid}{english}
       \field{title}{Derivation of {{Friedman}} Equations}
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\W24KVSFD\Romeu - Derivation of Friedman equations.pdf
+      \verb /Users/rhysabercromby/Zotero/storage/W24KVSFD/Romeu - Derivation of Friedman equations.pdf
       \endverb
     \endentry
     \entry{1927ASSB4749LPage49}{online}{}{}
@@ -285,7 +285,7 @@
       \field{urlyear}{2025}
       \field{urldateera}{ce}
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\3E9GMYNC\1927ASSB...47...html
+      \verb /Users/rhysabercromby/Zotero/storage/3E9GMYNC/1927ASSB...47...html
       \endverb
       \verb{urlraw}
       \verb https://adsabs.harvard.edu/full/1927ASSB...47...49L
@@ -329,7 +329,7 @@
       \verb 10.17863/CAM.11283
       \endverb
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\F5QSKBTH\Hawking - 1966 - Properties of expanding universes.pdf
+      \verb /Users/rhysabercromby/Zotero/storage/F5QSKBTH/Hawking - 1966 - Properties of expanding universes.pdf
       \endverb
       \verb{urlraw}
       \verb https://www.repository.cam.ac.uk/handle/1810/251038
@@ -381,7 +381,7 @@
       \verb 10.1103/PhysRevD.23.347
       \endverb
       \verb{file}
-      \verb C\:\\Users\\Abercror\\Zotero\\storage\\EKZ7NX5G\\Guth - 1981 - Inflationary universe A possible solution to the horizon and flatness problems.pdf;C\:\\Users\\Abercror\\Zotero\\storage\\WVWZSPSE\\PhysRevD.23.html
+      \verb /Users/rhysabercromby/Zotero/storage/EKZ7NX5G/Guth - 1981 - Inflationary universe A possible solution to the horizon and flatness problems.pdf;/Users/rhysabercromby/Zotero/storage/WVWZSPSE/PhysRevD.23.html
       \endverb
       \verb{urlraw}
       \verb https://link.aps.org/doi/10.1103/PhysRevD.23.347
@@ -390,7 +390,7 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevD.23.347
       \endverb
     \endentry
-    \entry{Collaboration2020}{article}{}{}
+    \entry{Collaboration2020Planck2018resultsVICosmologicalparameters}{article}{}{}
       \name{author}{182}{}{%
         {{hash=2320788bb9535f078e3ac5da9b3233aa}{%
            family={Collaboration},
@@ -567,14 +567,14 @@
            familyi={C\bibinitperiod},
            given={F.},
            giveni={F\bibinitperiod}}}%
-        {{hash=f3799d91c45bd1e6f951f6f842cef7ab}{%
+        {{useprefix=false,hash=f3799d91c45bd1e6f951f6f842cef7ab}{%
            family={Bernardis},
            familyi={B\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
            prefix={de},
            prefixi={d\bibinitperiod}}}%
-        {{hash=505c208f9adeedfae7b99cf82db4b861}{%
+        {{useprefix=false,hash=505c208f9adeedfae7b99cf82db4b861}{%
            family={Zotti},
            familyi={Z\bibinitperiod},
            given={G.},
@@ -1342,7 +1342,7 @@
       \verb 1807.06209
       \endverb
       \verb{file}
-      \verb C\:\\Users\\Abercror\\Zotero\\storage\\AXN28RSK\\Collaboration et al. - 2020 - Planck 2018 results. VI. Cosmological parameters.pdf;C\:\\Users\\Abercror\\Zotero\\storage\\S5J6IDZS\\1807.html
+      \verb /Users/rhysabercromby/Zotero/storage/AXN28RSK/Collaboration et al. - 2020 - Planck 2018 results. VI. Cosmological parameters.pdf;/Users/rhysabercromby/Zotero/storage/S5J6IDZS/1807.html
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/1807.06209
@@ -1393,7 +1393,7 @@
       \verb 0907.5424
       \endverb
       \verb{file}
-      \verb C:\Users\Abercror\Zotero\storage\QKCV5LQR\Baumann - 2012 - TASI Lectures on Inflation.pdf
+      \verb /Users/rhysabercromby/Zotero/storage/QKCV5LQR/Baumann - 2012 - TASI Lectures on Inflation.pdf
       \endverb
       \verb{urlraw}
       \verb http://arxiv.org/abs/0907.5424
@@ -1402,6 +1402,86 @@
       \verb http://arxiv.org/abs/0907.5424
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{galloniUpdatedConstraintsAmplitude2023}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=e8149011da05ffe250631da63077917c}{%
+           family={Galloni},
+           familyi={G\bibinitperiod},
+           given={Giacomo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=66fe6b252fbaf7c907bf8bee20be3e73}{%
+           family={Bartolo},
+           familyi={B\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+        {{hash=cf40c47e90be33db3f82d3d6a0e7073e}{%
+           family={Matarrese},
+           familyi={M\bibinitperiod},
+           given={Sabino},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b3dc77109134bcf0767101542c6ee823}{%
+           family={Migliaccio},
+           familyi={M\bibinitperiod},
+           given={Marina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4a35353bc343be2c8e27d97e17d1c854}{%
+           family={Ricciardone},
+           familyi={R\bibinitperiod},
+           given={Angelo},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dd839e3673fa9095da67e8663235987c}{%
+           family={Vittorio},
+           familyi={V\bibinitperiod},
+           given={Nicola},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{9aa04130780551b5fb2a9ca5a0d732ec}
+      \strng{fullhash}{31c97c04497306ec2265be929a23ef15}
+      \strng{fullhashraw}{31c97c04497306ec2265be929a23ef15}
+      \strng{bibnamehash}{9aa04130780551b5fb2a9ca5a0d732ec}
+      \strng{authorbibnamehash}{9aa04130780551b5fb2a9ca5a0d732ec}
+      \strng{authornamehash}{9aa04130780551b5fb2a9ca5a0d732ec}
+      \strng{authorfullhash}{31c97c04497306ec2265be929a23ef15}
+      \strng{authorfullhashraw}{31c97c04497306ec2265be929a23ef15}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We have taken a comprehensive approach to update the limits on the tensor-to-scalar ratio (\$r\$) and the tensor spectral index (\$n\_t\$), using 10 datasets from the BICEP/Keck Array 2015 and 2018, Planck releases 3 and 4, and LIGO-Virgo-KAGRA Collaboration. By fitting the complete \$\textbackslash Lambda\$CDM+\$r\$+\$n\_t\$ model with two different approaches for the tensor sector, we have not only established which method is the most reliable, but have also achieved the strongest constraint on the tensor-to-scalar ratio in current literature: \$r{$<$}0.028\$ and \$-1.37 {$<$} n\_t {$<$} 0.42\$ at 95\% confidence level. Furthermore, our examination of the common signal detected by the NANOGrav Collaboration further confirms that a simple power-law cannot reconcile the constraints from different datasets if the NANOGrav detection is due to a primordial inflationary gravitational wave background, as previously shown in the literature.}
+      \field{day}{1}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1475-7516}
+      \field{journaltitle}{J. Cosmol. Astropart. Phys.}
+      \field{month}{4}
+      \field{number}{04}
+      \field{title}{Updated Constraints on Amplitude and Tilt of the Tensor Primordial Spectrum}
+      \field{urlday}{5}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{2023}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{062}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1475-7516/2023/04/062
+      \endverb
+      \verb{eprint}
+      \verb 2208.00188
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/WMUE65F6/Galloni et al. - 2023 - Updated constraints on amplitude and tilt of the tensor primordial spectrum.pdf;/Users/rhysabercromby/Zotero/storage/I87Q8YNM/2208.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2208.00188
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2208.00188
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,6 +1,4 @@
-\documentclass{article}
-
-
+\documentclass[11pt]{article}
 %% Package Importing
 %%-----------------------------------------------------------------------------------------------------------------------------
 \usepackage{outline}
@@ -23,6 +21,10 @@
 \usepackage{multirow}
 \usepackage{bookmark}
 \usepackage{footmisc}
+\usepackage{caption}
+\captionsetup[figure]{font=footnotesize}
+\captionsetup[table]{font=footnotesize}
+
 
 %% Defines the page environments
 %%-----------------------------------------------------------------------------------------------------------------------------
@@ -53,6 +55,7 @@
 %% \renewcommand lines
 %%-----------------------------------------------------------------------------------------------------------------------------
 \renewcommand{\arraystretch}{1.5}
+
 
 %% Begin Document
 %%-----------------------------------------------------------------------------------------------------------------------------
@@ -192,7 +195,7 @@ Combining this with the Friedmann equation, Eq. \eqref{eq: Flat Friedmann Equati
 \end{equation}
 where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. The Einstein universe on the other hand is composed solely of matter, $w = 0$, and so the relation of scale factor with time is $a(t) \propto t^{\frac{2}{3}}$. 
 
-For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020} is
+For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020Planck2018resultsVICosmologicalparameters} is
 \begin{table}[H]\label{table: Composition ratio}
     \centering
     \begin{tabular}{|p{2cm}||p{5cm}|}
@@ -257,7 +260,11 @@ Using the equation above,
     \frac{|\Omega(t_0) -1 |}{|\Omega -1|} = \left( \frac{a(t) H(t)}{a(t_0)H(t_0)} \right)^2 = \left( \frac{\dot{a}(t)}{\dot{a}(t_0)} \right)^2
 \end{equation}
 and that $\dot{a}(t)$ is a decreasing function then $|\Omega(t_0) -1 | > |\Omega -1|$ for all $t > t_0$, showing that the deviation from flatness grows with time. 
-This begs the question, why $\Omega(a_0)$, is not either much greater or smaller than 1 as observations suggest?  
+This begs the question, why $\Omega(a_0)$, is not either much greater or smaller than 1 as observations suggest?
+
+\subsection{The Tensor Ratio and Spectral Index Problem}\label{subsection: The Tensor Ratio and Spectral Index Problem}
+
+
 
 \section{Cosmic Inflation}\label{section: Cosmic Inflation}
 Cosmic Inflation is defined as a period of superluminal inflation that occurred before the Hot Big Bang, which means that this period of expansion in the early universe exceeded the speed of light. This occurs due to accelerated expansion, $\ddot{a} > 0$, which requires the condition $w < -\frac{1}{3}$ which means that inflation was a period where dark energy was dominant, $w_{DE} = -1$. 
@@ -372,13 +379,41 @@ where $i$ and $end$ denote the start and end of inflation.
 
 After the end of inflation $\ddot{a} < 0$, so $\frac{\dot{a}_0}{\dot{a}_{end}} < 1$, therefore $\frac{\dot{a}_i}{\dot{a}_{end}}$ needs to be even smaller. As previously mentioned inflation undergoes accelerated expansion, $\ddot{a} > 0$, the conditions required for inflation to solve the  
 
-\section{Starobinsky Inflation}\label{section: Starobinsky Inflation}
+\section{Models of Inflation}\label{section: Notable Models of Inflation}
 
-\subsection{Starobinsky Potential}\label{subsection: Starobinsky Potential}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm, height=6cm]{Figures/InflationaryModelsTensorRatioComparison[2208.00188].png}
+    \caption{Demonstrates the tensor ratio against the spectral index for a variety of different inflationary models imposed onto the observational range. The notable models include Starobinsky Inflation ($R^2$-Inflation) and the $\alpha$-attractors as they fall within the most recent observational bounds. \cite{galloniUpdatedConstraintsAmplitude2023}}
+    \label{fig: Inflationary Model Comparison}
+\end{figure}
 
-\subsection{Results}\label{subsection: Results}
+\subsection{Starobinsky Inflation}\label{subsection: Starobinsky Inflation}
+Starobinsky or $R^2$ inflation was originally proposed in 19XX by Alexander Starobinsky and in doing so coined the name cosmic inflation. It gets the name $R^2$ inflation from the fact that it is derived from a modification to the Einstein-Hilbert action for gravity, Eq. \eqref{eq: Einstein-Hilbert Action}, where $R$ is the Ricci scalar. The Lagrangian density for gravity is given by
+\begin{equation}\label{eq: Einstein-Hilbert Lagrangian}
+    \mathcal{L} = \frac{1}{2} m_p^2 R
+\end{equation}
+and Starobinsky Inflation modifies it with the addition of another $R^2$ term. It then takes the form
+\begin{equation}\label{eq: Starobinsky Lagrangian}
+    \mathcal{L} = \frac{1}{2} m_p^2 R + \frac{1}{2} \alpha R^2 \quad \text{where} \quad \alpha \equiv \frac{m_p^4}{16 V_0}
+\end{equation}
+where $V_0$ is the initial value for the inflaton potential. This Lagrangian density results in the following potential for the inflaton 
+\begin{equation}\label{eq: Starobinsky Potential}
+    V(\phi) = V_0 \left( 1 - e^{\sqrt{\frac{2}{3}} \frac{\phi}{m_p}}  \right).
+\end{equation}
 
 
+\subsection{\texorpdfstring{$\alpha$}{alpha}-attractors}\label{subsection: alpha-attractors}
+
+\section{Problems with Inflation}\label{section: Problems with Inflation}
+
+\section{Alternatives to Inflation}\label{section: Alternatives to Inflation}
+
+\subsection{String Gas Cosmology}\label{subsection: String Gas Cosmology}
+
+\subsection{Matter Bounce}\label{subsection: Matter Bounce}
+
+\section{Conclusion}\label{section: Conclusion}
 
 %% References
 %%-----------------------------------------------------------------------------------------------------------------------------

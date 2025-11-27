@@ -2382,10 +2382,12 @@
     <bcf:citekey order="8" intorder="1">1927ASSB4749LPage49</bcf:citekey>
     <bcf:citekey order="9" intorder="1">Hawking1966</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Guth1981</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Collaboration2020</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Collaboration2020Planck2018resultsVICosmologicalparameters</bcf:citekey>
     <bcf:citekey order="12" intorder="1">dimopoulosIntroductionCosmicInflation2020</bcf:citekey>
     <bcf:citekey order="13" intorder="1">Einstein1916foundationgeneraltheoryrelativity</bcf:citekey>
     <bcf:citekey order="14" intorder="1">baumannTASILecturesInflation2012</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">galloniUpdatedConstraintsAmplitude2023</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">galloniUpdatedConstraintsAmplitude2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
