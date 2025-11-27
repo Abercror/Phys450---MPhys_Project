@@ -1,6 +1,6 @@
 [
   "obsidian-enhancing-export",
   "obsidian-pandoc",
-  "better-mathjax",
-  "code-emitter"
+  "code-emitter",
+  "better-mathjax"
 ]

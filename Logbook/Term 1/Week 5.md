@@ -43,34 +43,34 @@
 
 #### 15:02 
 - Completed showing that the associated canonically normalised field $\phi$, for $$\mathcal{L_{kin}} = \frac{\frac{1}{2} \partial_\mu \varphi \partial^{\mu} \varphi}{\left( 1 - \frac{1}{6 \alpha} \left(\frac{\varphi}{m_p} \right)^2 \right)^2}$$ using the kinetic Lagrangian $$\mathcal{L_{kin} = \frac{1}{2}\partial_\mu \phi \partial^\mu \phi}$$
-![[Term 1/Derivations/9.3/Lagrangian derivation phi.png]]
+![[Term 1/Derivations/9.3/(1) Lagrangian derivation phi.png]]
 
 #### 15:15
 - Completed the show that for the T-model
 
 #### 17:47 
 - Completed the show that for the E-model
-![[Term 1/Derivations/9.3/V(phi) part 1.png]]
-![[Term 1/Derivations/9.3/V(phi) part 2.png]]
+![[Term 1/Derivations/9.3/(2) V(phi) part 1.png]]
+![[Term 1/Derivations/9.3/(2) V(phi) part 2.png]]
 ### Saturday, 8th November, 25
 #### 13:29
 - Found the value of $\alpha$ for the E-model as $\alpha = \frac{3 \pm 2 \sqrt{2}}{3}$ which equate to $\alpha = 1.943$ and $\alpha = 0.0572$ as well as equations for $n_s$ and $r$, although I am not sure if the equations are in agreement with my value I found for $\alpha$
-![[Term 1/Derivations/9.3/E-model part 1.png]]
-![[Term 1/Derivations/9.3/E-model part 2.png]]
+![[Term 1/Derivations/9.3/(3) E-model part 1.png]]
+![[Term 1/Derivations/9.3/(3) E-model part 2.png]]
 
 #### 15:39
 - Attempted to find the equations for the T-model though I made a mistake as the algebra does not simplify down to the same functions as the E-model
-![[Term 1/Derivations/9.3/1 T-model part 1.png]]
-![[Term 1/Derivations/9.3/1 T-model part 2.png]]
+![[Term 1/Derivations/9.3/(4) 1 T-model part 1.png]]
+![[Term 1/Derivations/9.3/(4) 1 T-model part 2.png]]
 
 ### Sunday, 9th November, 25
 #### 14:17
 - Re-attempting the derivation of $n_s(N)$ and $r(N)$ for the T-model
 #### 23:55
 - I have redone the derivations for $n_s(N)$ and $r(N)$ though I still do not get the same results as the E-model so I must have made a mistake in my working somewhere.
-![[Term 1/Derivations/9.3/2 T-model part 1.png]]
-![[Term 1/Derivations/9.3/2 T-model part 2.png]]
-![[Term 1/Derivations/9.3/ T-model part 3.png]]
+![[Term 1/Derivations/9.3/(4) 2 T-model part 1.png]]
+![[Term 1/Derivations/9.3/(4) 2 T-model part 2.png]]
+![[Term 1/Derivations/9.3/(4) 3 T-model part 3.png]]
 
 
 ### Monday, 10th November, 25
