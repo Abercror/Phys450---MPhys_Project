@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Term 1/Week 7.md",
+                "file": "Term 1/Week 5.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week 7"
+              "title": "Week 5"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 441.5
+    "width": 244.5
   },
   "right": {
     "id": "a024a3df447707a7",
@@ -171,10 +171,23 @@
   },
   "active": "125b832ef08c925a",
   "lastOpenFiles": [
+    "Term 1/Week 4.md",
+    "Term 1/Week 5.md",
+    "Term 1/Week 8.md",
+    "Term 1/Week 6.md",
+    "Term 1/Week 7.md",
+    "Term 1/Derivations/Beyond/(2) Kahler potential derivation.png",
+    "Term 1/Derivations/Beyond/(2) Kahler potential derivation.png.~tmp",
+    "Term 1/Derivations/Beyond/(3) Kahler potential derivation.png",
+    "Term 1/Derivations/Beyond/(1) Kahler potential derivation part 2.png.~tmp",
+    "Term 1/Derivations/Beyond/(1) Kahler potential derivation part 2.png",
+    "Term 1/Derivations/Beyond/(1) Kahler potential derivation.png.~tmp",
+    "Term 1/Derivations/Beyond/(1) Kahler potential derivation.png",
+    "Term 1/Derivations/Beyond",
+    "Term 1/Derivations/New folder",
     "Term 1/Week 7.pdf",
     "Term 1/Derivations/9.3/T-model finding alpha wrong.png.~tmp",
     "Term 1/E.md",
-    "Term 1/Week 7.md",
     "Term 1/Derivations/9.3/E-model finding alpha.png",
     "Term 1/Derivations/9.3/E-model finding alpha.png.~tmp",
     "Term 1/Derivations/9.3/T-model finding alpha corrected.png",
@@ -186,20 +199,7 @@
     "Term 1/Week 2.md",
     "Term 1/Derivations/9.3/(2) V(phi) part 1.png",
     "Term 1/Derivations/9.3/(4) 2 T-model part 1.png",
-    "Term 1/Derivations/9.3/(5) Kinetic Lagrangian derivation.png",
-    "Term 1/Derivations/9.3/(5) eta-problem.png",
-    "Term 1/Derivations/9.3/(4) 3 T-model part 2.png",
-    "Term 1/Derivations/9.3/(4) 2 T-model part 3.png",
-    "Term 1/Week 5.md",
-    "Term 1/Figures/9.3/3 T-model Graphs",
-    "Term 1/Figures/9.3/2 E-model Graphs",
-    "Term 1/Figures/9.3/2 T-model Graphs",
     "Term 1/Week 3.md",
-    "Term 1/Week 4.md",
-    "Term 1/Week 6.md",
-    "Term 1/Week 6.pdf",
-    "Term 1/Week 5.pdf",
-    "Term 1/Figures/9.3/E-model",
     "Term 1/Unt.md",
     "Term 1/().md",
     "Term 1/Github.md",
