@@ -277,13 +277,13 @@ This begs the question, why $\Omega(a_0)$, is not either much greater or smaller
 %% -----------------------------------------------------------------------------------------------------------------------------
 
 
-\subsection{The Tensor Ratio and Spectral Index Problem}\label{subsection: The Tensor Ratio and Spectral Index Problem}
+\subsection{Density Perturbations}\label{subsection: Density Perturbations}
 
-
-
-
-
-
+As previously stated the cosmological principle is not exact, as demonstrated by the existence of any structure within the universe, and this cannot be explained by the Hot Big Bang. These perturbations from the cosmological principle are seen in the CMB as photons emitted from the CMB become redshifted when crossing regions of a higher density than the average. The photons lose energy trying to overcome the gravitational potential exerted on them by the overdensity, resulting in variations in the temperature of the CMB. The differences in the temperature correlate to the density perturbations 
+\begin{equation}\label{eq: Temperature to density perturbations}
+    \left. \frac{\Delta T}{T} \right|_{CMB}  \simeq \left. \frac{\Delta \rho}{\rho} \right|_{CMB} \simeq 10^{-5}
+\end{equation}
+giving a very tiny deviation however, this is enough to allow for the creation of the structure that exists in the universe today. 
 
 
 
@@ -301,7 +301,28 @@ While the Cosmological Principle states that on large scales the universe is iso
 
 Starting with adiabatic. An adiabatic perturbation is a type of perturbation where the fractional perturbation of the number density of each conserved matter type is equal to the fractional perturbation in the number density of photons. The reason that this is adiabatic is that the very early universe acted as a thermally isolated volume and so there perturbations themselves also looked like a thermally isolated volume. This combined with the maintaining of thermal equilibrium means that no heat is transferred out of the system and is therefore adiabatic. Due to this, a volume in the expanding universe will differ in density, but the entropy will be the same and this is equivalent to a volume presently in the universe with an adiabatic perturbation, again due to the conservation of entropy. 
 
-The perturbations being scale-invariant refers to the idea that the size of said perturbations is not dependent on the size of the universe and is the same for each scale. The perturbations also follow a Gaussian distribution in terms of their size which ties into the scale invariance as the fractional change of each perturbation is determined by the Gaussian distribution, rather than a dependence on the size of the universe.
+The perturbations being scale-invariant refers to the idea that the size of said perturbations is not dependent on the size of the universe and is the same for each scale. The perturbations also follow a Gaussian distribution in terms of their size which ties into the scale invariance as the fractional change of each perturbation is determined by the Gaussian distribution, rather than a dependence on the size of the universe. 
+
+During quasi-de Sitter inflation, the Hubble parameter is not exactly constant, meaning the amplitudes of the perturbations are not exactly the same and depend slightly on the scale that exits the horizon at that time. This dependence is parameterised as 
+\begin{equation}\label{eq: Curvature Parameter}
+    \mathcal{P}_{\zeta} \propto k^{n_s - 1}    
+\end{equation}
+where $k$ is a constant and $n_s$ is the spectral index of the curvature perturbation, $\mathcal{P}_{\zeta}$. This deviation from scale invariance is defined as 
+\begin{equation}\label{eq: Deviation from scale-invariance}
+    n_s - 1 =  \dv{\ln \mathcal{P}_{\zeta}}{\ln k}
+\end{equation}
+and the most recent Planck satellite observations suggest that $n_s = 0.9649 \pm 0.0042$. 
+
+Another by-product of inflation is the generation of gravitational waves (gravitons) and the graviton spectrum is also approximately scale invariant, with an amplitude parameterised as 
+\begin{equation}\label{eq: Graviton Spectrum}
+    \sqrt{\mathcal{P}_{h}} = 2 \sqrt{16 \pi G} \left(\frac{H}{2 \pi}\right).
+\end{equation}
+
+These gravitational waves distort the CMB similarly to the adiabatic density perturbations, such that they can provide a consistent relation for single field inflation. The ratio of the amplitude of the CMB temperature perturbations is given by 
+\begin{equation}\label{eq: Tensor ratio}
+    r \equiv \frac{\mathcal{P}_{h}}{\mathcal{P}_{\zeta}} = \left( \frac{\left(\Delta T/T \right)_{grav}}{\left( \Delta T / T \right)_{\frac{\delta \rho}{\rho}}} \right)^2 
+\end{equation}
+
 
 One way to combine this is through the Inflationary Paradigm where inflation is modelled using a scalar field. This is how the thermal bath is recovered to allow for the Hot Big Bang to occur, as at the end of inflation this scalar field decays releasing its energy which then allows for the Hot Big Bang. 
 
@@ -314,7 +335,7 @@ One way to combine this is through the Inflationary Paradigm where inflation is 
 
 \subsection{The Mathematical Description of the Inflationary Paradigm}\label{subsection: Mathematical description of Inflation}
 
-Inflation in its simplest form is modelled by a single scalar field, $\phi$, called the inflaton. This field is coupled to gravity, and it parameterises the evolution of the inflationary energy density with respect to time. Its coupling to gravity is given as an addition to the Einstein-Hilbert action 
+Inflation in its simplest form is modelled by a single scalar field, $\phi$, called the inflaton. This field is coupled to gravity, and it parameterises the evolution of the inflationary energy density with respect to time. It's minimal-coupling to gravity is given as an addition to the Einstein-Hilbert action 
 \begin{equation}\label{eq: Einstein-Hilbert Action}
     S = \int d^4 x\, \sqrt{-g} \left( \frac{1}{2} R + \frac{1}{2} g^{\mu \nu} \partial_\mu \phi \partial_\nu \phi - V(\phi)  \right) = S_{EH} + S_{\phi}
 \end{equation}
