@@ -54,7 +54,7 @@
 
 %% \renewcommand lines
 %%-----------------------------------------------------------------------------------------------------------------------------
-\renewcommand{\arraystretch}{1.5}
+\renewcommand{\arraystretch}{1.25}
 
 
 %% Begin Document
@@ -266,7 +266,7 @@ Recall the Friedmann equation, Eq. \eqref{eq: Friedmann Equation}, and the energ
 where $\Omega(a)$ is defined to be time-dependent \cite{baumannTASILecturesInflation2012}.
 
 Using the equation above,
-\begin{equation}
+\begin{equation}\label{eq: The Flatness Problem relation}
     \frac{|\Omega(t_0) -1 |}{|\Omega -1|} = \left( \frac{a(t) H(t)}{a(t_0)H(t_0)} \right)^2 = \left( \frac{\dot{a}(t)}{\dot{a}(t_0)} \right)^2
 \end{equation}
 and that $\dot{a}(t)$ is a decreasing function then $|\Omega(t_0) -1 | > |\Omega -1|$ for all $t > t_0$, showing that the deviation from flatness grows with time. 
@@ -396,7 +396,7 @@ To demonstrate this, $\epsilon$ can also be written in the form
     \epsilon = \frac{3}{2}(1+w),
 \end{equation}
 which is clearly demonstrates that $\epsilon \ll 1$ guarantees that quasi-de Sitter inflation will occur as $w > -1$. 
-However, the requirment for the continuation of inflation is 
+However, the requirement for the continuation of inflation is 
 \begin{equation}\label{eq: Requirement for inflation length}
     | \ddot{\phi} | \ll |3H \dot{\phi}|,
 \end{equation}
@@ -415,6 +415,13 @@ however, as $\phi$ is dependent time and is magnitude decreases with time, and s
     \epsilon\left(\phi_{end}\right) = 1, \quad |\eta(\phi_{end})| = 1. 
 \end{equation}
 Depending on the inflaton potential, either $\epsilon$ or $\eta$ will equate to 1 and either one doing so will end inflation, and determine the value of inflaton, $\phi_{end}$.
+
+
+The spectral index and the tensor ratio of the density perturbations may be recast using the slow-roll parameters which gives the relations
+\begin{align}\label{eq: Spectral index using slow-roll parameters}
+    &n_s - 1 = \dv{\ln \mathcal{P}_{\zeta}}{\ln k} = 2 \eta - 6 \epsilon  \\
+    &r \equiv \frac{\mathcal{P}_{h}}{\mathcal{P}_{\zeta}} = \left( \frac{\left(\Delta T/T \right)_{grav}}{\left( \Delta T / T \right)_{\frac{\delta \rho}{\rho}}} \right)^2 = 16 \epsilon
+\end{align}
 
 
 %% How Inflation solves the Horizon and Flatness Problem
@@ -436,9 +443,19 @@ which shows that in order to solve the Horizon Problem, $R_{obs} (t_i)\leq D_H(t
 \end{equation}
 where $i$ and $end$ denote the start and end of inflation. 
 
-After the end of inflation $\ddot{a} < 0$, so $\frac{\dot{a}_0}{\dot{a}_{end}} < 1$, therefore $\frac{\dot{a}_i}{\dot{a}_{end}}$ needs to be even smaller. As previously mentioned inflation undergoes accelerated expansion, $\ddot{a} > 0$, the conditions required for inflation to solve the  
+After the end of inflation $\ddot{a} < 0$, so $\frac{\dot{a}_0}{\dot{a}_{end}} < 1$, therefore $\frac{\dot{a}_i}{\dot{a}_{end}}$ needs to be even smaller. As previously mentioned inflation undergoes accelerated expansion, $\ddot{a} > 0$, which means that inflation solves the Horizon Problem under the condition that it lasts long enough. 
 
+\subsubsection*{Condition to solve the Flatness Problem}\label{subsubsection: Condition to solve the Flatness Problem}
 
+In Eq. \eqref{eq: The Flatness Problem relation} it is shown that $| \Omega(t) - 1| \propto \dot{a}^{-2}$, however, during inflation $\ddot{a} > 0$ meaning $\dot{a}$ is growing, so the deviation from flatness diminishes. This means that the criteria for inflation to solve the Flatness Problem can be written as 
+\begin{equation}
+    \frac{\dot{a}_i}{\dot{a}_0} = \sqrt{\frac{|\Omega_0 - 1|}{|\Omega_i - 1 |}}.
+\end{equation}
+
+From this it can be seen that the longer inflation lasts the smaller the deviation from flatness becomes and so inflation solves the Flatness Problems assuming it lasts long enough. 
+\vspace{1cm}
+
+Both the Horizon and Flatness Problems are solved by inflation provided that inflation lasts long enough. This time period for inflation to solve them is about 60 e-foldings. This sets a minimum time that inflation has to last and this can be accomplished by all inflation models. However, in order for inflation to create the primordial density perturbations that allows for the structure formation in the universe, only specific inflation models can cause that. The Inflationary Paradigm where dark energy is modelled as a scalar field allows for slow-roll inflation to occur, and it is slow-roll inflation that allows for the deviation of the spectral index to align with the observations that are seen today. 
 
 
 
