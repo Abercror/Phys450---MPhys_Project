@@ -195,20 +195,7 @@ Combining this with the Friedmann equation, Eq. \eqref{eq: Flat Friedmann Equati
 \end{equation}
 where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. The Einstein universe on the other hand is composed solely of matter, $w = 0$, and so the relation of scale factor with time is $a(t) \propto t^{\frac{2}{3}}$. 
 
-For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020Planck2018resultsVICosmologicalparameters} is
-\begin{table}[H]\label{table: Composition ratio}
-    \centering
-    \begin{tabular}{|p{2cm}||p{5cm}|}
-        \hline
-        $\Omega_i$ & Relative Quantity \\       
-        \hline\hline
-        $\Omega_m$ & $ 0.3111 \pm 0.0056$ \\
-        \hline
-        $\Omega_{\Lambda}$ & $ 0.6847 \pm 0.0073$ \\
-        \hline
-    \end{tabular}
-\end{table}
-using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
+For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \ref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020Planck2018resultsVICosmologicalparameters} is that dark energy accounts for $69\%$ and matter accounts for $31\%$ of the energy density, using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
 
 \section{Problems with the Hot Big Bang}\label{subsection: section: Problems with the Hot Big Bang}
 The term the Big Bang refers to the initial explosion that started the universe and is not to be confused with the Hot Big Bang which instead refers to the thermal history of the universe that began after the Big Bang. It is the history of the universe when it is dominated by radiation and then by matter, but not the dark energy domination that occurred in very early and late times \cite{dimopoulosIntroductionCosmicInflation2020}. 
@@ -399,11 +386,19 @@ and Starobinsky Inflation modifies it with the addition of another $R^2$ term. I
 \end{equation}
 where $V_0$ is the initial value for the inflaton potential. This Lagrangian density results in the following potential for the inflaton 
 \begin{equation}\label{eq: Starobinsky Potential}
-    V(\phi) = V_0 \left( 1 - e^{\sqrt{\frac{2}{3}} \frac{\phi}{m_p}}  \right).
+    V(\phi) = V_0 \left( 1 - e^{\sqrt{\frac{2}{3}} \frac{\phi}{m_p}}  \right)^2.
 \end{equation}
 
+Starobinsky inflation has been one of the most success inflation models and its predictions like within the observational bounds from Planck for $N = 60$. There is currently a tension with the Starobinsky model due to the recent observations from the Atacama telescope, though these were the first publications of results and so may change in the future. 
 
 \subsection{\texorpdfstring{$\alpha$}{alpha}-attractors}\label{subsection: alpha-attractors}
+$\alpha$-attractors are a modern inflation model that have been proposed, which also align with the observational bounds. The two main models for $\alpha$-attractors are the T-model and the E-model which take the form:
+\begin{align}\label{eq: alpha-attractor models}
+    \text{T-model:} \quad V(\phi) &= 3\alpha m^2m_p^2 \tanh[2](\frac{1}{\sqrt{6 \alpha}} \frac{\phi}{m_p^2}) \\
+    \text{E-model:} \quad V(\phi) &= \frac{3}{4} \alpha m^2 m_p^2 \left( 1 - e^{- \sqrt{\frac{2}{3 \alpha}} \frac{\phi}{m_p}}  \right)^2
+\end{align}
+with the E-model being a form of the Starobinsky potential when $V_0 = 3\alpha m^2 m_p^2$ and $\alpha = 1$.
+The origin of these models lies in supergravity and string theory and are dependent on the dimensionless parameter $\alpha$. Figure \ref{fig: Inflationary Model Comparison} shows the bounds of both the models as they have the same tensor ratio to spectral index. It demonstrates a range of $\alpha$ values though typically in supergravity the typical values are $3 \alpha = 1, 3, 5$. 
 
 \section{Problems with Inflation}\label{section: Problems with Inflation}
 
