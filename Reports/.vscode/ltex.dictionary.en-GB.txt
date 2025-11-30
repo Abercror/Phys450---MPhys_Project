@@ -16,3 +16,4 @@ superluminal
 Guth
 inflaton
 
+heterotic
