@@ -96,8 +96,8 @@
       \strng{editornamehash}{d895780e56668bfa72907dba41726380}
       \strng{editorfullhash}{d895780e56668bfa72907dba41726380}
       \strng{editorfullhashraw}{d895780e56668bfa72907dba41726380}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Annalen Phys.}
@@ -115,6 +115,64 @@
       \verb /Users/rhysabercromby/Zotero/storage/KATNZ4B8/Einstein - 1916 - The foundation of the general theory of relativity..pdf
       \endverb
       \keyw{BETA}
+    \endentry
+    \entry{Einstein1932}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=29a34a00e610eaed35baff40f473278f}{%
+           family={Einstein},
+           familyi={E\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{useprefix=true,hash=16fa8dc82c39e82a936142599c86ee4c}{%
+           family={Sitter},
+           familyi={S\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{fullhash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{fullhashraw}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{bibnamehash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{authorbibnamehash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{authornamehash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{authorfullhash}{7f64e71bcda5f78504779f61fd279e70}
+      \strng{authorfullhashraw}{7f64e71bcda5f78504779f61fd279e70}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{pubmed}
+      \field{issn}{0027-8424}
+      \field{journaltitle}{Proc Natl Acad Sci U S A}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{On the {{Relation}} between the {{Expansion}} and the {{Mean Density}} of the {{Universe}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{18}
+      \field{year}{1932}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{213\bibrangedash 214}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1073/pnas.18.3.213
+      \endverb
+      \verb{eprint}
+      \verb 16587663
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/YFVVJ9WB/Einstein and de Sitter - 1932 - On the Relation between the Expansion and the Mean Density of the Universe.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC1076193/
+      \endverb
+      \verb{url}
+      \verb https://pmc.ncbi.nlm.nih.gov/articles/PMC1076193/
+      \endverb
     \endentry
     \entry{Hubble1929relationdistanceradialvelocityextragalacticnebulae}{article}{}{}
       \name{author}{1}{}{%
@@ -1352,6 +1410,79 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
+    \entry{zotero-item-168}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Cosmology, {{Inflation}}, and the {{Physics}} of {{Nothing}} - {{W}}.{{H}}. {{Kinney}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/7R9ABWA2/Kinney4_2.html
+      \endverb
+      \verb{urlraw}
+      \verb https://ned.ipac.caltech.edu/level5/Sept02/Kinney/Kinney4_2.html
+      \endverb
+      \verb{url}
+      \verb https://ned.ipac.caltech.edu/level5/Sept02/Kinney/Kinney4_2.html
+      \endverb
+    \endentry
+    \entry{Lake2005}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3a077853a3181a1c10b177393d76843f}{%
+           family={Lake},
+           familyi={L\bibinitperiod},
+           given={Kayll},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a077853a3181a1c10b177393d76843f}
+      \strng{fullhash}{3a077853a3181a1c10b177393d76843f}
+      \strng{fullhashraw}{3a077853a3181a1c10b177393d76843f}
+      \strng{bibnamehash}{3a077853a3181a1c10b177393d76843f}
+      \strng{authorbibnamehash}{3a077853a3181a1c10b177393d76843f}
+      \strng{authornamehash}{3a077853a3181a1c10b177393d76843f}
+      \strng{authorfullhash}{3a077853a3181a1c10b177393d76843f}
+      \strng{authorfullhashraw}{3a077853a3181a1c10b177393d76843f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By way of a complete integration of the Friedmann equations, in terms of observables, it is shown that for the cosmological constant \$Λ{$>$} 0\$ there exist non-flat FLRW models for which the total density parameter \$Ω\$ remains \$\textbackslash sim 1\$ throughout the entire history of the universe. Further, it is shown that in a precise quantitative sense these models are not finely tuned. When observations are brought to bear on the theory, and in particular the WMAP observations, they confirm that we live in just such a universe. The conclusion holds when the classical notion of \$Λ\$ is extended to dark energy.}
+      \field{day}{27}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0031-9007, 1079-7114}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{number}{20}
+      \field{title}{The Flatness Problem and \${{Λ}}\$}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{94}
+      \field{year}{2005}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{201102}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.94.201102
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0404319
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/P4IVQ785/Lake - 2005 - The flatness problem and $Λ$.pdf;/Users/rhysabercromby/Zotero/storage/D4M7CEHP/0404319.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/astro-ph/0404319
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/astro-ph/0404319
+      \endverb
+      \keyw{Astrophysics,General Relativity and Quantum Cosmology}
+    \endentry
     \entry{baumannTASILecturesInflation2012}{online}{}{}
       \name{author}{1}{}{%
         {{hash=0b317a11f8ec61baed0f58c9c14ec9e6}{%
@@ -1403,6 +1534,70 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
     \endentry
+    \entry{Liddle1994}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f1567755c205c573126609c5a1a5fa0a}{%
+           family={Liddle},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b9fdc5325872b0325a590ffb8ed406ba}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bbbf3ea9e7eb0f0da8e88064d1cc20be}{%
+           family={Barrow},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{fullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{fullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{bibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorbibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authornamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorfullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorfullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The meaning of the inflationary slow-roll approximation is formalised. Comparisons are made between an approach based on the Hamilton-Jacobi equations, governing the evolution of the Hubble parameter, and the usual scenario based on the evolution of the potential energy density. The vital role of the inflationary attractor solution is emphasised, and some of its properties described. We propose a new measure of inflation, based upon contraction of the comoving Hubble length as opposed to the usual e-foldings of physical expansion, and derive relevant formulae. We introduce an infinite hierarchy of slow-roll parameters, and show that only a finite number of them are required to produce results to a given order. The extension of the slow-roll approximation into an analytic slow-roll expansion, converging on the exact solution, is provided. Its role in calculations of inflationary dynamics is discussed. We explore rational-approximants as a method of extending the range of convergence of the slow-roll expansion up to, and beyond, the end of inflation.}
+      \field{day}{15}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0556-2821}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Formalising the {{Slow-Roll Approximation}} in {{Inflation}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7222\bibrangedash 7232}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.50.7222
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9408015
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/65CDZ3H6/Liddle et al. - 1994 - Formalising the Slow-Roll Approximation in Inflation.pdf;/Users/rhysabercromby/Zotero/storage/CRF5PVR2/9408015.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/astro-ph/9408015
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/astro-ph/9408015
+      \endverb
+      \keyw{Astrophysics}
+    \endentry
     \entry{galloniUpdatedConstraintsAmplitude2023}{article}{}{}
       \name{author}{6}{}{%
         {{hash=e8149011da05ffe250631da63077917c}{%
@@ -1444,8 +1639,8 @@
       \strng{authornamehash}{9aa04130780551b5fb2a9ca5a0d732ec}
       \strng{authorfullhash}{31c97c04497306ec2265be929a23ef15}
       \strng{authorfullhashraw}{31c97c04497306ec2265be929a23ef15}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We have taken a comprehensive approach to update the limits on the tensor-to-scalar ratio (\$r\$) and the tensor spectral index (\$n\_t\$), using 10 datasets from the BICEP/Keck Array 2015 and 2018, Planck releases 3 and 4, and LIGO-Virgo-KAGRA Collaboration. By fitting the complete \$\textbackslash Lambda\$CDM+\$r\$+\$n\_t\$ model with two different approaches for the tensor sector, we have not only established which method is the most reliable, but have also achieved the strongest constraint on the tensor-to-scalar ratio in current literature: \$r{$<$}0.028\$ and \$-1.37 {$<$} n\_t {$<$} 0.42\$ at 95\% confidence level. Furthermore, our examination of the common signal detected by the NANOGrav Collaboration further confirms that a simple power-law cannot reconcile the constraints from different datasets if the NANOGrav detection is due to a primordial inflationary gravitational wave background, as previously shown in the literature.}
@@ -1482,6 +1677,491 @@
       \verb http://arxiv.org/abs/2208.00188
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
+    \endentry
+    \entry{Starobinsky1980a}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a335ac76ab1025622748524380637c66}{%
+           family={Starobinsky},
+           familyi={S\bibinitperiod},
+           given={Alexei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a335ac76ab1025622748524380637c66}
+      \strng{fullhash}{a335ac76ab1025622748524380637c66}
+      \strng{fullhashraw}{a335ac76ab1025622748524380637c66}
+      \strng{bibnamehash}{a335ac76ab1025622748524380637c66}
+      \strng{authorbibnamehash}{a335ac76ab1025622748524380637c66}
+      \strng{authornamehash}{a335ac76ab1025622748524380637c66}
+      \strng{authorfullhash}{a335ac76ab1025622748524380637c66}
+      \strng{authorfullhashraw}{a335ac76ab1025622748524380637c66}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Einstein equations with quantum one-loop contributions of conformally covariant matter fields are shown to admit a class of nonsingular isotropic homogeneous solutions that correspond to a picture of the Universe being initially in the most symmetric (de Sitter) state.}
+      \field{day}{24}
+      \field{journaltitle}{Physics Letters B}
+      \field{month}{3}
+      \field{title}{A {{New Type}} of {{Isotropic Cosmological Models Without Singularity}}}
+      \field{volume}{91}
+      \field{year}{1980}
+      \field{dateera}{ce}
+      \field{pages}{99\bibrangedash 102}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1016/0370-2693(80)90670-X
+      \endverb
+    \endentry
+    \entry{kalloshPresentStatusInflationary2025}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=32c810826c2ded7dca7cdd8f6c06014d}{%
+           family={Kallosh},
+           familyi={K\bibinitperiod},
+           given={Renata},
+           giveni={R\bibinitperiod}}}%
+        {{hash=175a991cfbbe8118020f2b0a484a8f40}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhashraw}{4745c1db498d89ab107da303c932838a}
+      \strng{bibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorbibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authornamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhashraw}{4745c1db498d89ab107da303c932838a}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We give a brief review of the basic principles of inflationary theory and discuss the present status of the simplest inflationary models that can describe Planck/BICEP/Keck observational data by choice of a single model parameter. In particular, we discuss the Starobinsky model, Higgs inflation, and \$\textbackslash alpha\$-attractors, including the recently developed \$\textbackslash alpha\$-attractor models with \$SL(2,\textbackslash mathbb\{Z\})\$ invariant potentials. We also describe inflationary models providing a good fit to the recent ACT data, as well as the polynomial chaotic inflation models with three parameters, which can account for any values of the three main CMB-related inflationary parameters \$A\_\{s\}\$, \$n\_\{s\}\$ and \$r\$.}
+      \field{day}{27}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{10}
+      \field{pubstate}{prepublished}
+      \field{title}{On the {{Present Status}} of {{Inflationary Cosmology}}}
+      \field{urlday}{4}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.2505.13646
+      \endverb
+      \verb{eprint}
+      \verb 2505.13646
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/H3K24YPZ/Kallosh and Linde - 2025 - On the Present Status of Inflationary Cosmology.pdf;/Users/rhysabercromby/Zotero/storage/722CU9NR/2505.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/2505.13646
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/2505.13646
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Kallosh2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=32c810826c2ded7dca7cdd8f6c06014d}{%
+           family={Kallosh},
+           familyi={K\bibinitperiod},
+           given={Renata},
+           giveni={R\bibinitperiod}}}%
+        {{hash=175a991cfbbe8118020f2b0a484a8f40}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhashraw}{4745c1db498d89ab107da303c932838a}
+      \strng{bibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorbibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authornamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhashraw}{4745c1db498d89ab107da303c932838a}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The cosmological models called \$α\$-attractors provide an excellent fit to the latest observational data. Their predictions \$n\_\{s\} = 1-2/N\$ and \$r = 12α/N\textasciicircum\{2\}\$ are very robust with respect to the modifications of the inflaton potential. An intriguing interpretation of \$α\$-attractors is based on a geometric moduli space with a boundary: a Poincare disk model of a hyperbolic geometry with the radius \$\textbackslash sqrt\{3α\}\$, beautifully represented by the Escher's picture Circle Limit IV. In such models, the amplitude of the gravitational waves is proportional to the square of the radius of the Poincare disk.}
+      \field{day}{25}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1631-0705, 1878-1535}
+      \field{journaltitle}{Comptes Rendus. Physique}
+      \field{month}{8}
+      \field{number}{10}
+      \field{title}{Escher in the {{Sky}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{914\bibrangedash 927}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.crhy.2015.07.004
+      \endverb
+      \verb{eprint}
+      \verb 1503.06785
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/M6PKWIHA/Kallosh and Linde - 2015 - Escher in the Sky.pdf;/Users/rhysabercromby/Zotero/storage/TIMQBP73/1503.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1503.06785
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1503.06785
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Kallosh2019}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=32c810826c2ded7dca7cdd8f6c06014d}{%
+           family={Kallosh},
+           familyi={K\bibinitperiod},
+           given={Renata},
+           giveni={R\bibinitperiod}}}%
+        {{hash=175a991cfbbe8118020f2b0a484a8f40}{%
+           family={Linde},
+           familyi={L\bibinitperiod},
+           given={Andrei},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{fullhashraw}{4745c1db498d89ab107da303c932838a}
+      \strng{bibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorbibnamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authornamehash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhash}{4745c1db498d89ab107da303c932838a}
+      \strng{authorfullhashraw}{4745c1db498d89ab107da303c932838a}
+      \field{extraname}{3}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We show that a combination of the simplest \$α\$-attractors and KKLTI models related to Dp-brane inflation covers most of the area in the (\$n\_\{s\}\$, \$r\$) space favored by Planck 2018. For \$α\$-attractor models, there are discrete targets \$3α=1,2,...,7\$, predicting 7 different values of \$r = 12α/N\textasciicircum\{2\}\$ in the range \$10\textasciicircum\{-2\} \textbackslash gtrsim r \textbackslash gtrsim 10\textasciicircum\{-3\}\$. In the small \$r\$ limit, \$α\$-attractors and Dp-brane inflation models describe vertical \$β\$-stripes in the (\$n\_\{s\}\$, \$r\$) space, with \$n\_\{s\}=1-β/N\$, \$β=2, \{5\textbackslash over 3\},\{8\textbackslash over 5\}, \{3\textbackslash over 2\},\{4\textbackslash over 3\}\$. A phenomenological description of these models and their generalizations can be achieved in the context of pole inflation. Most of the \$1σ\$ area in the (\$n\_\{s\}\$, \$r\$) space favored by Planck 2018 can be covered models with \$β= 2\$ and \$β= 5/3\$. Future precision data on \$n\_s\$ may help to discriminate between these models even if the precision of the measurement of \$r\$ is insufficient for the discovery of gravitational waves produced during inflation.}
+      \field{day}{16}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2470-0010, 2470-0029}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{{CMB}} Targets after the Latest {{Planck}} Data Release}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{100}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{123523}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.100.123523
+      \endverb
+      \verb{eprint}
+      \verb 1909.04687
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/S2F3Z58Y/Kallosh and Linde - 2019 - CMB targets after the latest Planck data release.pdf;/Users/rhysabercromby/Zotero/storage/VT699QPH/1909.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1909.04687
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1909.04687
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Vagnozzi2022}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=481d2a1f3d0137a7b621bb344fbdfd0c}{%
+           family={Vagnozzi},
+           familyi={V\bibinitperiod},
+           given={Sunny},
+           giveni={S\bibinitperiod}}}%
+        {{hash=85fae39731614de4064798a9fbcaef02}{%
+           family={Loeb},
+           familyi={L\bibinitperiod},
+           given={Abraham},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The American Astronomical Society}%
+      }
+      \strng{namehash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{fullhash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{fullhashraw}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{bibnamehash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{authorbibnamehash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{authornamehash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{authorfullhash}{054b8a7e9a424f9d3b688600b225da39}
+      \strng{authorfullhashraw}{054b8a7e9a424f9d3b688600b225da39}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent debates around the testability of the inflationary paradigm raise the question of how to model-independently discriminate it from competing scenarios. We argue that a detection of the cosmic graviton background (CGB), the relic radiation from gravitons decoupling around Planck time, would rule out the inflationary paradigm, as realistic inflationary models would dilute the CGB to an unobservable level. The CGB contribution to the effective number of relativistic species, ΔN eff,g ≈ 0.054, is well within the reach of next-generation cosmological probes. We argue that detecting the high-frequency stochastic gravitational wave background associated to the CGB will be challenging but potentially feasible. We briefly discuss expectations within alternatives to inflation, focusing on bouncing cosmologies and emergent scenarios.}
+      \field{issn}{2041-8205}
+      \field{journaltitle}{ApJL}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{2}
+      \field{title}{The {{Challenge}} of {{Ruling Out Inflation}} via the {{Primordial Graviton Background}}}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{939}
+      \field{year}{2022}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{L22}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3847/2041-8213/ac9b0e
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/VFVPEAX5/Vagnozzi and Loeb - 2022 - The Challenge of Ruling Out Inflation via the Primordial Graviton Background.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3847/2041-8213/ac9b0e
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3847/2041-8213/ac9b0e
+      \endverb
+    \endentry
+    \entry{Brandenberger2008}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea7cea3b9ff35c3e4ae245382fc92c25}{%
+           family={Brandenberger},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{bibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorbibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authornamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \field{extraname}{1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{String gas cosmology is a string theory-based approach to early universe cosmology which is based on making use of robust features of string theory such as the existence of new states and new symmetries. A first goal of string gas cosmology is to understand how string theory can effect the earliest moments of cosmology before the effective field theory approach which underlies standard and inflationary cosmology becomes valid. String gas cosmology may also provide an alternative to the current standard paradigm of cosmology, the inflationary universe scenario. Here, the current status of string gas cosmology is reviewed.}
+      \field{day}{5}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{month}{8}
+      \field{pubstate}{prepublished}
+      \field{title}{String {{Gas Cosmology}}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.0808.0746
+      \endverb
+      \verb{eprint}
+      \verb 0808.0746
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/27H3HH2X/Brandenberger - 2008 - String Gas Cosmology.pdf;/Users/rhysabercromby/Zotero/storage/8FS6KBGH/0808.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0808.0746
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0808.0746
+      \endverb
+      \keyw{Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Scherk1974}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=1d47a03255cbd272a6ff7d171dc16e7e}{%
+           family={Scherk},
+           familyi={S\bibinitperiod},
+           given={Joel},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a21ee9458cd511176c2a40339112f381}{%
+           family={Schwarz},
+           familyi={S\bibinitperiod},
+           given={John\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{863bbcf400700b666e96e847468a21ea}
+      \strng{fullhash}{863bbcf400700b666e96e847468a21ea}
+      \strng{fullhashraw}{863bbcf400700b666e96e847468a21ea}
+      \strng{bibnamehash}{863bbcf400700b666e96e847468a21ea}
+      \strng{authorbibnamehash}{863bbcf400700b666e96e847468a21ea}
+      \strng{authornamehash}{863bbcf400700b666e96e847468a21ea}
+      \strng{authorfullhash}{863bbcf400700b666e96e847468a21ea}
+      \strng{authorfullhashraw}{863bbcf400700b666e96e847468a21ea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nucl. Phys. B}
+      \field{title}{Dual {{Models}} for {{Nonhadrons}}}
+      \field{volume}{81}
+      \field{year}{1974}
+      \field{dateera}{ce}
+      \field{pages}{118\bibrangedash 144}
+      \range{pages}{27}
+      \verb{doi}
+      \verb 10.1016/0550-3213(74)90010-8
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/HE83KZUC/Scherk and Schwarz - 1974 - Dual Models for Nonhadrons.pdf
+      \endverb
+      \keyw{BETA,dual resonance model,FIELD THEORY: HIGHER-DIMENSIONAL,FIELD THEORY: MASSLESS,FIELD THEORY: SCALAR,GAUGE FIELD THEORY: SU(N),general relativity,MASSLESS: FIELD THEORY,MODEL: VENEZIANO,MODEL: VIRASORO,VERTEX FUNCTION}
+    \endentry
+    \entry{Brandenberger2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea7cea3b9ff35c3e4ae245382fc92c25}{%
+           family={Brandenberger},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{bibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorbibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authornamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The inflationary paradigm, although very successful phenomenologically, suffers from several conceptual problems which motivate the search for alternative scenarios of early universe cosmology. Here, two possible alternatives will be reviewed. - "string gas cosmology" and the "matter bounce". Their successes and problems will be pointed out.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2010-1945, 2010-1945}
+      \field{journaltitle}{Int. J. Mod. Phys. Conf. Ser.}
+      \field{month}{1}
+      \field{title}{Alternatives to {{Cosmological Inflation}}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{01}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 79}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1142/S2010194511000109
+      \endverb
+      \verb{eprint}
+      \verb 0902.4731
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/PYMGL3WW/Brandenberger - 2011 - Alternatives to Cosmological Inflation.pdf;/Users/rhysabercromby/Zotero/storage/6VAACTGB/0902.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0902.4731
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0902.4731
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Li2017}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=9decdef5a77b5a1f0fc8b53bae925e55}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yu-Bin},
+           giveni={Y\bibinithyphendelim B\bibinitperiod}}}%
+        {{hash=a5d348c19df4b2113611de7ee3b4f8fd}{%
+           family={Quintin},
+           familyi={Q\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+        {{hash=404178b314870c22e6e4983bc34a9635}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Dong-Gang},
+           giveni={D\bibinithyphendelim G\bibinitperiod}}}%
+        {{hash=a0e21e38c4af8f7f1b7cc1ae28c3c24b}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Yi-Fu},
+           giveni={Y\bibinithyphendelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2e55d55e1558484c4f9efd7f3bcf0c44}
+      \strng{fullhash}{8df8fa5c3d0e58b38815a324289fd43d}
+      \strng{fullhashraw}{8df8fa5c3d0e58b38815a324289fd43d}
+      \strng{bibnamehash}{2e55d55e1558484c4f9efd7f3bcf0c44}
+      \strng{authorbibnamehash}{2e55d55e1558484c4f9efd7f3bcf0c44}
+      \strng{authornamehash}{2e55d55e1558484c4f9efd7f3bcf0c44}
+      \strng{authorfullhash}{8df8fa5c3d0e58b38815a324289fd43d}
+      \strng{authorfullhashraw}{8df8fa5c3d0e58b38815a324289fd43d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{We extend the matter bounce scenario to a more general theory in which the background dynamics and cosmological perturbations are generated by a \$k\$-essence scalar field with an arbitrary sound speed. When the sound speed is small, the curvature perturbation is enhanced, and the tensor-to-scalar ratio, which is excessively large in the original model, can be sufficiently suppressed to be consistent with observational bounds. Then, we study the primordial three-point correlation function generated during the matter-dominated contraction stage and find that it only depends on the sound speed parameter. Similar to the canonical case, the shape of the bispectrum is mainly dominated by a local form, though for some specific sound speed values a new shape emerges and the scaling behaviour changes. Meanwhile, a small sound speed also results in a large amplitude of non-Gaussianities, which is disfavored by current observations. As a result, it does not seem possible to suppress the tensor-to-scalar ratio without amplifying the production of non-Gaussianities beyond current observational constraints (and vice versa). This suggests an extension of the previously conjectured no-go theorem in single field nonsingular matter bounce cosmologies, which rules out a large class of models. However, the non-Gaussianity results remain as a distinguishable signature of matter bounce cosmology and have the potential to be detected by observations in the near future.}
+      \field{day}{14}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1475-7516}
+      \field{journaltitle}{J. Cosmol. Astropart. Phys.}
+      \field{month}{3}
+      \field{number}{03}
+      \field{shorttitle}{Matter Bounce Cosmology with a Generalized Single Field}
+      \field{title}{Matter Bounce Cosmology with a Generalized Single Field: Non-{{Gaussianity}} and an Extended No-Go Theorem}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{2017}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{031\bibrangedash 031}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1475-7516/2017/03/031
+      \endverb
+      \verb{eprint}
+      \verb 1612.02036
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/7KHEBBX3/Li et al. - 2017 - Matter bounce cosmology with a generalized single field non-Gaussianity and an extended no-go theor.pdf;/Users/rhysabercromby/Zotero/storage/3QPLV5XY/1612.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1612.02036
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1612.02036
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
     \endentry
   \enddatalist
 \endrefsection
