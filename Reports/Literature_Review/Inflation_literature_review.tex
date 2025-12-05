@@ -35,7 +35,7 @@
     \setlength{\headheight}{13.6pt}
     \fancyhead[L]{Lancaster University}
     \fancyhead[R]{Department of Physics}
-    \fancyfoot{}
+    \fancyfoot[C]{\thepage}
 	\renewcommand{\headrulewidth}{1pt}
 	\renewcommand{\footrulewidth}{1pt} 
 }
@@ -60,6 +60,7 @@
 \renewcommand{\arraystretch}{1.25}
 \sloppy
 \linespread{0.9}
+
 %% Begin Document
 %%-----------------------------------------------------------------------------------------------------------------------------
 \begin{document}
@@ -76,6 +77,7 @@
 %%-----------------------------------------------------------------------------------------------------------------------------
 \begin{titlepage}
     \thispagestyle{titlepage}
+    \pagenumbering{roman}
     \centering
     \includesvg[width=0.7\linewidth]{Images/PhysicsLogo}\\
     \vspace{0.5cm}
@@ -89,15 +91,16 @@
     \vspace{1cm}
     \sloppy
     Despite the successes of the Big Bang Theory, there are problems that occur when examining the very earliest moments of the universe. The Inflationary Paradigm is a potential answer to these problems, however, there is a plethora of different models that attempt to explain these problems. As of now, no model has been proven, with the most successful ones being Starobinsky Inflation and $\alpha$-attractor models. These models are those that best align with the Planck 2022 observational bounds on the spectral index and tensor ratio, though there is potential for observations to disprove the Inflationary Paradigm completely. Alternative ideas to explain the problems of the Big Bang Theory, include String Gas Cosmology and Matter Bounce though these ideas have their own limitations and flaws. This review will explore Cosmic Inflation and specifically slow-roll inflation, the type of inflation that the most successful models belong to, before briefly examining the aforementioned successful inflationary models.
+
+    \newpage
+    \thispagestyle{subsequentpages}
+    \tableofcontents
+    \newpage
 \end{titlepage}
 
 %% Contents Page and Numbering
 %%-----------------------------------------------------------------------------------------------------------------------------
 \pagestyle{subsequentpages}
-\clearpage
-\pagenumbering{roman}
-\tableofcontents
-\clearpage
 \pagenumbering{arabic}
 
 
@@ -325,8 +328,6 @@ One way to combine this is through the Inflationary Paradigm where inflation is 
 
 
 
-
-
 %% Mathematics of Slow roll
 %% -----------------------------------------------------------------------------------------------------------------------------
 
@@ -334,7 +335,7 @@ One way to combine this is through the Inflationary Paradigm where inflation is 
 
 Inflation in its simplest form is modelled by a single scalar field, $\phi$, called the inflaton. This field is coupled to gravity, and it parameterises the evolution of the inflationary energy density with respect to time. It's minimal-coupling to gravity is given as an addition to the Einstein-Hilbert action 
 \begin{equation}\label{eq: Einstein-Hilbert Action}
-    S = \int d^4 x\, \sqrt{-g} \left( \frac{1}{2} R + \frac{1}{2} g^{\mu \nu} \partial_\mu \phi \partial_\nu \phi - V(\phi)  \right) = S_{EH} + S_{\phi}
+    S = \int d^4 x\, \sqrt{-g} \left( \frac{1}{2} m_p^2 R + \frac{1}{2} g^{\mu \nu} \partial_\mu \phi \partial_\nu \phi - V(\phi)  \right) = S_{EH} + S_{\phi}
 \end{equation}
 where $V(\phi)$ is the inflaton potential. The action is the integral of the Lagrangian over all possible paths, hence the $d^4 x$ as that denotes the integral is occurring over the 4-dimensions of spacetime. As seen the inflaton action, $S_{\phi}$ is an addition to the Einstein-Hilbert action, and it describes the self interactions within the scalar field.
 
@@ -487,13 +488,13 @@ Starobinsky inflation has been one of the most success inflation models and its 
 \subsection{\texorpdfstring{$\alpha$}{alpha}-attractors}\label{subsection: alpha-attractors}
 $\alpha$-attractors are a modern inflation model that have been proposed, which also align with the observational bounds. The two main models for $\alpha$-attractors are the T-model and the E-model \cite{kalloshPresentStatusInflationary2025} which take the form:
 \begin{align}\label{eq: alpha-attractor models}
-    \text{T-model:} \quad V(\phi) &= 3\alpha m^2m_p^2 \tanh[2](\frac{1}{\sqrt{6 \alpha}} \frac{\phi}{m_p^2}) \\
-    \text{E-model:} \quad V(\phi) &= \frac{3}{4} \alpha m^2 m_p^2 \left( 1 - e^{- \sqrt{\frac{2}{3 \alpha}} \frac{\phi}{m_p}}  \right)^2
+    \text{T-model:} \quad V(\varphi) = \frac{1}{2} m^2 \varphi^2 \quad & \Rightarrow \quad V(\phi) = 3\alpha m^2m_p^2 \tanh[2](\frac{1}{\sqrt{6 \alpha}} \frac{\phi}{m_p^2}) \quad \text{and}\\
+    \text{E-model:} \quad V(\varphi) = \frac{\frac{1}{2} m^2 \varphi^2}{\left( 1 + \frac{1}{\sqrt{6 \alpha}} \frac{\varphi}{m_p}  \right)^2} \quad & \Rightarrow \quad V(\phi) = \frac{3}{4} \alpha m^2 m_p^2 \left( 1 - e^{- \sqrt{\frac{2}{3 \alpha}} \frac{\phi}{m_p}}  \right)^2
 \end{align}
 with the E-model being a form of the Starobinsky potential when $V_0 = 3\alpha m^2 m_p^2$ and $\alpha = 1$.
 The origin of these models lies in supergravity \cite{Kallosh2015} and are dependent on the dimensionless parameter $\alpha$. Figure \cref{fig: Inflationary Model Comparison} shows the bounds of both the models as they have the same tensor ratio to spectral index. It demonstrates a range of $\alpha$ values though typically in supergravity the typical values are $3 \alpha = 1,2,3,4,5,6,7$ \cite{Kallosh2019}. 
 
-The models are derived from the Lagrangian kinetic term
+The models are derived using the Lagrangian kinetic term for the non-canonical scalar field, $\varphi$, 
 \begin{equation}\label{eq: Lagrangian kinetic term}
     \mathcal{L}_{kin} = \frac{\frac{1}{2} \partial \varphi ^2}{\left( 1 - \frac{1}{\sqrt{6 \alpha}} \left( \frac{\varphi}{m_p} \right)^2 \right)^2}
 \end{equation}
@@ -516,7 +517,7 @@ In parallel to the CMB, there potentially could exist a thermal background of re
 
 \subsection{Alternatives to Inflation}\label{section: Alternatives to Inflation}
 
-\subsubsection*{String Gas Cosmology}\label{subsection: String Gas Cosmology}
+\subsubsection*{String Gas Cosmology}\label{subsubsection: String Gas Cosmology}
 
 String Gas Cosmology, SGC, uses degrees of freedom and symmetries present in string theory, and is based on the coupling of the background space-time geometry to a gas of closed string matter \cite{Brandenberger2008}. String Theory naturally includes the graviton \cite{Scherk1974} hence allowing for the potential emergence of the CGB, and like in string theory, SGC compacts all spacial dimensions and assumes that they are toroidal with a radius for the torus being $R$. 
 
@@ -524,8 +525,18 @@ Strings have 3 types of modes that they may exist in: momentum modes representin
 
 One of the major problems of string gas cosmology is that stabilising all the string moduli, as the size and shape of the extra dimensions must also be stabilised. SGC was originally developed using tools from a specific type of string theory, heterotic string theory, and while it does not require heterotic strings they are most commonly used, and they support the T-duality symmetry, which is a symmetry through the compactification of the radius $R \rightarrow 1/R$, which transforms one string theory to another meaning that they are dualities of each other under this symmetry \cite{Brandenberger2011}. 
 
+\subsubsection*{Variable Speed of Light}\label{subsubsection: Variable speed of light}
 
-\subsubsection*{Matter Bounce}\label{subsection: Matter Bounce}
+Variable Speed of Light cosmology, proposes that during the early universe the speed of light was faster than today \cite{Moffat2002}. This proposition solves the Horizon Problem as a higher speed of light means that the Hubble Horizon, or boundary of causal contact, was larger, and so the homogenous regions observed were in causal contact before the Hot Big Bang. This proposition also explains the Flatness Problem by asserting that the higher speed of light stretches the universe and then the speed of light drastically decreases, flattening the curvature to what is observed. Primordial density perturbations are also permitted to exist within this model \cite{Moffat2016}, while being nearly-scale invariant to align with the spectral index observed. 
+
+While this proposition solves both the Horizon and Flatness Problems while allowing for the creation of primordial density perturbations, the physics of this reduction is unclear \cite{Albrecht1999}. Some models propose $c(t)$, \cite{Barrow1999} where it is modelled as a continuous function inversely proportional to the scale factor. However, this would require continual changes in $c$ has not been observed. 
+
+
+\subsubsection*{Ekpyrotic Scenario}\label{subsubsection: Ekpyrotic Scenario}
+
+
+
+\subsubsection*{Matter Bounce}\label{subsubsection: Matter Bounce}
 
 Matter bounce is another alternative to the Inflationary Paradigm that obtains the scale-invariant density perturbations, that exit the Hubble radius in a contracting matter-dominated phase that occurs before the Big Bang. After the contracting phase a bounce follows and then the standard phases of Big Bang cosmology occur. This approach solves the Horizon and the Flatness Problems similarly to the Inflationary Paradigm, but it also avoids reaching a singularity at the time of the Big Bang \cite{Li2017}. 
 

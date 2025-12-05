@@ -2092,6 +2092,222 @@
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
     \endentry
+    \entry{Moffat2002}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=889206407265ad7c4679cbf904a6388a}{%
+           family={Moffat},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{fullhash}{889206407265ad7c4679cbf904a6388a}
+      \strng{fullhashraw}{889206407265ad7c4679cbf904a6388a}
+      \strng{bibnamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorbibnamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authornamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorfullhash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorfullhashraw}{889206407265ad7c4679cbf904a6388a}
+      \field{extraname}{1}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{It is generally believed that inflationary cosmology explains the isotropy, large scale homogeneity and flatness as well as predicting the deviations from homogeneity of our universe. We show that this is not the only cosmology which can explain successfully these features of the universe. We consider anew and modify a model in which local Lorentz invariance is spontaneously broken in the very early universe, and in this epoch the speed of light undergoes a first or second order phase transition to a value \textasciitilde{} 30 orders of magnitude smaller, corresponding to the presently measured speed of light. Before the phase transition at a time t \textasciitilde{} t\_c, the entropy of the universe is reduced by many orders of magnitude, allowing for a semiclassical quantum field theory calculation of a scale invariant fluctuation spectrum. After the phase transition has occurred, the radiation density and the entropy of the universe increase hugely and the increase in the entropy follows the arrow of time determined by the spontaneously broken direction of the vev {$<$}φ\textasciicircum a{$>\_$}0. This solves the enigma of the arrow of time and the second law of thermodynamics. A new calculation of the primordial Gaussian and adiabatic fluctuation spectrum is carried out, leading to a scale invariant scalar component of the power spectrum. We argue that there are several attractive features of VSL theory compared to standard inflationary theory, and that it provides an alternative cosmology with potentially different predictions.}
+      \field{day}{19}
+      \field{eprinttype}{arXiv}
+      \field{month}{9}
+      \field{pubstate}{prepublished}
+      \field{shorttitle}{Variable {{Speed}} of {{Light Cosmology}}}
+      \field{title}{Variable {{Speed}} of {{Light Cosmology}}: {{An Alternative}} to {{Inflation}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.48550/arXiv.hep-th/0208122
+      \endverb
+      \verb{eprint}
+      \verb hep-th/0208122
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/PEIFDXQD/Moffat - 2002 - Variable Speed of Light Cosmology An Alternative to Inflation.pdf;/Users/rhysabercromby/Zotero/storage/YD9IKE9P/0208122.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/hep-th/0208122
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/hep-th/0208122
+      \endverb
+      \keyw{Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+    \endentry
+    \entry{Moffat2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=889206407265ad7c4679cbf904a6388a}{%
+           family={Moffat},
+           familyi={M\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{fullhash}{889206407265ad7c4679cbf904a6388a}
+      \strng{fullhashraw}{889206407265ad7c4679cbf904a6388a}
+      \strng{bibnamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorbibnamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authornamehash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorfullhash}{889206407265ad7c4679cbf904a6388a}
+      \strng{authorfullhashraw}{889206407265ad7c4679cbf904a6388a}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A variable speed of light (VSL) cosmology is described in which the causal mechanism of generating primordial perturbations is achieved by varying the speed of light in a primordial epoch. This yields an alternative to inflation for explaining the formation of the cosmic microwave background (CMB) and the large scale structure (LSS) of the universe. The initial value horizon and flatness problems in cosmology are solved. The model predicts primordial scalar and tensor fluctuation spectral indices \$n\_s=0.96\$ and \$n\_t=- 0.04\$, respectively. We make use of the \$δ\{\textbackslash cal N\}\$ formalism to identify signatures of primordial nonlinear fluctuations, and this allows the VSL model to be distinguished from inflationary models. In particular, we find that the parameter \$f\_\{\textbackslash rm NL\}=5\$ in the variable speed of light cosmology. The value of the parameter \$g\_\{\textbackslash rm NL\}\$ evolves during the primordial era and shows a running behavior.}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{issn}{1434-6044, 1434-6052}
+      \field{journaltitle}{Eur. Phys. J. C}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{Variable {{Speed}} of {{Light Cosmology}}, {{Primordial Fluctuations}} and {{Gravitational Waves}}}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{76}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{130}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1140/epjc/s10052-016-3971-6
+      \endverb
+      \verb{eprint}
+      \verb 1404.5567
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/TTDZLUBG/Moffat - 2016 - Variable Speed of Light Cosmology, Primordial Fluctuations and Gravitational Waves.pdf;/Users/rhysabercromby/Zotero/storage/BVUYST3K/1404.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1404.5567
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1404.5567
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology}
+    \endentry
+    \entry{Albrecht1999}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f9e0730796d6cbb6ecbabf6e74c74781}{%
+           family={Albrecht},
+           familyi={A\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b55ebcd1c02ed73c577dd8348542db60}{%
+           family={Magueijo},
+           familyi={M\bibinitperiod},
+           given={Joao},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{fullhash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{fullhashraw}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{bibnamehash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{authorbibnamehash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{authornamehash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{authorfullhash}{182ba2fe0756da1e88ed5984744acc66}
+      \strng{authorfullhashraw}{182ba2fe0756da1e88ed5984744acc66}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We consider the cosmological implications of light travelling faster in the early Universe. We propose a prescription for deriving corrections to the cosmological evolution equations while the speed of light \$c\$ is changing. We then show how the horizon, flatness, and cosmological constant problems may be solved. We also study cosmological perturbations in this scenario and show how one may solve the homogeneity and isotropy problems. As it stands, our scenario appears to most easily produce extreme homogeneity, requiring structure to be produced in the Standard Big Bang epoch. Producing significant perturbations during the earlier epoch would require a rather careful design of the function \$c(t)\$. The large entropy inside the horizon nowadays can also be accounted for in this scenario.}
+      \field{day}{28}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0556-2821, 1089-4918}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{A Time Varying Speed of Light as a Solution to Cosmological Puzzles}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{043516}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.59.043516
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9811018
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/L36DGI2A/Albrecht and Magueijo - 1999 - A time varying speed of light as a solution to cosmological puzzles.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/astro-ph/9811018
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/astro-ph/9811018
+      \endverb
+      \keyw{Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
+    \endentry
+    \entry{Barrow1999}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=bbbf3ea9e7eb0f0da8e88064d1cc20be}{%
+           family={Barrow},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{fullhash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{fullhashraw}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{bibnamehash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{authorbibnamehash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{authornamehash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{authorfullhash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \strng{authorfullhashraw}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We analyse a generalisation of general relativity that incorporates a cosmic time-variation of the velocity of light in vacuum, c, and the Newtonian gravitation ’constant’, G, proposed by Albrecht and Maguejo. We find exact solutions for Friedmann universes and determine the rate of variation of c required to solve the flatness and classical cosmological constant problems. Potential problems with this approach to the resolution of the flatness and classical cosmological constant problems are highlighted. Reformulations are suggested which give the theory a more desirable limit as a theory of varying G in the limit of constant c and its relationship to theories with varying electron charge and constant c are discussed.}
+      \field{day}{28}
+      \field{issn}{0556-2821, 1089-4918}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{4}
+      \field{title}{Cosmologies with Varying Light Speed}
+      \field{urlday}{5}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{59}
+      \field{year}{1999}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{043515}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.59.043515
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/T4PAN68Z/Barrow - 1999 - Cosmologies with varying light speed.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.59.043515
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevD.59.043515
+      \endverb
+    \endentry
     \entry{Li2017}{article}{}{}
       \name{author}{4}{}{%
         {{hash=9decdef5a77b5a1f0fc8b53bae925e55}{%

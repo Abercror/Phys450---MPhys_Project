@@ -2402,8 +2402,12 @@
     <bcf:citekey order="28" intorder="1">Brandenberger2008</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Scherk1974</bcf:citekey>
     <bcf:citekey order="30" intorder="1">Brandenberger2011</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Li2017</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Brandenberger2011</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">Moffat2002</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">Moffat2016</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">Albrecht1999</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">Barrow1999</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">Li2017</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">Brandenberger2011</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
