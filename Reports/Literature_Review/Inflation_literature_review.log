@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.5.25)  5 DEC 2025 16:54
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.5.25)  5 DEC 2025 18:37
  system commands enabled.
  file:line:error style messages enabled.
 **"/Users/rhysabercromby/Documents/University/Year 4/Phys450 - Masters Project/Reports/Literature_Review/Inflation_literature_review"
@@ -943,6 +943,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [2]
+Package svg Info: Last page of `images/svg-inkscape/FRWHorizon_svg-tex.pdf' is 1 on input line 225.
+ (./images/svg-inkscape/FRWHorizon_svg-tex.pdf_tex
+<images/svg-inkscape/FRWHorizon_svg-tex.pdf, id=118, page=1, 755.82375pt x 372.39125pt>
+File: images/svg-inkscape/FRWHorizon_svg-tex.pdf Graphic file (type pdf)
+<use images/svg-inkscape/FRWHorizon_svg-tex.pdf, page 1>
+Package luatex.def Info: images/svg-inkscape/FRWHorizon_svg-tex.pdf , page1 used on input line 56.
+(luatex.def)             Requested size: 339.72592pt x 167.38132pt.
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -951,7 +959,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3]
+[3<./images/svg-inkscape/FRWHorizon_svg-tex.pdf>]
+Package svg Info: Last page of `images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf' is 1 on input line 264.
+ (./images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf_tex
+<images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf, id=259, page=1, 775.8988pt x 478.78876pt>
+File: images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf Graphic file (type pdf)
+<use images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf, page 1>
+Package luatex.def Info: images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf , page1 used on input line 56.
+(luatex.def)             Requested size: 339.72592pt x 209.63759pt.
+)
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -960,7 +976,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4]
+[4<./images/svg-inkscape/TheFlatnessProblem_svg-tex.pdf>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -988,10 +1004,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [7]
-<Figures/InflationaryModelsTensorRatioComparison[2208.00188].png, id=197, 976.3677pt x 493.845pt>
+<Figures/InflationaryModelsTensorRatioComparison[2208.00188].png, id=325, 976.3677pt x 493.845pt>
 File: Figures/InflationaryModelsTensorRatioComparison[2208.00188].png Graphic file (type png)
 <use Figures/InflationaryModelsTensorRatioComparison[2208.00188].png>
-Package luatex.def Info: Figures/InflationaryModelsTensorRatioComparison[2208.00188].png  used on input line 467.
+Package luatex.def Info: Figures/InflationaryModelsTensorRatioComparison[2208.00188].png  used on input line 482.
 (luatex.def)             Requested size: 341.43585pt x 170.71579pt.
 
 
@@ -1002,7 +1018,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8<./Figures/InflationaryModelsTensorRatioComparison[2208.00188].png>]
+[8]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1011,7 +1027,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[9<./Figures/InflationaryModelsTensorRatioComparison[2208.00188].png>]
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1047,7 +1063,25 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13] (./Inflation_literature_review.aux)
+[13]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[14]
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[15] (./Inflation_literature_review.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
@@ -1058,19 +1092,19 @@ Package logreq Info: Writing requests to 'Inflation_literature_review.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 25464 strings out of 475506
+ 25530 strings out of 475506
  125056,1648299 words of node,token memory allocated
- 1157 words of node memory still in use:
-   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 110 attribute, 77 glue_spec, 110 attribute_list, 2 write, 20 pdf_action nodes
-   avail lists: 1:4,2:1586,3:710,4:70,5:511,6:125,7:9221,8:74,9:854,10:27,11:680,12:5
- 47869 multiletter control sequences out of 65536+600000
+ 1197 words of node memory still in use:
+   7 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 114 attribute, 77 glue_spec, 114 attribute_list, 2 write, 24 pdf_action nodes
+   avail lists: 1:5,2:1781,3:767,4:70,5:508,6:133,7:9770,8:74,9:807,10:27,11:731,12:7
+ 47909 multiletter control sequences out of 65536+600000
  62 fonts using 4610791 bytes
- 94i,15n,89p,2316b,1577s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,15n,89p,2316b,1641s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmmono10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-italic.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman9-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2025/texmf-dist/fonts/opentype/public/lm/lmroman10-regular.otf></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Inflation_literature_review.pdf (15 pages, 886933 bytes).
+Output written on Inflation_literature_review.pdf (17 pages, 1081921 bytes).
 
-PDF statistics: 515 PDF objects out of 1000 (max. 8388607)
- 448 compressed objects within 5 object streams
- 110 named destinations out of 1000 (max. 131072)
+PDF statistics: 681 PDF objects out of 1000 (max. 8388607)
+ 564 compressed objects within 6 object streams
+ 118 named destinations out of 1000 (max. 131072)
  144 words of extra memory for PDF output out of 10000 (max. 100000000)
 
