@@ -1,4 +1,18 @@
-Logbook/.obsidian/workspace.json
-"Cosmic Inflation Project.pdf"
 *.pdf
 *.json
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.synctex(busy).gz
+*.toc
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.xml
+*.bcf
