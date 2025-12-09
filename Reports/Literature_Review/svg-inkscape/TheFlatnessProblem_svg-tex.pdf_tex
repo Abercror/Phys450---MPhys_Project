@@ -38,7 +38,7 @@
   \newcommand*\fsize{\dimexpr\f@size pt\relax}%
   \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
   \ifx\svgwidth\undefined%
-    \setlength{\unitlength}{773.00006104bp}%
+    \setlength{\unitlength}{357.91632843bp}%
     \ifx\svgscale\undefined%
       \relax%
     \else%
@@ -50,9 +50,15 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.61707628)%
+  \begin{picture}(1,0.75090172)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{TheFlatnessProblem_svg-tex.pdf}}%
+    \put(0.00000002,0.67948291){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}Ω\end{tabular}}}}%
+    \put(0.9641611,0.03670979){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{\textit{t}}\end{tabular}}}}%
+    \put(0.00000002,0.41166053){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{1}\end{tabular}}}}%
+    \put(0.00000002,0.12598484){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{0}\end{tabular}}}}%
+    \put(0.28567823,0.00100087){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}\textbf{HOT BIG BANG}\end{tabular}}}}%
+    \put(0.8123938,0.41166053){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}REPELLER\end{tabular}}}}%
   \end{picture}%
 \endgroup%

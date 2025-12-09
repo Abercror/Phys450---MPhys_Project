@@ -116,14 +116,14 @@
       \endverb
       \keyw{BETA}
     \endentry
-    \entry{Einstein1932}{article}{}{}
+    \entry{Einstein1932}{article}{useprefix=true}{}
       \name{author}{2}{}{%
         {{hash=29a34a00e610eaed35baff40f473278f}{%
            family={Einstein},
            familyi={E\bibinitperiod},
            given={A.},
            giveni={A\bibinitperiod}}}%
-        {{useprefix=true,hash=16fa8dc82c39e82a936142599c86ee4c}{%
+        {{hash=16fa8dc82c39e82a936142599c86ee4c}{%
            family={Sitter},
            familyi={S\bibinitperiod},
            given={W.},
@@ -333,25 +333,6 @@
       \verb /Users/rhysabercromby/Zotero/storage/W24KVSFD/Romeu - Derivation of Friedman equations.pdf
       \endverb
     \endentry
-    \entry{1927ASSB4749LPage49}{online}{}{}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labeltitlesource}{title}
-      \field{title}{{{1927ASSB}}...47...{{49L Page}} 49}
-      \field{urlday}{13}
-      \field{urlmonth}{11}
-      \field{urlyear}{2025}
-      \field{urldateera}{ce}
-      \verb{file}
-      \verb /Users/rhysabercromby/Zotero/storage/3E9GMYNC/1927ASSB...47...html
-      \endverb
-      \verb{urlraw}
-      \verb https://adsabs.harvard.edu/full/1927ASSB...47...49L
-      \endverb
-      \verb{url}
-      \verb https://adsabs.harvard.edu/full/1927ASSB...47...49L
-      \endverb
-    \endentry
     \entry{Hawking1966}{article}{}{}
       \name{author}{1}{}{%
         {{hash=906302c30c766570fe1df9446c425436}{%
@@ -368,8 +349,8 @@
       \strng{authornamehash}{906302c30c766570fe1df9446c425436}
       \strng{authorfullhash}{906302c30c766570fe1df9446c425436}
       \strng{authorfullhashraw}{906302c30c766570fe1df9446c425436}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Some implications and consequences of the expansion of the universe are examined. In Chapter 1 it is shown that this expansion creates grave difficulties for the Hoyle-Narlikar theory of gravitation. Chapter 2 deals with perturbations of an expanding homogeneous and isotropic universe. The conclusion is reached that galaxies cannot be formed as a result of the growth of perturbations that were initially small. The propagation and absorption of gravitational radiation is also investigated in this approximation. In Chapter 3 gravitational radiation in an expanding universe is examined by a method of asymptotic expansions. The 'peeling off' behaviour and the asymptotic group are derived. Chapter 4 deals with the occurrence of singularities in cosmological models. It is shown that a singularity is inevitable provided that certain very general conditions are satisfied.}
@@ -415,8 +396,8 @@
       \strng{authornamehash}{b02ea1692455ac9b821fc714349745d8}
       \strng{authorfullhash}{b02ea1692455ac9b821fc714349745d8}
       \strng{authorfullhashraw}{b02ea1692455ac9b821fc714349745d8}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The standard model of hot big-bang cosmology requires initial conditions which are problematic in two ways: (1) The early universe is assumed to be highly homogeneous, in spite of the fact that separated regions were causally disconnected (horizon problem); and (2) the initial value of the Hubble constant must be fine tuned to extraordinary accuracy to produce a universe as flat (i.e., near critical mass density) as the one we see today (flatness problem). These problems would disappear if, in its early history, the universe supercooled to temperatures 28 or more orders of magnitude below the critical temperature for some phase transition. A huge expansion factor would then result from a period of exponential growth, and the entropy of the universe would be multiplied by a huge factor when the latent heat is released. Such a scenario is completely natural in the context of grand unified models of elementary-particle interactions. In such models, the supercooling is also relevant to the problem of monopole suppression. Unfortunately, the scenario seems to lead to some unacceptable consequences, so modifications must be sought.}
@@ -625,14 +606,14 @@
            familyi={C\bibinitperiod},
            given={F.},
            giveni={F\bibinitperiod}}}%
-        {{useprefix=false,hash=f3799d91c45bd1e6f951f6f842cef7ab}{%
+        {{hash=f3799d91c45bd1e6f951f6f842cef7ab}{%
            family={Bernardis},
            familyi={B\bibinitperiod},
            given={P.},
            giveni={P\bibinitperiod},
            prefix={de},
            prefixi={d\bibinitperiod}}}%
-        {{useprefix=false,hash=505c208f9adeedfae7b99cf82db4b861}{%
+        {{hash=505c208f9adeedfae7b99cf82db4b861}{%
            family={Zotti},
            familyi={Z\bibinitperiod},
            given={G.},
@@ -1734,8 +1715,8 @@
       \strng{authorfullhash}{4745c1db498d89ab107da303c932838a}
       \strng{authorfullhashraw}{4745c1db498d89ab107da303c932838a}
       \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We give a brief review of the basic principles of inflationary theory and discuss the present status of the simplest inflationary models that can describe Planck/BICEP/Keck observational data by choice of a single model parameter. In particular, we discuss the Starobinsky model, Higgs inflation, and \$\textbackslash alpha\$-attractors, including the recently developed \$\textbackslash alpha\$-attractor models with \$SL(2,\textbackslash mathbb\{Z\})\$ invariant potentials. We also describe inflationary models providing a good fit to the recent ACT data, as well as the polynomial chaotic inflation models with three parameters, which can account for any values of the three main CMB-related inflationary parameters \$A\_\{s\}\$, \$n\_\{s\}\$ and \$r\$.}
@@ -2038,59 +2019,65 @@
       \endverb
       \keyw{BETA,dual resonance model,FIELD THEORY: HIGHER-DIMENSIONAL,FIELD THEORY: MASSLESS,FIELD THEORY: SCALAR,GAUGE FIELD THEORY: SU(N),general relativity,MASSLESS: FIELD THEORY,MODEL: VENEZIANO,MODEL: VIRASORO,VERTEX FUNCTION}
     \endentry
-    \entry{Brandenberger2011}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=ea7cea3b9ff35c3e4ae245382fc92c25}{%
-           family={Brandenberger},
+    \entry{Battefeld2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eeae696dab79825bff32a56013e5f8d3}{%
+           family={Battefeld},
            familyi={B\bibinitperiod},
-           given={Robert\bibnamedelima H.},
-           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+           given={Diana},
+           giveni={D\bibinitperiod}}}%
+        {{hash=b877f6d14ef1386efcbc6edf30e3f287}{%
+           family={Battefeld},
+           familyi={B\bibinitperiod},
+           given={Thorsten},
+           giveni={T\bibinitperiod}}}%
       }
-      \strng{namehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{fullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{fullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{bibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{authorbibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{authornamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
-      \field{extraname}{2}
+      \strng{namehash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{fullhash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{fullhashraw}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{bibnamehash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{authorbibnamehash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{authornamehash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{authorfullhash}{e727d95796e6f2e04d59baf320bfcdeb}
+      \strng{authorfullhashraw}{e727d95796e6f2e04d59baf320bfcdeb}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The inflationary paradigm, although very successful phenomenologically, suffers from several conceptual problems which motivate the search for alternative scenarios of early universe cosmology. Here, two possible alternatives will be reviewed. - "string gas cosmology" and the "matter bounce". Their successes and problems will be pointed out.}
-      \field{eprintclass}{hep-th}
+      \field{abstract}{We discuss the relic problem of string gas cosmology (SGC) using gravitinos and magnetic monopoles as examples. Since SGC operates near or at the Hagedorn temperature, relics are produced copiously; in the absence of dilution, their abundances are too large. A subsequent phase of reheating can solve the gravitino problem, but fails to dilute monopoles sufficiently. We propose a subsequent phase of inflation as the most natural solution to the monopole problem; unfortunately, inflation marginalizes almost all potential achievements of SGC, with the exception of a possible explanation of the dichotomy of space (why did only three dimensions inflate?).}
+      \field{day}{17}
+      \field{eprintclass}{astro-ph}
       \field{eprinttype}{arXiv}
-      \field{issn}{2010-1945, 2010-1945}
-      \field{journaltitle}{Int. J. Mod. Phys. Conf. Ser.}
-      \field{month}{1}
-      \field{title}{Alternatives to {{Cosmological Inflation}}}
-      \field{urlday}{26}
-      \field{urlmonth}{11}
+      \field{issn}{1550-7998, 1550-2368}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{9}
+      \field{number}{6}
+      \field{title}{The {{Relic Problem}} of {{String Gas Cosmology}}}
+      \field{urlday}{6}
+      \field{urlmonth}{12}
       \field{urlyear}{2025}
-      \field{volume}{01}
-      \field{year}{2011}
+      \field{volume}{80}
+      \field{year}{2009}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{67\bibrangedash 79}
-      \range{pages}{13}
+      \field{pages}{063518}
+      \range{pages}{1}
       \verb{doi}
-      \verb 10.1142/S2010194511000109
+      \verb 10.1103/PhysRevD.80.063518
       \endverb
       \verb{eprint}
-      \verb 0902.4731
+      \verb 0907.2443
       \endverb
       \verb{file}
-      \verb /Users/rhysabercromby/Zotero/storage/PYMGL3WW/Brandenberger - 2011 - Alternatives to Cosmological Inflation.pdf;/Users/rhysabercromby/Zotero/storage/6VAACTGB/0902.html
+      \verb /Users/rhysabercromby/Zotero/storage/YZRII6CQ/Battefeld and Battefeld - 2009 - The Relic Problem of String Gas Cosmology.pdf;/Users/rhysabercromby/Zotero/storage/AWQ55NKH/0907.html
       \endverb
       \verb{urlraw}
-      \verb http://arxiv.org/abs/0902.4731
+      \verb http://arxiv.org/abs/0907.2443
       \endverb
       \verb{url}
-      \verb http://arxiv.org/abs/0902.4731
+      \verb http://arxiv.org/abs/0907.2443
       \endverb
-      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,Astrophysics - High Energy Astrophysical Phenomena,High Energy Physics - Theory}
     \endentry
     \entry{Moffat2002}{online}{}{}
       \name{author}{1}{}{%
@@ -2274,8 +2261,8 @@
       \strng{authornamehash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
       \strng{authorfullhash}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
       \strng{authorfullhashraw}{bbbf3ea9e7eb0f0da8e88064d1cc20be}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We analyse a generalisation of general relativity that incorporates a cosmic time-variation of the velocity of light in vacuum, c, and the Newtonian gravitation ’constant’, G, proposed by Albrecht and Maguejo. We find exact solutions for Friedmann universes and determine the rate of variation of c required to solve the flatness and classical cosmological constant problems. Potential problems with this approach to the resolution of the flatness and classical cosmological constant problems are highlighted. Reformulations are suggested which give the theory a more desirable limit as a theory of varying G in the limit of constant c and its relationship to theories with varying electron charge and constant c are discussed.}
@@ -2619,6 +2606,60 @@
       \verb http://arxiv.org/abs/1612.02036
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
+    \endentry
+    \entry{Brandenberger2011}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea7cea3b9ff35c3e4ae245382fc92c25}{%
+           family={Brandenberger},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{fullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{bibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorbibnamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authornamehash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
+      \field{extraname}{2}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The inflationary paradigm, although very successful phenomenologically, suffers from several conceptual problems which motivate the search for alternative scenarios of early universe cosmology. Here, two possible alternatives will be reviewed. - "string gas cosmology" and the "matter bounce". Their successes and problems will be pointed out.}
+      \field{eprintclass}{hep-th}
+      \field{eprinttype}{arXiv}
+      \field{issn}{2010-1945, 2010-1945}
+      \field{journaltitle}{Int. J. Mod. Phys. Conf. Ser.}
+      \field{month}{1}
+      \field{title}{Alternatives to {{Cosmological Inflation}}}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{01}
+      \field{year}{2011}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{67\bibrangedash 79}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1142/S2010194511000109
+      \endverb
+      \verb{eprint}
+      \verb 0902.4731
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/PYMGL3WW/Brandenberger - 2011 - Alternatives to Cosmological Inflation.pdf;/Users/rhysabercromby/Zotero/storage/6VAACTGB/0902.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/0902.4731
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/0902.4731
+      \endverb
+      \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Phenomenology,High Energy Physics - Theory}
     \endentry
   \enddatalist
 \endrefsection

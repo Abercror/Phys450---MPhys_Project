@@ -23,9 +23,7 @@
 \usepackage{bookmark}
 \usepackage{footmisc}
 \usepackage{caption}
-\usepackage{parskip}
-\usepackage{pdfpages}
-\usepackage[inkscapepath=images/svg-inkscape/]{svg}
+\usepackage[inkscapepath=svg-inkscape/]{svg}
 \captionsetup[figure]{font=footnotesize}
 \captionsetup[table]{font=footnotesize}
 
@@ -58,7 +56,7 @@
 
 %% \renewcommand lines
 %%-----------------------------------------------------------------------------------------------------------------------------
-\renewcommand{\arraystretch}{1.25}
+\renewcommand{\arraystretch}{1.275}
 \sloppy
 \linespread{0.9}
 
@@ -80,18 +78,18 @@
     \thispagestyle{titlepage}
     \pagenumbering{roman}
     \centering
-    % \includesvg[width=0.7\linewidth]{Images/PhysicsLogo}
+    \includesvg[width=0.7\linewidth]{Images/PhysicsLogo}\\
     \vspace{0.5cm}
     {\Huge \textbf{An overview of Cosmological Inflation} \par}
     \vspace{1cm}
-    {\large Rhys Abercromby\par}∑
+    {\large Rhys Abercromby\par}
     \vspace{0.5cm}
     {\large Phys450: MPhys Project \par}
     \vspace{0.5cm}
     {\today \par}
     \vspace{1cm}
     \sloppy
-    Despite the successes of the Big Bang Theory, there are problems that occur when examining the very earliest moments of the universe. The Inflationary Paradigm is a potential answer to these problems, however, there is a plethora of different models that attempt to explain these problems. As of now, no model has been proven, with the most successful ones being Starobinsky Inflation and $\alpha$-attractor models. These models are those that best align with the Planck 2022 observational bounds on the spectral index and tensor ratio, though there is potential for observations to disprove the Inflationary Paradigm completely. Alternative ideas to explain the problems of the Big Bang Theory, include String Gas Cosmology and Matter Bounce though these ideas have their own limitations and flaws. This review will explore Cosmic Inflation and specifically slow-roll inflation, the type of inflation that the most successful models belong to, before briefly examining the aforementioned successful inflationary models.
+    Despite the successes of the Big Bang Theory, there are problems that occur when examining the very earliest moments of the universe. The Inflationary Paradigm is a potential answer to these problems, however, there is a plethora of different models that attempt to explain these problems. As of now, no model has been proven, with the most successful ones being Starobinsky Inflation and $\alpha$-attractor models. These models are those that best align with the Planck 2022 observational bounds on the spectral index and tensor ratio, though there is potential for observations to disprove the Inflationary Paradigm completely. Alternative ideas to explain the problems of the Big Bang Theory, include String Gas Cosmology and the Ekpyrotic scenario though these ideas have their own limitations and flaws. This review will explore Cosmic Inflation and specifically slow-roll inflation, the type of inflation that the most successful models belong to, before briefly examining the aforementioned successful inflationary models.
 
     \newpage
     \thispagestyle{subsequentpages}
@@ -119,9 +117,10 @@ On large scales the universe follows The Cosmological Principle which states tha
 Following Einstein's publication of `The Foundations of the General Theory of Relativity' \cite{Einstein1916foundationgeneraltheoryrelativity}, in 1932 Willem de Sitter and Einstein proposed a model containing only dark energy \cite{Einstein1932}, parameterised as the cosmological constant included in the Einstein equations. This universe would undergo rapid accelerated expansion due to its domination by dark energy \cref{eq: scale factor relations}. This would later come to be known as the de Sitter model and is used to describe the expansion of Cosmic Inflation. 
 
 
-The universe was first discovered to be expanding by Edwin Hubble \cite{Hubble1929relationdistanceradialvelocityextragalacticnebulae} in 1929, though this was a known prediction derived from General Relativity \cite{Sauer2005AlbertEinsteins1916ReviewArticleGeneralRelativity}, first done so by Alexander Friedmann in his 1922 paper `On the Curvature of Spacetime' \cite{AlexanderFriedmannCurvatureSpace}, in which he derived, what would come to be known as the Friedmann-Lema\^itre equations \cite{RomeuDerivationFriedmanequations}, as in 1927 Georges Lema\^itre independently derived them \cite{1927ASSB4749LPage49}. Friedmann demonstrated that the energy density of matter, $\rho(t)$, and the cosmological constant, $\Lambda$, were linked with the time evolution of the universe.
+The universe was first discovered to be expanding by Edwin Hubble \cite{Hubble1929relationdistanceradialvelocityextragalacticnebulae} in 1929, though this was a known prediction derived from General Relativity \cite{Sauer2005AlbertEinsteins1916ReviewArticleGeneralRelativity}. It was first done so by Alexander Friedmann in his 1922 paper `On the Curvature of Spacetime' \cite{AlexanderFriedmannCurvatureSpace}, in which he derived, what would come to be known as the Friedmann-Lema\^itre equations \cite{RomeuDerivationFriedmanequations}. The discovery that the universe was not static and was expanding lead to research into the origins of the universe. A prominent theory was put forward by Stephen Hawking \cite{Hawking1966}, proposing that a space-time singularity of infinite density was a natural consequence of the Big Bang Theory.
 
-The discovery that the universe was not static and was expanding lead to research into the origins of the universe. A prominent theory was put forward by Stephen Hawking \cite{Hawking1966}, proposing that a space-time singularity of infinite density was a natural consequence of the Big Bang Theory 
+
+% , as in 1927 Georges Lema\^itre independently derived them \cite{1927ASSB4749LPage49}. Friedmann demonstrated that the energy density of matter, $\rho(t)$, and the cosmological constant, $\Lambda$, were linked with the time evolution of the universe.
 
 However, despite the success of models such as these they did not solve all the problems regarding the origin of the universe, notably the Horizon Problem, \cref{subsection: The Horizon Problem}, and the Flatness Problem, \cref{subsection: The Flatness Problem}, are not solved. 
 
@@ -135,18 +134,18 @@ The idea of cosmic inflation was proposed by Alan Guth in 1981 \cite{Guth1981}, 
 
 The Hubble Parameter, $H$, is defined as the expansion rate of the universe and is given by the formula 
 \begin{equation}\label{eq: Hubble Parameter}
-    H = \frac{\dot{a}}{a},
+    H = \frac{\dot{a}}{a}, \quad \dot{x} = \dv{x}{t}, 
 \end{equation}
 where $a$ is the scale factor of the universe. 
 This is a key part of the 2 non-linear ordinary differential equations derived by Friedmann, with the first being 
 \begin{equation}\label{eq: Friedmann Equation}
     H^2 \equiv \left( \frac{\dot{a}}{a}\right)^2 = \frac{1}{3 m_p^2}\rho - \frac{k}{a^2} \quad \Rightarrow \quad \rho = 3 m_p^2 H^2,
 \end{equation}
-known as the Friedmann equation for a flat universe, and is used to derive
+known as the Friedmann equation where $\rho$ is the energy density, $m_p$ is the reduced Plank Mass and $k$ is the curvature which for a flat universe $k = 0$, and is used to derive
 \begin{equation}\label{eq: acceleration equation}
     \dot{H} + H^2 = \frac{\ddot{a}}{a} = - \frac{1}{6 m_p^2}\left( \rho + 3p \right),
 \end{equation}
-known as the acceleration equation where the overdots, $\dot{x}$, denote derivatives with respect to time, t. 
+known as the acceleration equation where $p$ is the pressure exerted by the universe. 
 
 In an expanding universe, ($\dot{a} > 0$), filled with matter that satisfies $\rho + 3p \ge 0$, means \cref{eq: acceleration equation} implies $\ddot{a} <0$. The indication of this condition is that there was a singularity in the finite past, $a(t\equiv0) = 0$ known as the Big Bang singularity. 
 Combining \cref{eq: Friedmann Equation,eq: acceleration equation}, results in the continuity equation 
@@ -157,13 +156,13 @@ Defining
 \begin{equation}\label{eq: Barotropic parameter}
     w = \frac{\rho}{p},
 \end{equation}
-where $w$ is the barotropic parameter for the universe, means that the continuity equation, \cref{eq: Continuity equation} may be integrated to find the relation of the energy density, $\rho$, to the scale factor, $a$, taking the form 
+where $w$ is the barotropic parameter for the universe, means that the continuity equation, \cref{eq: Continuity equation} may be integrated to find the relation of the energy density to the scale factor, taking the form 
 \begin{equation}\label{eq: rho to a}
     \rho \propto a^{-3(1 + w)}.
 \end{equation}
-$\rho$ is the total energy density of the universe, though it can be used for the individual species of the universe, denoted by $\rho_x$, where the energy density of each species is determined by its barotropic parameter. Depending on what species is dominant in the universe, the relations vary as follows, with dark matter and baryonic matter grouped together: 
+$\rho$ is the total energy density of the universe, though it can be used for the individual constituent of the universe, denoted by $\rho_i$, where the energy density of each constituent is determined by its barotropic parameter. Depending on what constituent is dominant in the universe, the relations vary as follows, with dark matter and baryonic matter grouped together: 
 \vspace{-0.25cm}
-\begin{table}[H]\label{table: Composition relations}
+\begin{table}[H]
     \centering
     \begin{tabular}{p{3cm}||p{1cm}|p{1cm}|p{1cm}}
 
@@ -176,13 +175,11 @@ $\rho$ is the total energy density of the universe, though it can be used for th
         \text{dark energy, $\Lambda$} & $-1$ & $a^0$ & $e^{Ht}$ \\
 
     \end{tabular}
+    \caption{The relation between each of the constituents of the universe and their relations to the universal parameters.}
+    \label{table: Composition relations}
 \end{table}
 \vspace{-0.5cm}
-If there are multiple species contributing significantly then the pressure, $p$, and energy density, $\rho$, are 
-\begin{equation}\label{eq: Total rho and p}
-    \rho \equiv \sum_i \rho_i \quad \quad p \equiv \sum_i p_i,
-\end{equation}
-where the barotropic parameter for each species is 
+If there are multiple constituents contributing significantly then the energy density is the sum of each constituent contribution and the barotropic parameter for each is 
 \begin{equation}\label{eq: barotropic parameter individual}
     w_i \equiv \frac{\rho_i}{p_i}.
 \end{equation}
@@ -195,9 +192,9 @@ Combining this with the Friedmann equation, \cref{eq: Friedmann Equation}, demon
     e^{Ht},               & \text{for } w = -1, 
   \end{cases}
 \end{equation}
-where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. The Einstein universe on the other hand is composed solely of matter, $w = 0$, and so the relation of scale factor with time is $a(t) \propto t^{\frac{2}{3}}$. 
+where the scale factor relation for $w = -1$ is the relation present in the de Sitter universe model as it is composed of only dark energy. 
 
-For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from table \cref{table: Composition relations} it can be inferred that the dominant species must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020Planck2018resultsVICosmologicalparameters} is matter and dark energy accounting for $31\%$ and $69\%$ of the energy density respectively, using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
+For an accelerated rate of expansion, (i.e. $\ddot{a} > 0$), requires $w < -\frac{1}{3}$ and from \cref{table: Composition relations} it can be inferred that the dominant constituent must be dark energy. Dark energy is a substance with the interesting property of exerting a negative pressure, and is responsible for the accelerated expansion of the universe. It is modelled as a fluid, but it expands the universe by expanding the space between non-gravitionally bound objects. It is denoted by $\Lambda$ and in currently accepted universe model, the $\Lambda$CDM model, it is dominant, causing the accelerated expansion of the universe observed. The observed composition ratio of the universe at present from Planck \cite{Collaboration2020Planck2018resultsVICosmologicalparameters} is matter and dark energy accounting for approximately $31\%$ and $69\%$ of the energy density respectively, using Planck TT,TE,EE+lowE+lensing+BAO $68\%$ limits.
 
 
 
@@ -222,13 +219,13 @@ The Hot Big Bang is supported by different forms of observational evidence not l
 %% -----------------------------------------------------------------------------------------------------------------------------
 \subsection{The Horizon Problem}\label{subsection: The Horizon Problem}
 
-% \begin{figure}[H]
-%     \begin{center}
-%         \includesvg[width=0.75\textwidth]{Figures/FRWHorizon.svg}
-%         \caption{\cite{baumannTASILecturesInflation2012} This demonstrates the Horizon Problem in conformal time \cite{baumannTASILecturesInflation2012} as the areas are not in causal contact and therefore should not feature the same characteristics.}
-%     \end{center}
-% \end{figure}
-
+\begin{figure}[H]
+    \begin{center}
+        \includesvg[width=0.7\textwidth]{Figures/FRWHorizon}
+        \caption{\cite{baumannTASILecturesInflation2012} This demonstrates the Horizon Problem in conformal time \cite{baumannTASILecturesInflation2012} as the areas are not in causal contact and therefore should not feature the same characteristics.}
+    \end{center}
+\end{figure}
+\vspace{-0.5cm}
 Within cosmology there are different types of horizons, the Particle Horizon, the Hubble Horizon, and the Event Horizon \cite{dimopoulosIntroductionCosmicInflation2020}. 
 The Hubble Horizon is the limit of causal connection meaning that if an object is beyond this point then nothing may communicate with it again as it is receding faster than the speed of light. This distance is given by the relation
 \begin{equation}\label{eq: Hubble Horizon}
@@ -261,13 +258,13 @@ where $R_{obs}(t)$ is the radius of the observable universe at a given time and 
 
 \subsection{The Flatness Problem}\label{subsection: The Flatness Problem}
 
-% \begin{figure}[H]
-%     \begin{center}
-%         \includesvg[width=0.75\textwidth]{Figures/TheFlatnessProblem.svg}
-%         \caption{\cite{dimopoulosIntroductionCosmicInflation2020}}
-%     \end{center}
-% \end{figure}
-
+\begin{figure}[H]
+    \begin{center}
+        \includesvg[width=0.6\textwidth]{Figures/TheFlatnessProblem}
+        \caption{\cite{dimopoulosIntroductionCosmicInflation2020} This graph demonstrates the curvature against time for the universe, and shows that deviation from flatness is an exponential deviation highlighting the fine-tuning required for the $\Omega = 1$, as observations suggest.}
+    \end{center}
+\end{figure}
+\vspace{-0.5cm}
 The Flatness Problem is one of the topology of the universe, as the universe appears to be spatially flat despite a flat universe being unstable, so the initial conditions require extreme fine-tuning \cite{Lake2005}. Spacetime is dynamic and is warped by mass as stated by General Relativity \cite{Einstein1916foundationgeneraltheoryrelativity} and so with all the mass that is present within the universe why is it approximately a flat Euclidean plane. 
 
 Recall the Friedmann equation, \cref{eq: Friedmann Equation}, and the energy density ratio, $\Omega = \frac{\rho_i}{\rho_c}$h where $\rho_c$ is the critical density. The Friedmann equation can be rewritten in the form 
@@ -505,7 +502,7 @@ Starobinsky inflation has been one of the most success inflation models and its 
 
 % \begin{figure}[H]
 %     \begin{center}
-%         \includesvg[width=0.75\textwidth]{Figures/AlphaAttractors.svg}
+%         \includesvg[width=0.75\textwidth]{Figures/AlphaAttractors}
 %         \caption{\cite{Kallosh2025a} On the left is the potential for the T-model \cref{eq: T-model} and on the right is the E-model \cref{eq: E-model} for $V_0 = 1$ and $3\alpha = 1,3,7$. As its name suggests the T-model has a potential in the shape of a T, and the E-model for $\alpha = 1$ demonstrates the Starobinsky inflation model \cref{eq: Starobinsky Potential}.}
 %     \end{center}
 % \end{figure}
@@ -522,7 +519,7 @@ The models are derived using the Lagrangian kinetic term for the non-canonical s
 \begin{equation}\label{eq: Lagrangian kinetic term}
     \mathcal{L}_{kin} = \frac{\frac{1}{2} \partial \varphi ^2}{\left( 1 - \frac{1}{\sqrt{6 \alpha}} \left( \frac{\varphi}{m_p} \right)^2 \right)^2},
 \end{equation}
-with poles at $\varphi = \pm \sqrt{6 \alpha} m_p$.  Using a canonical normalisation, $V(\varphi)$ is transformed to $V(\phi)$ giving rise to the potentials above, Eq.\eqref{eq: alpha-attractor models}. This stretches the poles to infinity and so this flattening of the potential allows for a plateau in the potential to give the required behaviour to the inflaton.
+with poles at $\varphi = \pm \sqrt{6 \alpha} m_p$.  Using a canonical normalisation, $V(\varphi)$ is transformed to $V(\phi)$ giving rise to the potentials above, \cref{eq: T-model,eq: E-model}. This stretches the poles to infinity and so this flattening of the potential allows for a plateau in the potential to give the required behaviour to the inflaton.
 
 
 
@@ -541,16 +538,20 @@ In parallel to the CMB, there potentially could exist a thermal background of re
 
 \subsection{Alternatives to Inflation}\label{section: Alternatives to Inflation}
 
+There exists alternative propositions that attempt to solve the Horizon and Flatness Problems and to create the density perturbations observed. The main ones discussed here are String Gas Cosmology, Variable Speed of Light and the Ekpyrotic scenario though others exist such as the Matter Bounce hypothesis.  
+
 \subsubsection*{String Gas Cosmology}\label{subsubsection: String Gas Cosmology}
 
-String Gas Cosmology, SGC, uses degrees of freedom and symmetries present in string theory, and is based on the coupling of the background space-time geometry to a gas of closed string matter \cite{Brandenberger2008}. String Theory naturally includes the graviton \cite{Scherk1974} hence allowing for the potential emergence of the CGB, and like in string theory, SGC compacts all spacial dimensions and assumes that they are toroidal with a radius for the torus being $R$. 
+% String Gas Cosmology, SGC, uses degrees of freedom and symmetries present in string theory, and is based on the coupling of the background space-time geometry to a gas of closed string matter \cite{Brandenberger2008}. String Theory naturally includes the graviton \cite{Scherk1974} hence allowing for the potential emergence of the CGB, and like in string theory, SGC compacts all spacial dimensions and assumes that they are toroidal with a radius for the torus being $R$. 
 
-Strings have 3 types of modes that they may exist in: momentum modes representing the energy of the strings, oscillatory modes which represent the fluctuations and the winding modes which refer to the number of times the string is wrapped around the torus. The number of the oscillatory states increases exponentially with an increase in energy however there is a limiting temperature for a string gas to be in thermal equilibrium and so the temperature remains constant if the volume changes adiabatically within the Hagedorn regime. 
+% Strings have 3 types of modes that they may exist in: momentum modes representing the energy of the strings, oscillatory modes which represent the fluctuations and the winding modes which refer to the number of times the string is wrapped around the torus. The number of the oscillatory states increases exponentially with an increase in energy however there is a limiting temperature for a string gas to be in thermal equilibrium and so the temperature remains constant if the volume changes adiabatically within the Hagedorn regime. 
 
-One of the major problems of string gas cosmology is that stabilising all the string moduli, as the size and shape of the extra dimensions must also be stabilised. SGC was originally developed using tools from a specific type of string theory, heterotic string theory, and while it does not require heterotic strings they are most commonly used, and they support the T-duality symmetry, which is a symmetry through the compactification of the radius $R \rightarrow 1/R$, which transforms one string theory to another meaning that they are dualities of each other under this symmetry \cite{Brandenberger2011}. 
+% One of the major problems of string gas cosmology is that stabilising all the string moduli, as the size and shape of the extra dimensions must also be stabilised. SGC was originally developed using tools from a specific type of string theory, heterotic string theory, and while it does not require heterotic strings they are most commonly used, and they support the T-duality symmetry, which is a symmetry through the compactification of the radius $R \rightarrow 1/R$, which transforms one string theory to another meaning that they are dualities of each other under this symmetry \cite{Brandenberger2011}. 
 
 
-String Gas Cosmology, SGC, is based on the coupling of the spacetime geometry to a gas of string matter \cite{Brandenberger2008}, as an alternative explanation to inflation. As String Theory naturally includes the graviton \cite{Scherk1974}, it would be able to produce the CGB if detected. The strings have 3 modes: momentums representing the strings' energy, oscillatory modes represen
+String Gas Cosmology, SGC, is based on the coupling of the spacetime geometry to a gas of string matter \cite{Brandenberger2008}, as an alternative explanation to inflation. As String Theory naturally includes the graviton \cite{Scherk1974}, it would be able to produce the CGB if detected. An infinite temperature is prevented in this model, which causes the universe to undergo a slow contraction phase during which the universe becomes homogenous, solving the Horizon Problem. The Flatness Problem is solved as the internal dynamics of strings and branes drive the universe towards begin flat. 
+
+The problem with this proposition is that it is based entirely of speculative physics, String Theory, and it produces relics such as gravitinos and magnetic monopoles \cite{Battefeld2009}. This is a major problem as it requires another phase of inflation to address these problems and to dilute them to align with observations. 
 
 \subsubsection*{Variable Speed of Light}\label{subsubsection: Variable speed of light}
 
@@ -567,13 +568,17 @@ This model assumes that the universe that the universe originated as an empty BP
 
 Problems with this model is that it is based off of speculative physics, and originally offered no reason for the attraction between the branes. Another problem is that the solution to the Horizon and Flatness Problems is setting the initial conditions such that they do not exist. However, consequentially this doesn't explain the fine-tuning problem, and instead makes it more prominent.   
 
-\subsubsection*{Matter Bounce}\label{subsubsection: Matter Bounce}
+% \subsubsection*{Matter Bounce}\label{subsubsection: Matter Bounce}
 
-Matter bounce is another alternative to the Inflationary Paradigm that obtains the scale-invariant density perturbations, that exit the Hubble radius in a contracting matter-dominated phase that occurs before the Big Bang. After the contracting phase a bounce follows and then the standard phases of Big Bang cosmology occur. This approach solves the Horizon and the Flatness Problems similarly to the Inflationary Paradigm, but it also avoids reaching a singularity at the time of the Big Bang \cite{Li2017}. 
+% Matter bounce is another alternative to the Inflationary Paradigm that obtains the scale-invariant density perturbations, that exit the Hubble radius in a contracting matter-dominated phase that occurs before the Big Bang. After the contracting phase a bounce follows and then the standard phases of Big Bang cosmology occur. This approach solves the Horizon and the Flatness Problems similarly to the Inflationary Paradigm, but it also avoids reaching a singularity at the time of the Big Bang \cite{Li2017}. 
 
-The typical way this idea is constructed is through the existence of a new scalar field, and so with a canonical Lagrangian, oscillations from the scalar field can drive the contracting phase when the ratio of the pressure to the energy density averages 0. With an increasing energy scale of the universe, extra terms appear in the Lagrangian that drive a nonsingular bounce. 
+% The typical way this idea is constructed is through the existence of a new scalar field, and so with a canonical Lagrangian, oscillations from the scalar field can drive the contracting phase when the ratio of the pressure to the energy density averages 0. With an increasing energy scale of the universe, extra terms appear in the Lagrangian that drive a nonsingular bounce. 
 
-This alternative to the Inflationary Paradigm also has its problems with one of the big ones being the creation of ghosts that occur form the creation of the different matter fields \cite{Brandenberger2011}. The phantom behaviour of these fields is not problematic so long as the energy density remains smaller than those corresponding to the phantom field mass scale. Under these conditions it may be considered to be a low-energy effective field theory, however, a scenario involving this is unstable with the presence of radiation which was every present in the very early universe. 
+% This alternative to the Inflationary Paradigm also has its problems with one of the big ones being the creation of ghosts that occur form the creation of the different matter fields \cite{Brandenberger2011}. The phantom behaviour of these fields is not problematic so long as the energy density remains smaller than those corresponding to the phantom field mass scale. Under these conditions it may be considered to be a low-energy effective field theory, however, a scenario involving this is unstable with the presence of radiation which was every present in the very early universe. 
+
+% Matter Bounce is another alternative that involves a contracting phase followed by a bounce, during which standard Big Bang cosmology occurs. This model solves the Horizon and Flatness Problems as the contracting phase allows for the distant regions to come into causal contact as well as driving spatial flatness. The proposed mechanism behind this is that scalar fields oscillate and drive the contracting phase of the universe, and depending on the energy scale more than one bounce may occur \cite{Li2017}.
+
+% The problem with this model is the creation of ghosts due to the new scalar fields \cite{Brandenberger2011}, and the phantom behaviour of these fields is problematic except in a low-energy range. This is incompatible with the amount of radiation that would be present in the very early universe meaning that this model and so this model is not very successful. 
  
 
 %% Conclusion
