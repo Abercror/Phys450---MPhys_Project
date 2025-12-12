@@ -1605,8 +1605,8 @@
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics}
     \endentry
     \entry{zotero-item-168}{online}{}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Cosmology, {{Inflation}}, and the {{Physics}} of {{Nothing}} - {{W}}.{{H}}. {{Kinney}}}
       \field{urlday}{1}
@@ -1740,8 +1740,8 @@
       \strng{authornamehash}{64b801af020d22f00f8c63d5f10dec61}
       \strng{authorfullhash}{64b801af020d22f00f8c63d5f10dec61}
       \strng{authorfullhashraw}{64b801af020d22f00f8c63d5f10dec61}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A search for the Standard Model Higgs boson in proton-proton collisions with the ATLAS detector at the LHC is presented. The datasets used correspond to integrated luminosities of approximately 4.8 fb\textasciicircum -1 collected at sqrt(s) = 7 TeV in 2011 and 5.8 fb\textasciicircum -1 at sqrt(s) = 8 TeV in 2012. Individual searches in the channels H-{$>$}ZZ\textasciicircum (*)-{$>$}llll, H-{$>$}gamma gamma and H-{$>$}WW-{$>$}e nu mu nu in the 8 TeV data are combined with previously published results of searches for H-{$>$}ZZ\textasciicircum (*), WW\textasciicircum (*), bbbar and tau\textasciicircum +tau\textasciicircum - in the 7 TeV data and results from improved analyses of the H-{$>$}ZZ\textasciicircum (*)-{$>$}llll and H-{$>$}gamma gamma channels in the 7 TeV data. Clear evidence for the production of a neutral boson with a measured mass of 126.0 +/- 0.4(stat) +/- 0.4(sys) GeV is presented. This observation, which has a significance of 5.9 standard deviations, corresponding to a background fluctuation probability of 1.7x10\textasciicircum -9, is compatible with the production and decay of the Standard Model Higgs boson.}
@@ -1794,6 +1794,7 @@
       \strng{authornamehash}{e1841c0c41b5a5ffe8310253191fe07f}
       \strng{authorfullhash}{e1841c0c41b5a5ffe8310253191fe07f}
       \strng{authorfullhashraw}{e1841c0c41b5a5ffe8310253191fe07f}
+      \field{extraname}{1}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -1809,6 +1810,97 @@
       \verb{url}
       \verb https://www.damtp.cam.ac.uk/user/tong/gr/gr.pdf
       \endverb
+    \endentry
+    \entry{Tonga}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=977026362ebfe642b75283465cff156e}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={Dr\bibnamedelima David},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{977026362ebfe642b75283465cff156e}
+      \strng{fullhash}{977026362ebfe642b75283465cff156e}
+      \strng{fullhashraw}{977026362ebfe642b75283465cff156e}
+      \strng{bibnamehash}{977026362ebfe642b75283465cff156e}
+      \strng{authorbibnamehash}{977026362ebfe642b75283465cff156e}
+      \strng{authornamehash}{977026362ebfe642b75283465cff156e}
+      \strng{authorfullhash}{977026362ebfe642b75283465cff156e}
+      \strng{authorfullhashraw}{977026362ebfe642b75283465cff156e}
+      \field{extraname}{2}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{University of {{Cambridge Part III Mathematical Tripos}}}
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/CHZJMSC6/Tong - University of Cambridge Part III Mathematical Tripos.pdf
+      \endverb
+    \endentry
+    \entry{Liddle1994}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f1567755c205c573126609c5a1a5fa0a}{%
+           family={Liddle},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b9fdc5325872b0325a590ffb8ed406ba}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bbbf3ea9e7eb0f0da8e88064d1cc20be}{%
+           family={Barrow},
+           familyi={B\bibinitperiod},
+           given={John\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{fullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{fullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{bibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorbibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authornamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorfullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \strng{authorfullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The meaning of the inflationary slow-roll approximation is formalised. Comparisons are made between an approach based on the Hamilton-Jacobi equations, governing the evolution of the Hubble parameter, and the usual scenario based on the evolution of the potential energy density. The vital role of the inflationary attractor solution is emphasised, and some of its properties described. We propose a new measure of inflation, based upon contraction of the comoving Hubble length as opposed to the usual e-foldings of physical expansion, and derive relevant formulae. We introduce an infinite hierarchy of slow-roll parameters, and show that only a finite number of them are required to produce results to a given order. The extension of the slow-roll approximation into an analytic slow-roll expansion, converging on the exact solution, is provided. Its role in calculations of inflationary dynamics is discussed. We explore rational-approximants as a method of extending the range of convergence of the slow-roll expansion up to, and beyond, the end of inflation.}
+      \field{day}{15}
+      \field{eprinttype}{arXiv}
+      \field{issn}{0556-2821}
+      \field{journaltitle}{Phys. Rev. D}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Formalising the {{Slow-Roll Approximation}} in {{Inflation}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{50}
+      \field{year}{1994}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7222\bibrangedash 7232}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.50.7222
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/9408015
+      \endverb
+      \verb{file}
+      \verb /Users/rhysabercromby/Zotero/storage/65CDZ3H6/Liddle et al. - 1994 - Formalising the Slow-Roll Approximation in Inflation.pdf;/Users/rhysabercromby/Zotero/storage/CRF5PVR2/9408015.html
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/astro-ph/9408015
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/astro-ph/9408015
+      \endverb
+      \keyw{Astrophysics}
     \endentry
     \entry{Marco2024}{article}{}{}
       \name{author}{3}{}{%
@@ -1875,70 +1967,6 @@
       \verb http://arxiv.org/abs/2408.01854
       \endverb
       \keyw{Astrophysics - Cosmology and Nongalactic Astrophysics,General Relativity and Quantum Cosmology,High Energy Physics - Theory}
-    \endentry
-    \entry{Liddle1994}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=f1567755c205c573126609c5a1a5fa0a}{%
-           family={Liddle},
-           familyi={L\bibinitperiod},
-           given={Andrew\bibnamedelima R.},
-           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-        {{hash=b9fdc5325872b0325a590ffb8ed406ba}{%
-           family={Parsons},
-           familyi={P\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=bbbf3ea9e7eb0f0da8e88064d1cc20be}{%
-           family={Barrow},
-           familyi={B\bibinitperiod},
-           given={John\bibnamedelima D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-      }
-      \strng{namehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{fullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{fullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{bibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{authorbibnamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{authornamehash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{authorfullhash}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \strng{authorfullhashraw}{533a0fd5c4f311c6d7030b6ff4fe3fd0}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The meaning of the inflationary slow-roll approximation is formalised. Comparisons are made between an approach based on the Hamilton-Jacobi equations, governing the evolution of the Hubble parameter, and the usual scenario based on the evolution of the potential energy density. The vital role of the inflationary attractor solution is emphasised, and some of its properties described. We propose a new measure of inflation, based upon contraction of the comoving Hubble length as opposed to the usual e-foldings of physical expansion, and derive relevant formulae. We introduce an infinite hierarchy of slow-roll parameters, and show that only a finite number of them are required to produce results to a given order. The extension of the slow-roll approximation into an analytic slow-roll expansion, converging on the exact solution, is provided. Its role in calculations of inflationary dynamics is discussed. We explore rational-approximants as a method of extending the range of convergence of the slow-roll expansion up to, and beyond, the end of inflation.}
-      \field{day}{15}
-      \field{eprinttype}{arXiv}
-      \field{issn}{0556-2821}
-      \field{journaltitle}{Phys. Rev. D}
-      \field{month}{12}
-      \field{number}{12}
-      \field{title}{Formalising the {{Slow-Roll Approximation}} in {{Inflation}}}
-      \field{urlday}{1}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{volume}{50}
-      \field{year}{1994}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{7222\bibrangedash 7232}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.50.7222
-      \endverb
-      \verb{eprint}
-      \verb astro-ph/9408015
-      \endverb
-      \verb{file}
-      \verb /Users/rhysabercromby/Zotero/storage/65CDZ3H6/Liddle et al. - 1994 - Formalising the Slow-Roll Approximation in Inflation.pdf;/Users/rhysabercromby/Zotero/storage/CRF5PVR2/9408015.html
-      \endverb
-      \verb{urlraw}
-      \verb http://arxiv.org/abs/astro-ph/9408015
-      \endverb
-      \verb{url}
-      \verb http://arxiv.org/abs/astro-ph/9408015
-      \endverb
-      \keyw{Astrophysics}
     \endentry
     \entry{galloniUpdatedConstraintsAmplitude2023}{article}{}{}
       \name{author}{6}{}{%
@@ -2046,8 +2074,8 @@
       \strng{authornamehash}{37b0046967457cc29866b4e3b0824089}
       \strng{authorfullhash}{37b0046967457cc29866b4e3b0824089}
       \strng{authorfullhashraw}{37b0046967457cc29866b4e3b0824089}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Recently a broad class of superconformal inflationary models was found leading to a universal observational prediction \$n\_s=1-2/N\$ and \$r=12/N\textasciicircum 2\$. Here we generalize this class of models by introducing a parameter \$α\$ inversely proportional to the curvature of the inflaton Kahler manifold. In the small curvature (large \$α\$) limit, the observational predictions of this class of models coincide with the predictions of generic chaotic inflation models. However, for sufficiently large curvature (small \$α\$), the predictions converge to the universal attractor regime with \$n\_s=1-2/N\$ and \$r=12α/N\textasciicircum 2\$, which corresponds to the part of the \$n\_s-r\$ plane favored by the Planck data.}
@@ -2250,8 +2278,8 @@
       \strng{authornamehash}{95c49c18c61229a66681d863aa564700}
       \strng{authorfullhash}{f99ee856ec4a800ea7c09167a9de099e}
       \strng{authorfullhashraw}{f99ee856ec4a800ea7c09167a9de099e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We discuss the model of astrophysical emission at millimeter wavelengths used to characterize foregrounds in the multi-frequency power spectra of the Atacama Cosmology Telescope (ACT) Data Release 6 (DR6), expanding on Louis et al. (2025). We detail several tests to validate the capability of the DR6 parametric foreground model to describe current observations and complex simulations, and show that cosmological parameter constraints are robust against model extensions and variations. We demonstrate consistency of the model with pre-DR6 ACT data and observations from Planck and the South Pole Telescope. We evaluate the implications of using different foreground templates and extending the model with new components and/or free parameters. In all scenarios, the DR6 \$Λ\$CDM and \$Λ\$CDM+\$N\_\{\textbackslash rm eff\}\$ cosmological parameters shift by less than \$0.5σ\$ relative to the baseline constraints. Some foreground parameters shift more; we estimate their systematic uncertainties associated with modeling choices. From our constraint on the kinematic Sunyaev-Zel'dovich power, we obtain a conservative limit on the duration of reionization of \$Δz\_\{\textbackslash rm rei\} {$<$} 4.4\$, assuming a reionization midpoint consistent with optical depth measurements and a minimal low-redshift contribution, with varying assumptions for this component leading to tighter limits. Finally, we analyze realistic non-Gaussian, correlated microwave sky simulations containing Galactic and extragalactic foreground fields, built independently of the DR6 parametric foreground model. Processing these simulations through the DR6 power spectrum and likelihood pipeline, we recover the input cosmological parameters of the underlying cosmic microwave background field, a new demonstration for small-scale CMB analysis. These tests validate the robustness of the ACT DR6 foreground model and cosmological parameter constraints.}
@@ -2649,8 +2677,8 @@
       \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
       \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{String gas cosmology is a string theory-based approach to early universe cosmology which is based on making use of robust features of string theory such as the existence of new states and new symmetries. A first goal of string gas cosmology is to understand how string theory can effect the earliest moments of cosmology before the effective field theory approach which underlies standard and inflationary cosmology becomes valid. String gas cosmology may also provide an alternative to the current standard paradigm of cosmology, the inflationary universe scenario. Here, the current status of string gas cosmology is reviewed.}
@@ -2704,8 +2732,8 @@
       \strng{authornamehash}{863bbcf400700b666e96e847468a21ea}
       \strng{authorfullhash}{863bbcf400700b666e96e847468a21ea}
       \strng{authorfullhashraw}{863bbcf400700b666e96e847468a21ea}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Phys. B}
@@ -2744,8 +2772,8 @@
       \strng{authornamehash}{e727d95796e6f2e04d59baf320bfcdeb}
       \strng{authorfullhash}{e727d95796e6f2e04d59baf320bfcdeb}
       \strng{authorfullhashraw}{e727d95796e6f2e04d59baf320bfcdeb}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{We discuss the relic problem of string gas cosmology (SGC) using gravitinos and magnetic monopoles as examples. Since SGC operates near or at the Hagedorn temperature, relics are produced copiously; in the absence of dilution, their abundances are too large. A subsequent phase of reheating can solve the gravitino problem, but fails to dilute monopoles sufficiently. We propose a subsequent phase of inflation as the most natural solution to the monopole problem; unfortunately, inflation marginalizes almost all potential achievements of SGC, with the exception of a possible explanation of the dichotomy of space (why did only three dimensions inflate?).}
@@ -2800,8 +2828,8 @@
       \strng{authorfullhash}{889206407265ad7c4679cbf904a6388a}
       \strng{authorfullhashraw}{889206407265ad7c4679cbf904a6388a}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{It is generally believed that inflationary cosmology explains the isotropy, large scale homogeneity and flatness as well as predicting the deviations from homogeneity of our universe. We show that this is not the only cosmology which can explain successfully these features of the universe. We consider anew and modify a model in which local Lorentz invariance is spontaneously broken in the very early universe, and in this epoch the speed of light undergoes a first or second order phase transition to a value \textasciitilde{} 30 orders of magnitude smaller, corresponding to the presently measured speed of light. Before the phase transition at a time t \textasciitilde{} t\_c, the entropy of the universe is reduced by many orders of magnitude, allowing for a semiclassical quantum field theory calculation of a scale invariant fluctuation spectrum. After the phase transition has occurred, the radiation density and the entropy of the universe increase hugely and the increase in the entropy follows the arrow of time determined by the spontaneously broken direction of the vev {$<$}φ\textasciicircum a{$>\_$}0. This solves the enigma of the arrow of time and the second law of thermodynamics. A new calculation of the primordial Gaussian and adiabatic fluctuation spectrum is carried out, leading to a scale invariant scalar component of the power spectrum. We argue that there are several attractive features of VSL theory compared to standard inflationary theory, and that it provides an alternative cosmology with potentially different predictions.}
@@ -3201,8 +3229,8 @@
       \strng{authornamehash}{8b8588600ec990958eb541b1f1d82756}
       \strng{authorfullhash}{24bf58b0f6e50f0740fe1c3311fe648d}
       \strng{authorfullhashraw}{24bf58b0f6e50f0740fe1c3311fe648d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We propose a cosmological scenario in which the hot big bang universe is produced by the collision of a brane in the bulk space with a bounding orbifold plane, beginning from an otherwise cold, vacuous, static universe. The model addresses the cosmological horizon, flatness and monopole problems and generates a nearly scale-invariant spectrum of density perturbations without invoking superluminal expansion (inflation). The scenario relies, instead, on physical phenomena that arise naturally in theories based on extra dimensions and branes. As an example, we present our scenario predominantly within the context of heterotic M-theory. A prediction that distinguishes this scenario from standard inflationary cosmology is a strongly blue gravitational wave spectrum, which has consequences for microwave background polarization experiments and gravitational wave detectors.}
@@ -3271,8 +3299,8 @@
       \strng{authornamehash}{2e55d55e1558484c4f9efd7f3bcf0c44}
       \strng{authorfullhash}{8df8fa5c3d0e58b38815a324289fd43d}
       \strng{authorfullhashraw}{8df8fa5c3d0e58b38815a324289fd43d}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{We extend the matter bounce scenario to a more general theory in which the background dynamics and cosmological perturbations are generated by a \$k\$-essence scalar field with an arbitrary sound speed. When the sound speed is small, the curvature perturbation is enhanced, and the tensor-to-scalar ratio, which is excessively large in the original model, can be sufficiently suppressed to be consistent with observational bounds. Then, we study the primordial three-point correlation function generated during the matter-dominated contraction stage and find that it only depends on the sound speed parameter. Similar to the canonical case, the shape of the bispectrum is mainly dominated by a local form, though for some specific sound speed values a new shape emerges and the scaling behaviour changes. Meanwhile, a small sound speed also results in a large amplitude of non-Gaussianities, which is disfavored by current observations. As a result, it does not seem possible to suppress the tensor-to-scalar ratio without amplifying the production of non-Gaussianities beyond current observational constraints (and vice versa). This suggests an extension of the previously conjectured no-go theorem in single field nonsingular matter bounce cosmologies, which rules out a large class of models. However, the non-Gaussianity results remain as a distinguishable signature of matter bounce cosmology and have the potential to be detected by observations in the near future.}
@@ -3328,8 +3356,8 @@
       \strng{authorfullhash}{ea7cea3b9ff35c3e4ae245382fc92c25}
       \strng{authorfullhashraw}{ea7cea3b9ff35c3e4ae245382fc92c25}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{The inflationary paradigm, although very successful phenomenologically, suffers from several conceptual problems which motivate the search for alternative scenarios of early universe cosmology. Here, two possible alternatives will be reviewed. - "string gas cosmology" and the "matter bounce". Their successes and problems will be pointed out.}
