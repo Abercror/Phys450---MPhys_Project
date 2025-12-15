@@ -32,19 +32,22 @@
 ### Friday, 17th October, 25
 #### 11:58
 - Completed the derivation of (52) as well as solving when $V'' = m^2$ and $m \ll H$
+
 ![[Term 1/Derivations/1-8/(52).png]]
 - Since $H \approx$ const. the solution to (52) and the amplitude of the oscillations is $\delta \phi = -3H \approx$ const. This means that the field obtains a "scale-invariant" spectrum of perturbations as $H$ defines the rate of expansion and since that is constant the perturbations will not change with over time. As the universe expands the oscillations will remain the same and so the field will not change, ergo "scale-invariant"
-
 #### 13:07
 **6.3. The curvature perturbation**
 - completed (55)
+
 ![[Term 1/Derivations/1-8/(55).png]]
 
 #### 13:22 
 - completed show that (57)
+
 ![[Term 1/Derivations/1-8/(57) part 1.png]]
 ![[Term 1/Derivations/1-8/(57) part 2.png]]
 - completed show that (58)
+
 ![[Term 1/Derivations/1-8/(58).png]]
 #### 13:27
 **6.4. $N_*$ and the pivot scale**
@@ -116,11 +119,9 @@
 ![[Term 1/Derivations/1-8/(65) redo part 1.png]]
 ![[Term 1/Derivations/1-8/(65) redo part 2.png]]
 ![[Term 1/Derivations/1-8/(65) redo part 3.png]]
-
 #### 21:10
 **7.2. Preheating**
 - I have read through the section and am beginning to make a start on plotting the graph of the density of the inflaton, $\rho_\phi$, and the decay products, $\rho_\chi$, with respect to the scale factor, $a$. 
-
 #### 21:28
 - Written a basic python script to visually show the relationship of the decays of the different scalar fields, though I am unsure if this is exactly what the task is or if I have misread it. 
 ```python
@@ -148,7 +149,7 @@ folder = Path(__file__).parent
 graph = Path(folder, "Decay Relationship to a.png")
 plt.savefig(graph)
 ```
-![[Term 1/Figures/Decay Relationship wrt ln(a).png]]
+![[Term 1/Figures/7.0/Decay Relationship wrt ln(a).png]]
 
 
 ### Monday, 20th October, 25

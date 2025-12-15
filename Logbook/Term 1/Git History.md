@@ -1,0 +1,8 @@
+![[Term 1/Git History/(8).png]]
+![[Term 1/Git History/(7).png]]
+![[Term 1/Git History/(6).png]]
+![[Term 1/Git History/(5).png]]
+![[Term 1/Git History/(4).png]]
+![[Term 1/Git History/(3).png]]
+![[Term 1/Git History/(2).png]]
+![[Term 1/Git History/(1).png]]
