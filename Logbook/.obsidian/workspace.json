@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "227d46c78f30e3e2",
+        "id": "4f54f89d5e7e602f",
         "type": "tabs",
         "children": [
           {
-            "id": "f4e78b956940ca5d",
+            "id": "f4debffc321fb010",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Term 1/Week 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week 1"
-            }
-          },
-          {
-            "id": "c0cc04342a2b6618",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Term 1/Week 1.md",
+                "file": "Term 2/Week 1.md",
                 "mode": "source",
                 "source": false
               },
@@ -35,8 +21,7 @@
               "title": "Week 1"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -184,47 +169,48 @@
       "bases:Create new base": false
     }
   },
-  "active": "c0cc04342a2b6618",
+  "active": "f4debffc321fb010",
   "lastOpenFiles": [
-    "Term 1/Term 1 Logbook_compressed.pdf",
-    "Term 1/Term 1 Logbook_compressed.pdf.download/Term 1 Logbook_compressed.pdf",
-    "Term 1/Term 1 Logbook_compressed.pdf.download",
-    "Term 1/Term 1 Logbook.md",
-    "Term 1/Term 1 Logbook.pdf",
-    "Term 1/Git History/(8).png",
-    "Term 1/Git History/Screenshot 2025-12-12 at 14.44.38.png",
-    "Term 1/Week 10.md",
-    "Term 1/Git History.md",
-    "Term 1/Git History/Screenshot 2025-12-12 at 14.13.28.png",
-    "Term 1/Git History/(7).png",
-    "Term 1/Git History/(6).png",
-    "Term 1/Git History/(5).png",
-    "Term 1/Git History/(4).png",
-    "Term 1/Git History/(3).png",
-    "Term 1/Git History/(2).png",
-    "Term 1/Git History/(1).png",
-    "Term 1/Git History",
-    "Term 1/untitled folder",
-    "Term 1/Week 9.md",
-    "Term 1/Week 2.pdf",
-    "Term 1/Week 1.pdf",
-    "Term 1/Week 8.md",
-    "Term 1/Week 7.md",
-    "Term 1/Week 6.md",
     "Term 1/Week 5.md",
+    "Term 1/Week 6.md",
+    "Term 1/Week 7.md",
+    "Term 1/Week 8.md",
+    "Term 1/Term 1 Logbook.pdf",
+    "Term 1/Week 9.md",
+    "Term 1/Week 10.md",
+    "Term 1/Term 1 Logbook_compressed.pdf",
+    "Term 2/Christmas Holidays.pdf",
+    "Term 2/Christmas Holidays.md",
+    "Term 2/Week 1.md",
+    "Term 1/Git History.md",
     "Term 1/Week 4.md",
     "Term 1/Week 3.md",
-    "Term 1/Week 2.md",
     "Term 1/Week 1.md",
-    "Week 2.pdf",
-    "Logbook Term 1.pdf",
-    "Logbook Term 1 2.pdf",
+    "Term 1/Term 1 Logbook.md",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(9) Derived Potential for W=muS.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/Derived Potential for W=muS.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(7) General solution with axion part 1.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(8) General solution with axion part 2.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(7) General solution with axion.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(6) Kinetic Lagragian Fixed direction.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(5) F-term potential mu S part 3.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(4) F-term potential mu S part 2.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(3) F-term potential mu S part 1.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/(2) Kahler metric part 2.png",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/IMG_1278.HEIC",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/IMG_1279.HEIC",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky/IMG_1280.HEIC",
+    "Term 2/Derivations/Christmas Holidays/Escher in the Sky",
+    "Term 2/Derivations/Week 1",
+    "Term 2/Derivations/untitled folder",
+    "Term 2/Derivations/Christmas Holidays",
+    "Term 2/Derivations/Escher in the Sky/(2) Fterm potential derivation part 2.md",
+    "Term 1/Week 2.md",
     "Term 1/().md",
     "Term 1/Github.md",
     "Derivations/Term 1/Week 1/(10).heic.md",
     "Term 1/(6), (7) part 1.heic.md",
     "Attachments/Derivations/Term.md",
-    "Untitled.md",
     "_templates/weekly_template.md",
     "_templates/daily_subheadings.md"
   ]
