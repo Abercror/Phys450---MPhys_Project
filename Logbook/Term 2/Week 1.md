@@ -1,2 +1,0 @@
-### Tuesday, 13th January, 26
-- I am going to try and figure out what is wrong with my code for the potential $$ V_F = \frac{\mu^2}{3\alpha} \left(1 - \tanh^2 \left(\frac{\phi}{\sqrt{6 \alpha} M_{pl}} \right) \right)^{1-3\alpha} = \frac{\mu^2}{3\alpha} \left(\cosh \left(\frac{\phi}{\sqrt{6 \alpha} M_{pl}} \right) \right)^{6\alpha-2} $$ 
